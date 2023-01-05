@@ -1,0 +1,29 @@
+.footer {
+    padding: 60px 94px;
+}
+.footer-head {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer ul{
+    padding: 0px;
+}
+.footer li{
+    list-style-type: none;
+    color: grey;
+    line-height: 30px;
+}
+.store{
+    width: 50%;
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.footer-icon {
+    font-size: 46px;
+    padding: 9px;
+}

@@ -1,0 +1,21 @@
+.kbrand{
+    border-radius: 157px;
+    border: 5px solid #f54a85;
+    padding: 18px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.explore-img-big{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.explore-content{
+    display: inline-flex;
+    font-size: 136px;
+}
+.explore-head {
+    font-size: 46px;
+    text-transform: uppercase;
+    line-height: 0px;
+}

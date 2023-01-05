@@ -1,0 +1,10 @@
+.beauty-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 97px;
+    height: 196px;
+}
+.category-img {
+    margin-bottom: 20px;
+}
