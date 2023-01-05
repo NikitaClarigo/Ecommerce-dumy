@@ -79,52 +79,52 @@ export default function Main() {
                     </TabList>
                     <TabPanel eventKey="first">
                         <div className='tab-content row'>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 product-col'>
                                 <img src={p1} className='product-img' />
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 product-col'>
                                 <img src={p5} className='product-img' />
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 product-col'>
                                 <img src={p3} className='product-img' />
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 product-col'>
                                 <img src={p2} className='product-img' />
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 product-col'>
                                 <img src={p4} className='product-img' />
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 product-col'>
                                 <img src={p6} className='product-img' />
                             </div>
                         </div>
                     </TabPanel>
                     <TabPanel eventKey="second">
                         <div className='tab-content row'>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 product-col'>
                                 <img src={p6} className='product-img' />
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 product-col'>
                                 <img src={p3} className='product-img' />
                             </div>
                         </div>
                     </TabPanel>
                     <TabPanel eventKey="third">
                         <div className='tab-content row'>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 product-col'>
                                 <img src={p4} className='product-img' />
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 product-col'>
                                 <img src={p5} className='product-img' />
                             </div>
                         </div>
                     </TabPanel>
                     <TabPanel eventKey="fourth">
                         <div className='tab-content row'>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 product-col'>
                                 <img src={p2} className='product-img' />
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 product-col'>
                                 <img src={p1} className='product-img' />
                             </div>
                         </div>

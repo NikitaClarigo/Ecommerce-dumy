@@ -7,6 +7,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
 import { Link } from 'react-router-dom';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 export default function Header() {
     return (
@@ -50,7 +51,49 @@ export default function Header() {
                     </form>
                 </div>
                 <div className='icon'>
-                    <CgProfile className='icon-size' />
+                    <Dropdown className='profile'>
+                        <Dropdown.Toggle>
+                            <CgProfile className='icon-size' />
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu className='profile-dropdown'>
+                            <Dropdown.Item>
+                                <h6><b>Welcome</b></h6>
+                                <h6>To access account and manage orders</h6>
+                            </Dropdown.Item>
+                            <Dropdown.Item>
+                                <button className='text-centre'>Login / signup</button>
+                                <hr />
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Orders</p>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Wishlist</p>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Gift Cards</p>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Contact Us</p>
+                                <hr />
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Emart Credits</p>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Coupons</p>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Saved Cards</p>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Saved VPA</p>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Saved Addresses</p>
+                            </Dropdown.Item>
+                        </Dropdown.Menu>
+                    </Dropdown>
                     <AiOutlineHeart className='icon-size' />
                     <HiOutlineShoppingBag className='icon-size' />
                 </div>

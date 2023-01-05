@@ -27,6 +27,12 @@
     padding: 10px 24px;
     border-radius: 30px;
     font-weight: 600;
+    transition: all 0.3s ease-out;
+}
+.top-right button:hover{
+    box-shadow: inset 12em 0 #e9bdb6;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
 }
 .main-page{
     padding-top: 120px;
@@ -46,11 +52,19 @@
 }
 .single-category .category-img {
     position: relative;
+    width: 398px;
+    overflow: hidden;
 }
 .single-category .category-img img {
-    width: 100%;
+    width: 398px;
+    transform: scale(1);
+    transition: .5s;
     border-radius: 6px;
 }
+.single-category .category-img img:hover {
+    transform: scale(1.5);
+    opacity: .8;
+  }
 .category-area .single-category .category-img .category-caption {
     position: absolute;
     top: 50%;
@@ -77,6 +91,12 @@
     padding: 13px 24px;
     border-radius: 30px;
     display: inline-block;
+    transition: all 0.3s ease-out;
+}
+.category-area .single-category .category-img .category-caption .best a:hover{
+    box-shadow: inset 12em 0 #171c1e;
+    cursor: pointer;
+    color: white !important;
 }
 .tab {
     list-style-type: none;
@@ -96,11 +116,21 @@
 .tab-content {
     padding: 60px 50px;
 }
-.product-img{
-    width: 100%;
-    padding-top: 25px;
+.product-col{
+    position: relative;
+    width: 421px !important;
+    overflow: hidden;
 }
-
+.product-img {
+    padding-top: 25px;
+    width: 421px;
+    transform: scale(1);
+    transition: .5s;
+    border-radius: 6px;
+}
+.product-img:hover{
+    transform: scale(0.9);
+}
 .lf-padding {
     padding-left: 60px;
     padding-right: 60px;

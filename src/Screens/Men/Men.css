@@ -34,6 +34,11 @@
     border: 1px solid #f1f1f1;
     box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
     margin-bottom: 20px;
+    transform: scale(1);
+    transition: .5s;
+}
+.brand-product:hover {
+    transform: scale(0.9);
 }
 .brand{
     display: flex;

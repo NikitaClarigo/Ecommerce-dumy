@@ -3,8 +3,18 @@
     align-items: center;
     position: relative;
     background: white;
-    padding: 20px;
+    padding: 15px;
 }
+.active{
+    color: #d24011 !important;
+}
+.header li:hover{
+    border-bottom: 2px solid #d24011;
+}
+/* .active li:hover {
+    cursor: not-allowed !important;
+} */
+
 .logo{
     width: 10%;
 }
@@ -48,11 +58,37 @@ input:focus {
     text-align: revert;
     position: absolute;
     right: 15px;
+    display: inline-flex;
+}
+.profile.dropdown button {
+    background: transparent;
+    border: none;
+    color: black;
+    padding: 0px;
 }
 .icon-size{
     font-Size: 37px;
     padding: 8px;
     color: #1c2427;
+}
+.profile-dropdown {
+    width: 319px;
+    margin-top: 20px !important;
+    border: none !important;
+    padding-top: 22px !important;
+    box-shadow: rgb(100 100 111 / 50%) 0px 7px 29px 0px;
+}
+.profile-dropdown p {
+    font-size: 15px;
+    line-height: 6px;
+}
+.profile-dropdown button {
+    border: 2px solid #d24011 !important;
+    padding: 10px 22px !important;
+    color: #d24011 !important;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
 }
 .main{
     position: fixed;
