@@ -28,8 +28,8 @@ export default function Main() {
                 <h2 className='heading'>Shop By Category</h2>
                 <div className='row category-area'>
                     <div className='col-md-4'>
-                        <div class="single-category mb-30">
-                            <div class="category-img">
+                        <div className="single-category mb-30">
+                            <div className="category-img">
                                 <img src={cat1} />
                                 <div className="category-caption">
                                     <h2>Women`s</h2>
@@ -39,8 +39,8 @@ export default function Main() {
                         </div>
                     </div>
                     <div className='col-md-4'>
-                        <div class="single-category mb-30">
-                            <div class="category-img">
+                        <div className="single-category mb-30">
+                            <div className="category-img">
                                 <img src={cat2} />
                                 <div className="category-caption">
                                     <h2>Winter Cloth</h2>
@@ -50,8 +50,8 @@ export default function Main() {
                         </div>
                     </div>
                     <div className='col-md-4'>
-                        <div class="single-category mb-30">
-                            <div class="category-img">
+                        <div className="single-category mb-30">
+                            <div className="category-img">
                                 <img src={cat3} />
                                 <div className="category-caption">
                                     <h2>Men'S Cloth</h2>

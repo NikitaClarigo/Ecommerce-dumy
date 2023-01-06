@@ -1,0 +1,74 @@
+.login-header {
+    box-shadow: rgb(255 255 255 / 0%) 0px 1px 1px 0px inset, rgb(50 50 93 / 13%) 0px 50px 100px -20px, rgb(0 0 0 / 0%) 0px 30px 60px -30px;
+    margin-bottom: 20px;
+}
+
+.Login-main {
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    background: #f3692821;
+    height: 527px;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.Login-main h4 {
+    font-weight: 700;
+    color: #3c3b3b;
+}
+
+.coupon-code {
+    border: 2px dashed #9b9999;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.login {
+    margin-top: 29px;
+    background: white;
+    padding: 20px;
+}
+
+.login h5 {
+    color: #f55b28;
+    font-weight: 700;
+}
+
+input#phone {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 10px;
+    box-shadow: rgb(99 99 99 / 57%) 0px 2px 8px 0px;
+    margin-top: 20px;
+}
+input#phone:hover {
+    box-shadow: rgb(245 91 40 / 41%) 0px 2px 8px 0px;
+}
+
+.login-terms {
+    margin-top: 12px;
+    font-size: 15px;
+    text-align: left;
+}
+
+form button {
+    width: 100%;
+    margin-top: 20px;
+    background: #171c1e;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease-out;
+    font-size: 18px;
+}
+
+form button:hover {
+    box-shadow: inset 25em 0 #f55b28;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border: none;
+}

@@ -17,7 +17,7 @@ export default function Header() {
                 <div>
                     <ul>
                         <li>
-                            <NavLink to="/">Home
+                            <NavLink to="/Dashboard">Home
                             </NavLink>
                         </li>
                         <li >
@@ -60,7 +60,7 @@ export default function Header() {
                                 <h6><b>Welcome</b></h6>
                                 <h6>To access account and manage orders</h6>
                             </Dropdown.Item>
-                            <Dropdown.Item>
+                            <Dropdown.Item href='./Login'>
                                 <button className='text-centre'>Login / signup</button>
                                 <hr />
                             </Dropdown.Item>
@@ -94,8 +94,12 @@ export default function Header() {
                             </Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
-                    <AiOutlineHeart className='icon-size' />
-                    <HiOutlineShoppingBag className='icon-size' />
+                    <Link to={"./Wishlist"}>
+                        <AiOutlineHeart className='icon-size' />
+                    </Link>
+                    <Link to={"./Cart"}>
+                        <HiOutlineShoppingBag className='icon-size' />
+                    </Link>
                 </div>
             </div>
         </div>
