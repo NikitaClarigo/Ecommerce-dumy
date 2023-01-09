@@ -8,10 +8,11 @@ import beautycat4 from '../../Assets/beautycat4.jpg';
 import beautycat5 from '../../Assets/beautycat5.jpg';
 import beautycat6 from '../../Assets/beautycat6.jpg';
 
+
 export default function Beauty() {
   return (
     <div>
-      <img src={beautybanner} className='banner' />
+      <img src={beautybanner} className='banner'/>
       <div className='row section'>
         <h2 className='inner-heading'>Favourite Brands</h2>
         <div className='row'>
