@@ -5,21 +5,19 @@ import Footer from '../../Components/Footer/Footer';
 
 
 export default function Dashboard() {
+  const navigate=useNavigate()
 
-    const navigate=useNavigate()
 
-    // useEffect(() => {
-    //   return () => {
-    //     navigate('Dashboard')
-    //   }
-    // }, [])
-    
-
+  useEffect(() => {
+    return () => {
+      navigate('/Dashboard')
+    }
+  }, [])
 
   return (
     <div>
       <Header />
-      <Outlet />
+          <Outlet />
       <Footer />
     </div>
   )

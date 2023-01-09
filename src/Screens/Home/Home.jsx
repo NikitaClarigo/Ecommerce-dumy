@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Outlet, useNavigate } from 'react-router-dom';
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
 import './home.css';
@@ -16,6 +16,9 @@ import Cart from '../Cart/Cart';
 
 
 export default function Home() {
+
+
+
   return (
     <div>
         <div className="main-body">
