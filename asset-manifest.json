@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React/static/css/main.07d3011c.css",
-    "main.js": "/React/static/js/main.a1fb74e4.js",
+    "main.js": "/React/static/js/main.b8bf41af.js",
     "static/js/787.0c1a86ef.chunk.js": "/React/static/js/787.0c1a86ef.chunk.js",
     "static/media/men-banner.png": "/React/static/media/men-banner.4589e9bc02b5d5ceabb6.png",
     "static/media/beauty-banner.png": "/React/static/media/beauty-banner.07241a20c4de07d82b1a.png",
@@ -84,11 +84,11 @@
     "static/media/brand2.png": "/React/static/media/brand2.5a0d9e17b5c2166728ef.png",
     "index.html": "/React/index.html",
     "main.07d3011c.css.map": "/React/static/css/main.07d3011c.css.map",
-    "main.a1fb74e4.js.map": "/React/static/js/main.a1fb74e4.js.map",
+    "main.b8bf41af.js.map": "/React/static/js/main.b8bf41af.js.map",
     "787.0c1a86ef.chunk.js.map": "/React/static/js/787.0c1a86ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07d3011c.css",
-    "static/js/main.a1fb74e4.js"
+    "static/js/main.b8bf41af.js"
   ]
 }
