@@ -1,7 +1,7 @@
 {
   "name": "ecommerce-app",
   "version": "0.1.0",
-  "homepage": "https://nikitaclarigo.github.io/Ecommerce-dumy/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@mui/material": "^5.11.2",
