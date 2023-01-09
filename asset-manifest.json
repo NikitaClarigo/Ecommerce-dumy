@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React/static/css/main.2265a1ee.css",
-    "main.js": "/React/static/js/main.a783b10c.js",
+    "main.css": "/React/static/css/main.07d3011c.css",
+    "main.js": "/React/static/js/main.a1fb74e4.js",
     "static/js/787.0c1a86ef.chunk.js": "/React/static/js/787.0c1a86ef.chunk.js",
     "static/media/men-banner.png": "/React/static/media/men-banner.4589e9bc02b5d5ceabb6.png",
     "static/media/beauty-banner.png": "/React/static/media/beauty-banner.07241a20c4de07d82b1a.png",
@@ -13,7 +13,6 @@
     "static/media/explore-img1.jpg": "/React/static/media/explore-img1.d3f1c2f17fd6c9039c0e.jpg",
     "static/media/header1.png": "/React/static/media/header1.12f9d8155eba90b64522.png",
     "static/media/kcat8.jpg": "/React/static/media/kcat8.2d90b4cf241d5f1d04dc.jpg",
-    "static/media/best-product-modal.png": "/React/static/media/best-product-modal.1c610e1ddf8f978f20f9.png",
     "static/media/windian3.jpg": "/React/static/media/windian3.4911bbb407f8e5661ee5.jpg",
     "static/media/p6.png": "/React/static/media/p6.588b9fd1480227e6591b.png",
     "static/media/homecat4.jpg": "/React/static/media/homecat4.935b07f67ed668a0e1f9.jpg",
@@ -84,12 +83,12 @@
     "static/media/brand1.png": "/React/static/media/brand1.660fd961bc66548d9ed9.png",
     "static/media/brand2.png": "/React/static/media/brand2.5a0d9e17b5c2166728ef.png",
     "index.html": "/React/index.html",
-    "main.2265a1ee.css.map": "/React/static/css/main.2265a1ee.css.map",
-    "main.a783b10c.js.map": "/React/static/js/main.a783b10c.js.map",
+    "main.07d3011c.css.map": "/React/static/css/main.07d3011c.css.map",
+    "main.a1fb74e4.js.map": "/React/static/js/main.a1fb74e4.js.map",
     "787.0c1a86ef.chunk.js.map": "/React/static/js/787.0c1a86ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2265a1ee.css",
-    "static/js/main.a783b10c.js"
+    "static/css/main.07d3011c.css",
+    "static/js/main.a1fb74e4.js"
   ]
 }
