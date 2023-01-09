@@ -1,3 +1,8 @@
+/* eslint-disable array-callback-return */
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from 'react';
 import womenbanner from '../../Assets/women-banner.png';
 import womenbrandproduct1 from '../../Assets/women-brand-product1.jpg';
@@ -19,28 +24,28 @@ import windian4 from '../../Assets/windian4.jpg';
 export default function Women() {
   return (
     <div>
-      <img src={womenbanner} className='banner' />
+      <img src={womenbanner} className='banner' alt="something" />
       <div className='section'>
         <h2 className='inner-heading'>Biggest deal on top brands</h2>
         <div className='row'>
           <div className='col-md-3'>
-            <img src={womenbrandproduct1} className="brand-product" />
-            <img src={womenbrand1} className="brand" />
+            <img src={womenbrandproduct1} className="brand-product" alt="something" />
+            <img src={womenbrand1} className="brand" alt="something" />
             <h2 className='text-center'>30-60% Off</h2>
           </div>
           <div className='col-md-3'>
-            <img src={womenbrandproduct2} className="brand-product" />
-            <img src={womenbrand4} className="brand" />
+            <img src={womenbrandproduct2} className="brand-product" alt="something" />
+            <img src={womenbrand4} className="brand" alt="something" />
             <h2 className='text-center'>30-60% Off</h2>
           </div>
           <div className='col-md-3'>
-            <img src={womenbrandproduct3} className="brand-product" />
-            <img src={womenbrand2} className="brand" />
+            <img src={womenbrandproduct3} className="brand-product" alt="something" />
+            <img src={womenbrand2} className="brand" alt="something" />
             <h2 className='text-center'>30-60% Off</h2>
           </div>
           <div className='col-md-3'>
-            <img src={womenbrandproduct4} className="brand-product" />
-            <img src={womenbrand3} className="brand" />
+            <img src={womenbrandproduct4} className="brand-product" alt="something" />
+            <img src={womenbrand3} className="brand" alt="something" />
             <h2 className='text-center'>30-60% Off</h2>
           </div>
         </div>
@@ -51,7 +56,7 @@ export default function Women() {
           <div className='col-md-4'>
             <div class="single-category mb-30">
               <div class="category-img">
-                <img src={wcat1} />
+                <img src={wcat1} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center text-white'>Western</h2>
                   <span className="best"><a href="#">Best New Deals</a></span>
@@ -62,7 +67,7 @@ export default function Women() {
           <div className='col-md-4'>
             <div class="single-category mb-30">
               <div class="category-img">
-                <img src={wcat2} />
+                <img src={wcat2} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Indian</h2>
                   <span className="best"><a href="#">Best New Deals</a></span>
@@ -73,7 +78,7 @@ export default function Women() {
           <div className='col-md-4'>
             <div class="single-category mb-30">
               <div class="category-img">
-                <img src={wcat3} />
+                <img src={wcat3} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Accessories</h2>
                   <span className="best"><a href="#">Best New Deals</a></span>
@@ -87,19 +92,19 @@ export default function Women() {
         <h2 className='inner-heading'>Trending in indian wear</h2>
         <div className='row card-content'>
           <div className='col-md-3'>
-            <img src={windian1} className="brand-product" />
+            <img src={windian1} className="brand-product" alt="something"  />
             <h5 className='text-center'>Anarkali</h5>
           </div>
           <div className='col-md-3'>
-            <img src={windian2} className="brand-product" />
+            <img src={windian2} className="brand-product" alt="something" />
             <h5 className='text-center'>Long Kurta</h5>
           </div>
           <div className='col-md-3'>
-            <img src={windian3} className="brand-product" />
+            <img src={windian3} className="brand-product" alt="something" />
             <h5 className='text-center'>Saree</h5>
           </div>
           <div className='col-md-3'>
-            <img src={windian4} className="brand-product" />
+            <img src={windian4} className="brand-product" alt="something" />
             <h5 className='text-center'>Partywear</h5>
           </div>
         </div>

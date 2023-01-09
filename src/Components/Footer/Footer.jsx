@@ -1,3 +1,8 @@
+/* eslint-disable array-callback-return */
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from 'react';
 import './Footer.css';
 import playStore from '../../Assets/play-store.png';
@@ -88,8 +93,8 @@ export default function Footer() {
                 </div>
                 <div className='col-md-3'>
                     <p className='footer-head'>Experience emart app on mobile</p>
-                    <img src={playStore} className="store" />
-                    <img src={appStore} className="store" />
+                    <img src={playStore} className="store" alt="something" />
+                    <img src={appStore} className="store" alt="something" />
                     <div className='social-icon'>
                         <FaFacebook className='footer-icon' />
                         <BsTwitter className='footer-icon' />

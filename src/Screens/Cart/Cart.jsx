@@ -1,3 +1,8 @@
+/* eslint-disable array-callback-return */
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from 'react';
 import './Cart.css';
 import indian1 from '../../Assets/indian1.jpg';
@@ -20,7 +25,7 @@ export default function Cart() {
                             <input type="checkbox" />
                         </div>
                         <div className='col-md-3'>
-                            <img src={indian1} className="cart-product" />
+                            <img src={indian1} className="cart-product" alt="something" />
                         </div>
                         <div className='col-md-7'>
                             <p className='product-des'>Ethluxis Men's Silk Blend Kurta, Churidar Pyjama With Nehru Jacket (ETH-TRI-FLR_Navy Blue_42)</p>
@@ -59,7 +64,7 @@ export default function Cart() {
                             <input type="checkbox" />
                         </div>
                         <div className='col-md-3'>
-                            <img src={windian2} className="cart-product" />
+                            <img src={windian2} className="cart-product" alt="something" />
                         </div>
                         <div className='col-md-7'>
                             <p className='product-des'>Kaynat Women's Rayon Green Print Kurta & duptta Set Rayon (Size: S-3XL)</p>
@@ -104,7 +109,7 @@ export default function Cart() {
                         <h6 className='inner-content'> <b>Products related to items in your cart</b></h6><br></br>
                         <div className='row'>
                             <div className='col-md-4'>
-                                <img src={windian3} className="related-product" />
+                                <img src={windian3} className="related-product" alt="something" />
                             </div>
                             <div className='col-md-8'>
                                 <p className='inner-content'><b>Women's Banarasi Silk Saree with Blouse Piece,Black</b></p>
@@ -113,7 +118,7 @@ export default function Cart() {
                         </div>
                         <div className='row'>
                             <div className='col-md-4'>
-                                <img src={indian3} className="related-product" />
+                                <img src={indian3} className="related-product" alt="something" />
                             </div>
                             <div className='col-md-8'>
                                 <p className='inner-content'><b>Women's Banarasi Silk Saree with Blouse Piece,Black</b></p>
@@ -122,7 +127,7 @@ export default function Cart() {
                         </div>
                         <div className='row'>
                             <div className='col-md-4'>
-                                <img src={indian4} className="related-product" />
+                                <img src={indian4} className="related-product" alt="something" />
                             </div>
                             <div className='col-md-8'>
                                 <p className='inner-content'><b>Women's Banarasi Silk Saree with Blouse Piece,Black</b></p>
@@ -131,7 +136,7 @@ export default function Cart() {
                         </div>
                         <div className='row'>
                             <div className='col-md-4'>
-                                <img src={windian4} className="related-product" />
+                                <img src={windian4} className="related-product" alt="something" />
                             </div>
                             <div className='col-md-8'>
                                 <p className='inner-content'><b>Women's Banarasi Silk Saree with Blouse Piece,Black</b></p>

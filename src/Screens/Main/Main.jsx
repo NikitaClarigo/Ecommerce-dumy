@@ -1,3 +1,8 @@
+/* eslint-disable array-callback-return */
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from 'react';
 import './Main.css';
 import banner from '../../Assets/header1.png';
@@ -12,13 +17,12 @@ import p4 from '../../Assets/p4.png';
 import p5 from '../../Assets/p5.png';
 import p6 from '../../Assets/p6.png';
 import Background from '../../Assets/best-product-bg.png';
-import modal from '../../Assets/best-product-modal.png';
 
 
 export default function Main() {
     return (
         <div>
-            <img src={banner} className='banner' />
+            <img src={banner} className='banner' alt="something" />
             <div className="top-right">
                 <p>60% Discount</p>
                 <h1>Winter <br />Collection</h1>
@@ -30,7 +34,7 @@ export default function Main() {
                     <div className='col-md-4'>
                         <div className="single-category mb-30">
                             <div className="category-img">
-                                <img src={cat1} />
+                                <img src={cat1} alt="something" />
                                 <div className="category-caption">
                                     <h2>Women`s</h2>
                                     <span className="best"><a href="#">Best New Deals</a></span>
@@ -41,7 +45,7 @@ export default function Main() {
                     <div className='col-md-4'>
                         <div className="single-category mb-30">
                             <div className="category-img">
-                                <img src={cat2} />
+                                <img src={cat2} alt="something" />
                                 <div className="category-caption">
                                     <h2>Winter Cloth</h2>
                                     <span className="best"><a href="#">Best New Deals</a></span>
@@ -52,7 +56,7 @@ export default function Main() {
                     <div className='col-md-4'>
                         <div className="single-category mb-30">
                             <div className="category-img">
-                                <img src={cat3} />
+                                <img src={cat3} alt="something" />
                                 <div className="category-caption">
                                     <h2>Men'S Cloth</h2>
                                     <span className="best"><a href="#">Best New Deals</a></span>
@@ -80,52 +84,52 @@ export default function Main() {
                     <TabPanel eventKey="first">
                         <div className='tab-content row'>
                             <div className='col-md-4 product-col'>
-                                <img src={p1} className='product-img' />
+                                <img src={p1} className='product-img' alt="something" />
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p5} className='product-img' />
+                                <img src={p5} className='product-img' alt="something" />
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p3} className='product-img' />
+                                <img src={p3} className='product-img' alt="something" />
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p2} className='product-img' />
+                                <img src={p2} className='product-img' alt="something" />
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p4} className='product-img' />
+                                <img src={p4} className='product-img' alt="something" />
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p6} className='product-img' />
+                                <img src={p6} className='product-img' alt="something" />
                             </div>
                         </div>
                     </TabPanel>
                     <TabPanel eventKey="second">
                         <div className='tab-content row'>
                             <div className='col-md-4 product-col'>
-                                <img src={p6} className='product-img' />
+                                <img src={p6} className='product-img' alt="something" />
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p3} className='product-img' />
+                                <img src={p3} className='product-img' alt="something" />
                             </div>
                         </div>
                     </TabPanel>
                     <TabPanel eventKey="third">
                         <div className='tab-content row'>
                             <div className='col-md-4 product-col'>
-                                <img src={p4} className='product-img' />
+                                <img src={p4} className='product-img' alt="something" />
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p5} className='product-img' />
+                                <img src={p5} className='product-img' alt="something" />
                             </div>
                         </div>
                     </TabPanel>
                     <TabPanel eventKey="fourth">
                         <div className='tab-content row'>
                             <div className='col-md-4 product-col'>
-                                <img src={p2} className='product-img' />
+                                <img src={p2} className='product-img' alt="something" />
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p1} className='product-img' />
+                                <img src={p1} className='product-img' alt="something" />
                             </div>
                         </div>
                     </TabPanel>

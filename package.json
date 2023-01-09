@@ -1,7 +1,7 @@
 {
   "name": "ecommerce-app",
   "version": "0.1.0",
-  "homepage": "https://nikitaclarigo.github.io/React/",
+  "homepage": "https://nikitaclarigo.github.io/Ecommerce-dumy/",
   "private": true,
   "dependencies": {
     "@mui/material": "^5.11.2",
@@ -48,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "webpack": "^5.75.0"
   }
 }

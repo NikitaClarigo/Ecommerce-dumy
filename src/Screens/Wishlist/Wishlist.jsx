@@ -1,3 +1,8 @@
+/* eslint-disable array-callback-return */
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from 'react';
 import './Wishlist.css';
 import indian1 from '../../Assets/indian1.jpg';
@@ -19,84 +24,84 @@ export default function Wishlist() {
             <h5><b>My Wishlist</b> 23 items</h5>
             <div className='row'>
                 <div className='col-md-3 wishlist-col'>
-                    <img src={homecat1} className="wishlist-product" />
+                    <img src={homecat1} className="wishlist-product" alt="something" />
                     <p>Skyblue Bed Line</p>
                     <h5 className='text-center'><b>Rs 1500</b> (50% off)</h5>
                     <hr />
                     <p className='move-to-bag-button'>Move to Bag</p>
                 </div>
                 <div className='col-md-3 wishlist-col'>
-                    <img src={indian1} className="wishlist-product" />
+                    <img src={indian1} className="wishlist-product" alt="something" />
                     <p>Skyblue Bed Line</p>
                     <h5 className='text-center'><b>Rs 1500</b> (50% off)</h5>
                     <hr />
                     <p className='move-to-bag-button'>Move to Bag</p>
                 </div>
                 <div className='col-md-3 wishlist-col'>
-                    <img src={windian1} className="wishlist-product" />
+                    <img src={windian1} className="wishlist-product" alt="something" />
                     <p>Skyblue Bed Line</p>
                     <h5 className='text-center'><b>Rs 1500</b> (50% off)</h5>
                     <hr />
                     <p className='move-to-bag-button'>Move to Bag</p>
                 </div>
                 <div className='col-md-3 wishlist-col'>
-                    <img src={kcat1} className="wishlist-product" />
+                    <img src={kcat1} className="wishlist-product" alt="something" />
                     <p>Skyblue Bed Line</p>
                     <h5 className='text-center'><b>Rs 1500</b> (50% off)</h5>
                     <hr />
                     <p className='move-to-bag-button'>Move to Bag</p>
                 </div>
                 <div className='col-md-3 wishlist-col'>
-                    <img src={indian2} className="wishlist-product" />
+                    <img src={indian2} className="wishlist-product" alt="something" />
                     <p>Skyblue Bed Line</p>
                     <h5 className='text-center'><b>Rs 1500</b> (50% off)</h5>
                     <hr />
                     <p className='move-to-bag-button'>Move to Bag</p>
                 </div>
                 <div className='col-md-3 wishlist-col'>
-                    <img src={windian2} className="wishlist-product" />
+                    <img src={windian2} className="wishlist-product" alt="something" />
                     <p>Skyblue Bed Line</p>
                     <h5 className='text-center'><b>Rs 1500</b> (50% off)</h5>
                     <hr />
                     <p className='move-to-bag-button'>Move to Bag</p>
                 </div>
                 <div className='col-md-3 wishlist-col'>
-                    <img src={kcat2} className="wishlist-product" />
+                    <img src={kcat2} className="wishlist-product" alt="something" />
                     <p>Skyblue Bed Line</p>
                     <h5 className='text-center'><b>Rs 1500</b> (50% off)</h5>
                     <hr />
                     <p className='move-to-bag-button'>Move to Bag</p>
                 </div>
                 <div className='col-md-3 wishlist-col'>
-                    <img src={homecat2} className="wishlist-product" />
+                    <img src={homecat2} className="wishlist-product" alt="something" />
                     <p>Skyblue Bed Line</p>
                     <h5 className='text-center'><b>Rs 1500</b> (50% off)</h5>
                     <hr />
                     <p className='move-to-bag-button'>Move to Bag</p>
                 </div>
                 <div className='col-md-3 wishlist-col'>
-                    <img src={ homecat3} className="wishlist-product" />
+                    <img src={ homecat3} className="wishlist-product" alt="something" />
                     <p>Skyblue Bed Line</p>
                     <h5 className='text-center'><b>Rs 1500</b> (50% off)</h5>
                     <hr />
                     <p className='move-to-bag-button'>Move to Bag</p>
                 </div>
                 <div className='col-md-3 wishlist-col'>
-                    <img src={kcat3} className="wishlist-product" />
+                    <img src={kcat3} className="wishlist-product" alt="something" />
                     <p>Skyblue Bed Line</p>
                     <h5 className='text-center'><b>Rs 1500</b> (50% off)</h5>
                     <hr />
                     <p className='move-to-bag-button'>Move to Bag</p>
                 </div>
                 <div className='col-md-3 wishlist-col'>
-                    <img src={windian3} className="wishlist-product" />
+                    <img src={windian3} className="wishlist-product" alt="something" />
                     <p>Skyblue Bed Line</p>
                     <h5 className='text-center'><b>Rs 1500</b> (50% off)</h5>
                     <hr />
                     <p className='move-to-bag-button'>Move to Bag</p>
                 </div>
                 <div className='col-md-3 wishlist-col'>
-                    <img src={indian3} className="wishlist-product" />
+                    <img src={indian3} className="wishlist-product" alt="something" />
                     <p>Skyblue Bed Line</p>
                     <h5 className='text-center'><b>Rs 1500</b> (50% off)</h5>
                     <hr />
