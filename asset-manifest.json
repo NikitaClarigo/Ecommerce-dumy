@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React/static/css/main.07d3011c.css",
-    "main.js": "/React/static/js/main.b8bf41af.js",
+    "main.css": "/React/static/css/main.a53af3cd.css",
+    "main.js": "/React/static/js/main.dea5966c.js",
     "static/js/787.0c1a86ef.chunk.js": "/React/static/js/787.0c1a86ef.chunk.js",
     "static/media/men-banner.png": "/React/static/media/men-banner.4589e9bc02b5d5ceabb6.png",
     "static/media/beauty-banner.png": "/React/static/media/beauty-banner.07241a20c4de07d82b1a.png",
@@ -83,12 +83,12 @@
     "static/media/brand1.png": "/React/static/media/brand1.660fd961bc66548d9ed9.png",
     "static/media/brand2.png": "/React/static/media/brand2.5a0d9e17b5c2166728ef.png",
     "index.html": "/React/index.html",
-    "main.07d3011c.css.map": "/React/static/css/main.07d3011c.css.map",
-    "main.b8bf41af.js.map": "/React/static/js/main.b8bf41af.js.map",
+    "main.a53af3cd.css.map": "/React/static/css/main.a53af3cd.css.map",
+    "main.dea5966c.js.map": "/React/static/js/main.dea5966c.js.map",
     "787.0c1a86ef.chunk.js.map": "/React/static/js/787.0c1a86ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07d3011c.css",
-    "static/js/main.b8bf41af.js"
+    "static/css/main.a53af3cd.css",
+    "static/js/main.dea5966c.js"
   ]
 }
