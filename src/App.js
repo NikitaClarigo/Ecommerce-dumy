@@ -11,14 +11,14 @@ import Login from './Screens/Login/Login';
 import Dashboard from './Screens/Dashboard/Dashboard';
 import Wishlist from './Screens/Wishlist/Wishlist';
 import Cart from './Screens/Cart/Cart';
-// import Home from './Screens/Home/Home';
+import Header from './Components/Header/Header';
 
 export default function App() {
   return (
     <div>
         {/* <Home /> */}
         <div className="main-body">
-          <Dashboard />
+          <Header />
           <Routes>
             <Route path='/Login' element={<Login />} />
             <Route exact path='/' element={<Dashboard />} >
