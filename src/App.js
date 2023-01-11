@@ -12,7 +12,7 @@ import Dashboard from './Screens/Dashboard/Dashboard';
 import Wishlist from './Screens/Wishlist/Wishlist';
 import Cart from './Screens/Cart/Cart';
 import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
+
 
 export default function App() {
   return (
@@ -33,7 +33,6 @@ export default function App() {
               <Route path='Cart' element={<Cart />} />
             </Route>
           </Routes>
-          <Footer />
           <Outlet />
         </div>
 

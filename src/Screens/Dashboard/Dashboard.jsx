@@ -6,13 +6,13 @@
 
 
 import React, { useEffect } from 'react';
-import { Outlet, useNavigate } from 'react-router-dom';
-// import Header from '../../Components/Header/Header';
-// import Footer from '../../Components/Footer/Footer';
+import { Outlet,useNavigate } from 'react-router-dom';
+import Header from '../../Components/Header/Header';
+import Footer from '../../Components/Footer/Footer';
 
 
 export default function Dashboard() {
-  const navigate = useNavigate()
+  const navigate=useNavigate()
 
 
   useEffect(() => {
@@ -23,7 +23,9 @@ export default function Dashboard() {
 
   return (
     <div>
-      <Outlet />
+      <Header />
+          <Outlet />
+      <Footer />
     </div>
   )
 }
