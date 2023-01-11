@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Outlet } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Outlet} from 'react-router-dom';
 import './Screens/Home/home.css';
 import Main from './Screens/Main/Main';
 import Men from './Screens/Men/Men';
@@ -16,13 +16,14 @@ import Cart from './Screens/Cart/Cart';
 export default function App() {
   return (
     <div>
-      {/* <Home /> */}
-      <div className="main-body">
+      <Router>
+        {/* <Home /> */}
+        <div className="main-body">
           <h1>ncxb xjbc xkjn</h1>
           <Routes>
             <Route path='/Login' element={<Login />} />
             <Route path='/' element={<Dashboard />} >
-              <Route path='Dashboard' element={<Main />}/>
+              <Route path='Dashboard' element={<Main />} />
               <Route path='Men' element={<Men />} />
               <Route path='Women' element={<Women />} />
               <Route path='Kids' element={<Kids />} />
@@ -34,6 +35,8 @@ export default function App() {
           </Routes>
           <Outlet />
         </div>
+      </Router>
+
     </div>
   )
 }
