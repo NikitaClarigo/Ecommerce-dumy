@@ -45,6 +45,8 @@ select {
     border-radius: 7px;
     padding: 7px;
     font-weight: 600;
+    display: block;
+    text-align: center;
 }
 .buy-col {
     height: 218px;

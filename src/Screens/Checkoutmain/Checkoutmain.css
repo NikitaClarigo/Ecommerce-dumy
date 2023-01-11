@@ -1,0 +1,47 @@
+.checkoutmain-col {
+    margin-right: 3px !important;
+    margin-top: 16px !important;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding: 20px;
+}
+.pin-button {
+    text-transform: uppercase;
+    font-size: 13px;
+    border: 2px solid #d24011 !important;
+    background: transparent;
+    color: #d24011;
+    font-weight: 600;
+    padding: 9px;
+}
+.discount-icon{
+    font-size: 30px;
+}
+.offer-list {
+    margin-left: 24px;
+    padding-top: 20px;
+    line-height: 29px;
+    font-size: 13px;
+    margin-top: 42px;
+}
+.wishlist-icon{
+    font-size: 25px;
+}
+.next-icon{
+    font-size: 25px;
+}
+.right-col {
+    margin-right: 3px !important;
+    margin-top: 16px !important;
+    border-left: 1px solid lightgrey;
+    padding: 20px;
+}
+.apply-button {
+    text-transform: uppercase;
+    font-size: 13px;
+    border: 2px solid #d24011 !important;
+    background: transparent;
+    color: #d24011;
+    font-weight: 600;
+    padding: 3px 26px;
+}

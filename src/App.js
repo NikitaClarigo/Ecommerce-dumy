@@ -12,6 +12,7 @@ import Dashboard from './Screens/Dashboard/Dashboard';
 import Wishlist from './Screens/Wishlist/Wishlist';
 import Cart from './Screens/Cart/Cart';
 import Header from './Components/Header/Header';
+import Checkoutmain from './Screens/Checkoutmain/Checkoutmain';
 
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
           <Route path='/Login' element={<Login />} />
           <Route path='/' element={<Dashboard />} >
             <Route path='Dashboard' element={<Main />} />
+            <Route path='Checkoutmain' element={<Checkoutmain />} />
             <Route path='Men' element={<Men />} />
             <Route path='Women' element={<Women />} />
             <Route path='Kids' element={<Kids />} />

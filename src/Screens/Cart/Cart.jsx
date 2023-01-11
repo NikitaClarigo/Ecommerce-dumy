@@ -12,6 +12,7 @@ import indian3 from '../../Assets/indian3.jpg';
 import indian4 from '../../Assets/indian4.jpg';
 import windian3 from '../../Assets/windian3.jpg';
 import windian4 from '../../Assets/windian4.jpg';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Cart() {
     return (
@@ -103,8 +104,9 @@ export default function Cart() {
                     <span className='inner-content'> Your order is eligible for FREE Delivery.</span><br></br>
                     <h5>Subtotal (2 Items) : ₹38,00.00</h5>
                     <input type="checkbox" /><span> This order contains a gift</span>
-                    <button className='buy-button'>Proceed to Buy</button>
-
+                    <Link to="/Checkoutmain">
+                        <button className='buy-button'>Proceed to Buy</button>
+                    </Link>
                     <div className='related-item-col'>
                         <h6 className='inner-content'> <b>Products related to items in your cart</b></h6><br></br>
                         <div className='row'>
@@ -143,7 +145,7 @@ export default function Cart() {
                                 <p>₹5,000.00</p>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
