@@ -149,7 +149,7 @@ export default function Main() {
                                 <div className="latest-subscribe">
                                     <form action="#">
                                         <input type="email" placeholder="Your email here"/>
-                                            <button>Shop Now</button>
+                                            <button className='shop-button'>Shop Now</button>
                                     </form>
                                 </div>
                             </div>

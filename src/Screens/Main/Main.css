@@ -173,16 +173,18 @@
     border: 1px solid #fff;
     border-radius: 30px;
 }
-.latest-subscribe form button {
+.shop-button {
     padding: 20px 47px;
     background: #2577fd;
     font-size: 14px;
     font-weight: 300;
-    position: absolute;
-    right: 0;
+    position: absolute !important;
+    right: 0 !important;
     border: 0;
-    cursor: pointer;
-    top: 0;
+    cursor: pointer !important;
+    top: 0 !important;
     color: #fff;
     border-radius: 30px;
+    margin-top: 0px;
+    width: 35%;
 }
