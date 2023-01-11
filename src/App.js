@@ -22,7 +22,7 @@ export default function App() {
           <h1>ncxb xjbc xkjn</h1>
           <Routes>
             <Route path='/Login' element={<Login />} />
-            <Route path='/' element={<Dashboard />} >
+            <Route exact path='/' element={<Dashboard />} >
               <Route path='Dashboard' element={<Main />} />
               <Route path='Men' element={<Men />} />
               <Route path='Women' element={<Women />} />
