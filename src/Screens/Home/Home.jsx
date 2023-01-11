@@ -25,7 +25,8 @@ export default function Home() {
   return (
     <div>
         <div className="main-body">
-          <Routes>
+          <h1>ncxb xjbc xkjn</h1>
+          {/* <Routes>
             <Route path='/Login' element={<Login />} />
             <Route path='/' element={<Dashboard />} >
               <Route path='Dashboard' element={<Main />}/>
@@ -38,7 +39,7 @@ export default function Home() {
               <Route path='Cart' element={<Cart />} />
             </Route>
           </Routes>
-          <Outlet />
+          <Outlet /> */}
         </div>
     </div>
   )
