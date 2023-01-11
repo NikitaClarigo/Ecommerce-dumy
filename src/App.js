@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, Outlet} from 'react-router-dom';
+import { Route, Routes, Outlet } from 'react-router-dom';
 import './Screens/Home/home.css';
 import Main from './Screens/Main/Main';
 import Men from './Screens/Men/Men';
@@ -17,24 +17,24 @@ import Header from './Components/Header/Header';
 export default function App() {
   return (
     <div>
-        {/* <Home /> */}
-        <div className="main-body">
-          <Header />
-          <Routes>
-            <Route path='/Login' element={<Login />} />
-            <Route exact path='/' element={<Dashboard />} >
-              <Route path='Dashboard' element={<Main />} />
-              <Route path='Men' element={<Men />} />
-              <Route path='Women' element={<Women />} />
-              <Route path='Kids' element={<Kids />} />
-              <Route path='HomeandLiving' element={<HomeandLiving />} />
-              <Route path='Beauty' element={<Beauty />} />
-              <Route path='Wishlist' element={<Wishlist />} />
-              <Route path='Cart' element={<Cart />} />
-            </Route>
-          </Routes>
-          <Outlet />
-        </div>
+      {/* <Home /> */}
+      <div className="main-body">
+        <Header />
+        <Routes>
+          <Route path='/Login' element={<Login />} />
+          <Route path='/' element={<Dashboard />} >
+            <Route path='Dashboard' element={<Main />} />
+            <Route path='Men' element={<Men />} />
+            <Route path='Women' element={<Women />} />
+            <Route path='Kids' element={<Kids />} />
+            <Route path='HomeandLiving' element={<HomeandLiving />} />
+            <Route path='Beauty' element={<Beauty />} />
+            <Route path='Wishlist' element={<Wishlist />} />
+            <Route path='Cart' element={<Cart />} />
+          </Route>
+        </Routes>
+        <Outlet />
+      </div>
 
     </div>
   )

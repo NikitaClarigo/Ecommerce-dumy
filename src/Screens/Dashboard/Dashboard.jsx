@@ -15,11 +15,11 @@ export default function Dashboard() {
   const navigate=useNavigate()
 
 
-  useEffect(() => {
-    return () => {
-      navigate('/Dashboard')
-    }
-  }, [])
+  // useEffect(() => {
+  //   return () => {
+  //     navigate('/Dashboard')
+  //   }
+  // }, [])
 
   return (
     <div>
