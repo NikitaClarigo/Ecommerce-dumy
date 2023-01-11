@@ -11,7 +11,6 @@ import Login from './Screens/Login/Login';
 import Dashboard from './Screens/Dashboard/Dashboard';
 import Wishlist from './Screens/Wishlist/Wishlist';
 import Cart from './Screens/Cart/Cart';
-import Header from './Components/Header/Header';
 // import Home from './Screens/Home/Home';
 
 export default function App() {
@@ -19,8 +18,7 @@ export default function App() {
     <div>
         {/* <Home /> */}
         <div className="main-body">
-          <h1>ncxb xjbc xkjn</h1>
-          <Header />
+          <Main />
           <Routes>
             <Route path='/Login' element={<Login />} />
             <Route exact path='/' element={<Dashboard />} >
