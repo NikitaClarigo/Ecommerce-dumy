@@ -66,7 +66,7 @@ export default function Header() {
                                 <h6>To access account and manage orders</h6>
                             </Dropdown.Item>
                             <Dropdown.Item>
-                                <Link to="Login" className='text-centre'>Login hoja / signup</Link>
+                                <Link to="Login" className='text-centre login-button'>Login / signup</Link>
                             </Dropdown.Item>
                             <hr />
                             <Dropdown.Item href="#">

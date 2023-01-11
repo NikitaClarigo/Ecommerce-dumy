@@ -82,7 +82,7 @@ input:focus {
     font-size: 15px;
     line-height: 6px;
 }
-.profile-dropdown button {
+.login-button {
     border: 2px solid #d24011 !important;
     padding: 10px 22px !important;
     color: #d24011 !important;
