@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Outlet} from 'react-router-dom';
+import { Route, Routes, Outlet} from 'react-router-dom';
 import './Screens/Home/home.css';
 import Main from './Screens/Main/Main';
 import Men from './Screens/Men/Men';
@@ -21,7 +21,7 @@ export default function App() {
           <h1>ncxb xjbc xkjn</h1>
           <Routes>
             <Route path='/Login' element={<Login />} />
-            <Route path='/' element={<Dashboard />} >
+            <Route exact path='/' element={<Dashboard />} >
               <Route path='Dashboard' element={<Main />} />
               <Route path='Men' element={<Men />} />
               <Route path='Women' element={<Women />} />
