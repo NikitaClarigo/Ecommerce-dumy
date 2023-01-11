@@ -16,13 +16,12 @@ import Cart from './Screens/Cart/Cart';
 export default function App() {
   return (
     <div>
-      <Router>
         {/* <Home /> */}
         <div className="main-body">
           <h1>ncxb xjbc xkjn</h1>
           <Routes>
             <Route path='/Login' element={<Login />} />
-            <Route exact path='/' element={<Dashboard />} >
+            <Route path='/' element={<Dashboard />} >
               <Route path='Dashboard' element={<Main />} />
               <Route path='Men' element={<Men />} />
               <Route path='Women' element={<Women />} />
@@ -35,7 +34,6 @@ export default function App() {
           </Routes>
           <Outlet />
         </div>
-      </Router>
 
     </div>
   )
