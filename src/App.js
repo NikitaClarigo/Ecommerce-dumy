@@ -18,7 +18,7 @@ export default function App() {
     <div>
         {/* <Home /> */}
         <div className="main-body">
-          <Main />
+          <Dashboard />
           <Routes>
             <Route path='/Login' element={<Login />} />
             <Route exact path='/' element={<Dashboard />} >

@@ -25,7 +25,6 @@ export default function Home() {
   return (
     <div>
         <div className="main-body">
-          <h1>ncxb xjbc xkjn</h1>
           {/* <Routes>
             <Route path='/Login' element={<Login />} />
             <Route path='/' element={<Dashboard />} >
