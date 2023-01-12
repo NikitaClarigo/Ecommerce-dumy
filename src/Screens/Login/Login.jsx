@@ -10,6 +10,7 @@ import { BiSearch } from "react-icons/bi";
 import { AiOutlineHeart } from "react-icons/ai";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 
 
@@ -18,7 +19,9 @@ export default function Login() {
     <div>
       <div className='main'>
         <div className='header login-header'>
-          <img src={Logo} className='logo' alt="something" />
+          <Link to={"/Dashboard"} className='logo-container'>
+            <img src={Logo} className='logo' alt="something" />
+          </Link>
           <div>
             <ul>
               <li>

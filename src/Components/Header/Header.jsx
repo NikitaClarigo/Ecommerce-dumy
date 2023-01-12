@@ -82,8 +82,8 @@ export default function Header() {
                             </Dropdown.Item>
                             <Dropdown.Item href="#">
                                 <p>Contact Us</p>
-                                <hr />
                             </Dropdown.Item>
+                            <hr />
                             <Dropdown.Item href="#">
                                 <p>Emart Credits</p>
                             </Dropdown.Item>

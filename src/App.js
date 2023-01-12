@@ -13,6 +13,7 @@ import Wishlist from './Screens/Wishlist/Wishlist';
 import Cart from './Screens/Cart/Cart';
 import Header from './Components/Header/Header';
 import Checkoutmain from './Screens/Checkoutmain/Checkoutmain';
+import CheckoutAddress from './Screens/Checkoutmain/CheckoutAddress';
 
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
           <Route path='/' element={<Dashboard />} >
             <Route path='Dashboard' element={<Main />} />
             <Route path='Checkoutmain' element={<Checkoutmain />} />
+            <Route path='CheckoutAddress' element={<CheckoutAddress />} />
             <Route path='Men' element={<Men />} />
             <Route path='Women' element={<Women />} />
             <Route path='Kids' element={<Kids />} />
