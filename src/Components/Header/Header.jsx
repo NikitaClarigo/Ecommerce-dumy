@@ -23,24 +23,30 @@ export default function Header() {
                 </Link>
                 <div>
                     <ul>
-                        <NavLink to="/Dashboard">
-                            <li>Home</li>
-                        </NavLink>
-                        <NavLink to="/Men">
-                            <li>Men</li>
-                        </NavLink>
-                        <NavLink to="/Women">
-                            <li>Women</li>
-                        </NavLink>
-                        <NavLink to="/Kids">
-                            <li>Kids</li>
-                        </NavLink>
-                        <NavLink to="/HomeandLiving">
-                            <li>Home & Living</li>
-                        </NavLink>
-                        <NavLink to="/Beauty">
-                            <li>Beauty</li>
-                        </NavLink>
+                        <li>
+                            <NavLink to="/Dashboard">Home
+                            </NavLink>
+                        </li>
+                        <li >
+                            <NavLink to="/Men">Men
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/Women">Women
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/Kids">Kids
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/HomeandLiving">Home & Living
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/Beauty">Beauty
+                            </NavLink>
+                        </li>
                     </ul>
                 </div>
                 <div>
