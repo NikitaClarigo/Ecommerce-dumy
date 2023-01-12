@@ -16,7 +16,10 @@
 } */
 
 .logo{
-    width: 10%;
+    width: 77%;
+}
+.logo-container{
+    width: 14%;
 }
 .header ul{
     margin: 0px;
