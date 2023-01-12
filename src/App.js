@@ -20,7 +20,6 @@ export default function App() {
     <div>
       {/* <Home /> */}
       <div className="main-body">
-        <Header />
         <Routes>
           <Route path='/Login' element={<Login />} />
           <Route path='/' element={<Dashboard />} >
