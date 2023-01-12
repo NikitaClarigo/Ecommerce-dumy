@@ -40,7 +40,7 @@ export default function CheckoutAddress() {
                                     <input type="text" placeholder="State*" required />
                                 </div>
                             </div>
-                            <Link>
+                            <Link to={"/CheckoutAddress1"}>
                                 <button className='add-address-button'>Add Address</button>
                             </Link>
                         </div>

@@ -11,9 +11,9 @@ import Login from './Screens/Login/Login';
 import Dashboard from './Screens/Dashboard/Dashboard';
 import Wishlist from './Screens/Wishlist/Wishlist';
 import Cart from './Screens/Cart/Cart';
-import Header from './Components/Header/Header';
 import Checkoutmain from './Screens/Checkoutmain/Checkoutmain';
 import CheckoutAddress from './Screens/Checkoutmain/CheckoutAddress';
+import CheckoutAddress1 from './Screens/Checkoutmain/CheckoutAddress1';
 
 
 export default function App() {
@@ -27,6 +27,7 @@ export default function App() {
             <Route path='Dashboard' element={<Main />} />
             <Route path='Checkoutmain' element={<Checkoutmain />} />
             <Route path='CheckoutAddress' element={<CheckoutAddress />} />
+            <Route path='CheckoutAddress1' element={<CheckoutAddress1 />} />
             <Route path='Men' element={<Men />} />
             <Route path='Women' element={<Women />} />
             <Route path='Kids' element={<Kids />} />
