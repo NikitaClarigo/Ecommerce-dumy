@@ -7,12 +7,13 @@ import React from 'react';
 import './Cart.css';
 import indian1 from '../../Assets/indian1.jpg';
 import windian2 from '../../Assets/windian2.jpg';
-import { BsCheckCircleFill } from "react-icons/bs";
 import indian3 from '../../Assets/indian3.jpg';
 import indian4 from '../../Assets/indian4.jpg';
 import windian3 from '../../Assets/windian3.jpg';
 import windian4 from '../../Assets/windian4.jpg';
 import { Link, NavLink } from 'react-router-dom';
+import { BsCheckCircleFill } from "react-icons/bs";
+import p1 from '../../Assets/p1.png';
 
 export default function Cart() {
     return (
@@ -26,7 +27,7 @@ export default function Cart() {
                             <input type="checkbox" />
                         </div>
                         <div className='col-md-3'>
-                            <img src={indian1} className="cart-product" alt="something" />
+                            <img src={p1} className="cart-product" alt="something" />
                         </div>
                         <div className='col-md-7'>
                             <p className='product-des'>Ethluxis Men's Silk Blend Kurta, Churidar Pyjama With Nehru Jacket (ETH-TRI-FLR_Navy Blue_42)</p>

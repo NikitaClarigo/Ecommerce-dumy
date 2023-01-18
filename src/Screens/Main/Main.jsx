@@ -17,6 +17,7 @@ import p4 from '../../Assets/p4.png';
 import p5 from '../../Assets/p5.png';
 import p6 from '../../Assets/p6.png';
 import Background from '../../Assets/best-product-bg.png';
+import { Link } from 'react-router-dom';
 
 
 export default function Main() {
@@ -84,7 +85,9 @@ export default function Main() {
                     <TabPanel eventKey="first">
                         <div className='tab-content row'>
                             <div className='col-md-4 product-col'>
-                                <img src={p1} className='product-img' alt="something" />
+                                <Link to={"/Productdetail"}>
+                                    <img src={p1} className='product-img' alt="something" />
+                                </Link>
                             </div>
                             <div className='col-md-4 product-col'>
                                 <img src={p5} className='product-img' alt="something" />
@@ -141,15 +144,15 @@ export default function Main() {
                         <div className="row d-flex align-items-center">
                             <div className="col-xl-5 col-lg-5  col-md-6 offset-xl-1 offset-lg-1">
                                 <div className="latest-caption">
-                                    <h2>Get Our<br/>Latest Offers News</h2>
+                                    <h2>Get Our<br />Latest Offers News</h2>
                                     <p>Subscribe news latter</p>
                                 </div>
                             </div>
                             <div className="col-xl-5 col-lg-5 col-md-6 ">
                                 <div className="latest-subscribe">
                                     <form action="#">
-                                        <input type="email" placeholder="Your email here"/>
-                                            <button className='shop-button'>Shop Now</button>
+                                        <input type="email" placeholder="Your email here" />
+                                        <button className='shop-button'>Shop Now</button>
                                     </form>
                                 </div>
                             </div>

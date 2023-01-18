@@ -14,6 +14,7 @@ import Cart from './Screens/Cart/Cart';
 import Checkoutmain from './Screens/Checkoutmain/Checkoutmain';
 import CheckoutAddress from './Screens/Checkoutmain/CheckoutAddress';
 import CheckoutAddress1 from './Screens/Checkoutmain/CheckoutAddress1';
+import Productdetail from './Screens/Productdetail/Productdetail';
 
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
           <Route path='/Login' element={<Login />} />
           <Route path='/' element={<Dashboard />} >
             <Route path='Dashboard' element={<Main />} />
+            <Route path='Productdetail' element={<Productdetail />} />
             <Route path='Checkoutmain' element={<Checkoutmain />} />
             <Route path='CheckoutAddress' element={<CheckoutAddress />} />
             <Route path='CheckoutAddress1' element={<CheckoutAddress1 />} />

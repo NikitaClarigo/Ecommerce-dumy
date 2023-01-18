@@ -1,0 +1,97 @@
+.product-detail-section {
+    padding: 20px;
+}
+.subtitle{
+    color: lightgray;
+}
+.product-detail-section button {
+    border: 1px solid lightgrey;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    padding: 5px 10px;
+}
+.product-detail-section button:hover{
+    border: 1px solid black;
+}
+.star-icon{
+    color: #06acc7;
+}
+.product-detail-section hr{
+    border: 1px solid rgb(192, 192, 192);
+}
+button.size-button {
+    display: inline-flex;
+    margin: 3px;
+    border-radius: 54px;
+    font-size: 13px;
+    padding: 12px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.size-button:hover{
+    border: 1px solid #f47526 !important;
+    color: #f47526;
+}
+.product-detail-section .bag-button {
+    background: #f47526;
+    border: none;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.product-detail-section .bag-button:hover{
+    background: #f47526;
+    border: none;
+}
+.product-detail-section .bag-button .bag-icon {
+    margin-right: 10px;
+    font-size: 25px;
+}
+.product-detail-section .wishlist-button{
+    border: 1px solid #f47526 ;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 13px;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 20px;
+}
+.product-detail-section .wishlist-button:hover{
+    border: 1px solid #f47526 ;
+}
+.rating-section {
+    margin: 25px !important;
+}
+.rating-section h5 {
+    margin-bottom: 38px;
+}
+.rating-inner-section {
+    border-right: 1px solid lightgrey;
+}
+.progress-section{
+    margin-left: 30px;
+}
+.progress-bar{
+    height: 8px !important;
+    background-color: lightgrey !important;
+}
+.progress {
+    height: 8px !important;
+    margin-top: 14px;
+}
+.detail-section{
+    margin: 25px !important;
+}
+.detail-section h5 {
+    margin-bottom: 38px;
+}
+.detail-section p{
+    line-height: 9px;
+}

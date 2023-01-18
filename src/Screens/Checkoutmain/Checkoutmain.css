@@ -95,3 +95,17 @@
     display: inline-block;
     margin-top: 35px;
 }
+.address-col {
+    background: #f47526;
+    color: white;
+    line-height: 37px;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.address-col p{
+    margin-bottom: 0px;
+}
+input[type="radio"] {
+    transform: scale(1.5);
+    float: right;
+}

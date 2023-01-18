@@ -6,6 +6,7 @@ import { GrFormNext } from "react-icons/gr";
 import { IoMdPricetag } from "react-icons/io";
 import { Link, NavLink } from 'react-router-dom';
 import indian1 from '../../Assets/indian1.jpg';
+import p1 from '../../Assets/p1.png';
 
 export default function Checkoutmain() {
     return (
@@ -50,7 +51,7 @@ export default function Checkoutmain() {
                             <input type="checkbox" checked />
                         </div>
                         <div className='col-md-3'>
-                            <img src={indian1} className="cart-product" alt="something" />
+                            <img src={p1} className="cart-product" alt="something" />
                         </div>
                         <div className='col-md-8'>
                             <p className='product-des'>Ethluxis Men's Silk Blend Kurta, Churidar Pyjama With Nehru Jacket (ETH-TRI-FLR_Navy Blue_42)</p>
