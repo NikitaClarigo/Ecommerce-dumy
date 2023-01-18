@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ecommerce-dumy/static/css/main.789218ea.css",
-    "main.js": "/Ecommerce-dumy/static/js/main.52cdc3f6.js",
+    "main.css": "/Ecommerce-dumy/static/css/main.00a09a15.css",
+    "main.js": "/Ecommerce-dumy/static/js/main.6d6dfc18.js",
     "static/js/787.0c1a86ef.chunk.js": "/Ecommerce-dumy/static/js/787.0c1a86ef.chunk.js",
     "static/media/men-banner.png": "/Ecommerce-dumy/static/media/men-banner.4589e9bc02b5d5ceabb6.png",
     "static/media/beauty-banner.png": "/Ecommerce-dumy/static/media/beauty-banner.07241a20c4de07d82b1a.png",
@@ -22,13 +22,14 @@
     "static/media/p4.png": "/Ecommerce-dumy/static/media/p4.ed71f62894b50778797b.png",
     "static/media/p5.png": "/Ecommerce-dumy/static/media/p5.96aa47ded542766b37cf.png",
     "static/media/p3.png": "/Ecommerce-dumy/static/media/p3.98ec8b7dbb01b34b04b5.png",
-    "static/media/p1.png": "/Ecommerce-dumy/static/media/p1.8ae7ea6dfa3d7b1da20f.png",
     "static/media/indian2.jpg": "/Ecommerce-dumy/static/media/indian2.a5d782e55a6b11273144.jpg",
     "static/media/windian2.jpg": "/Ecommerce-dumy/static/media/windian2.5d5d226880529bc7cf5d.jpg",
     "static/media/beautycat1.jpg": "/Ecommerce-dumy/static/media/beautycat1.39abdad6faeb443fdaaa.jpg",
     "static/media/women-brand-product3.jpg": "/Ecommerce-dumy/static/media/women-brand-product3.64ac22871ced6f56feec.jpg",
+    "static/media/p1.png": "/Ecommerce-dumy/static/media/p1.cdb19863aa92a7e3fa8e.png",
     "static/media/p2.png": "/Ecommerce-dumy/static/media/p2.af5831214d05ed2b72cb.png",
     "static/media/mcat3.jpg": "/Ecommerce-dumy/static/media/mcat3.c23886602078698ffdc5.jpg",
+    "static/media/product-look2.png": "/Ecommerce-dumy/static/media/product-look2.d6cea860a73ff41df6b0.png",
     "static/media/explore-img2.jpg": "/Ecommerce-dumy/static/media/explore-img2.8e6b7a54ec3b2f5653fd.jpg",
     "static/media/best-product-bg.png": "/Ecommerce-dumy/static/media/best-product-bg.40e674407798e5e2bc11.png",
     "static/media/homecat2.jpg": "/Ecommerce-dumy/static/media/homecat2.7df2e24e6350edc7c8e2.jpg",
@@ -83,12 +84,12 @@
     "static/media/brand1.png": "/Ecommerce-dumy/static/media/brand1.660fd961bc66548d9ed9.png",
     "static/media/brand2.png": "/Ecommerce-dumy/static/media/brand2.5a0d9e17b5c2166728ef.png",
     "index.html": "/Ecommerce-dumy/index.html",
-    "main.789218ea.css.map": "/Ecommerce-dumy/static/css/main.789218ea.css.map",
-    "main.52cdc3f6.js.map": "/Ecommerce-dumy/static/js/main.52cdc3f6.js.map",
+    "main.00a09a15.css.map": "/Ecommerce-dumy/static/css/main.00a09a15.css.map",
+    "main.6d6dfc18.js.map": "/Ecommerce-dumy/static/js/main.6d6dfc18.js.map",
     "787.0c1a86ef.chunk.js.map": "/Ecommerce-dumy/static/js/787.0c1a86ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.789218ea.css",
-    "static/js/main.52cdc3f6.js"
+    "static/css/main.00a09a15.css",
+    "static/js/main.6d6dfc18.js"
   ]
 }
