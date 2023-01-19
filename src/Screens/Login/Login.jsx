@@ -3,7 +3,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
-import React from 'react';
+import React, { useState } from 'react';
 import './Login.css';
 import Logo from '../../Assets/logo.png';
 import { BiSearch } from "react-icons/bi";
@@ -15,6 +15,8 @@ import { Link } from 'react-router-dom';
 
 
 export default function Login() {
+  const [loginName, setloginName] = useState('')
+
   return (
     <div>
       <div className='main'>
@@ -58,12 +60,6 @@ export default function Login() {
               </div>
             </form>
           </div>
-          {/* <div className='icon'>
-            <Link to={"./Wishlist"}>
-              <AiOutlineHeart className='icon-size' />
-            </Link>
-            <HiOutlineShoppingBag className='icon-size' />
-          </div> */}
         </div>
         <div className="Login-main">
           <h4>Flat ₹500 OFF + Free Shipping</h4>
@@ -72,9 +68,13 @@ export default function Login() {
           <div className="login">
             <h5>Login or Signup</h5>
             <form>
-              <input type="tel" id="phone" name="phone" placeholder="Mobile No." pattern="[0-9]{3}[0-9]{2}[0-9]{3}" required />
+              <input value={loginName} onChange={(e) => setloginName(e.target.value)} type="tel" id="phone" name="phone" placeholder="Mobile No." pattern="[0-9]{3}[0-9]{2}[0-9]{3}[0-9]{2}" required />
               <p className='login-terms'>By Continuing, I agree to the terms of use & Privacy Policy.</p>
-              <button>Continue</button>
+              {!(loginName.length < 10||loginName.length>10) ? <Link to={"/OTP"}>
+                <button type="button">Continue</button>
+              </Link>:<button type="button">Continue</button>}
+
+
               <p className='login-terms text-center'>Have trouble logging in? Get help </p>
             </form>
           </div>

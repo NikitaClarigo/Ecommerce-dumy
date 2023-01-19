@@ -43,6 +43,7 @@ input#phone {
     box-shadow: rgb(99 99 99 / 57%) 0px 2px 8px 0px;
     margin-top: 20px;
 }
+
 input#phone:hover {
     box-shadow: rgb(245 91 40 / 41%) 0px 2px 8px 0px;
 }
@@ -71,4 +72,37 @@ form button:hover {
     cursor: pointer;
     color: rgb(0, 0, 0);
     border: none;
+}
+
+.otp-main h4 {
+    margin-top: 20px
+}
+
+.UserInput {
+    Display: Flex;
+    Justify-Content: Center;
+}
+
+.UserInput Input {
+    Margin: 10px;
+    Height: 56px;
+    Width: 46px;
+    Border: None;
+    Border-Radius: 5px;
+    Text-Align: Center;
+    Font-Family: Arimo;
+    Font-Size: 1.2rem;
+    Background: transparent;
+    border: 1px solid lightgrey;
+}
+
+.otp-main {
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    background: #f3692821;
+    height: 442px;
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 58px;
 }
