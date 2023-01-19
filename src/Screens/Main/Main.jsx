@@ -27,7 +27,9 @@ export default function Main() {
             <div className="top-right">
                 <p>60% Discount</p>
                 <h1>Winter <br />Collection</h1>
+                <Link to={"/Winter"}>
                 <button>Shop Now</button>
+                </Link>
             </div>
             <div className='main-page'>
                 <h2 className='heading'>Shop By Category</h2>

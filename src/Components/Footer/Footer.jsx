@@ -11,6 +11,7 @@ import { FaFacebook } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -19,23 +20,25 @@ export default function Footer() {
                 <div className='col-md-3'>
                     <p className='footer-head'>Online Shopping</p>
                     <ul>
-                        <li>
-                            Men
+                    <li >
+                            <NavLink to="/Men">Men
+                            </NavLink>
                         </li>
                         <li>
-                            Women
+                            <NavLink to="/Women">Women
+                            </NavLink>
                         </li>
                         <li>
-                            Kids
+                            <NavLink to="/Kids">Kids
+                            </NavLink>
                         </li>
                         <li>
-                            Home & living
+                            <NavLink to="/HomeandLiving">Home & Living
+                            </NavLink>
                         </li>
                         <li>
-                            Beauty
-                        </li>
-                        <li>
-                            Gifts
+                            <NavLink to="/Beauty">Beauty
+                            </NavLink>
                         </li>
                     </ul>
                 </div>

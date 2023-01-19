@@ -19,7 +19,7 @@ import kbrand8 from '../../Assets/kbrand8.jpg';
 import kbrand9 from '../../Assets/kbrand9.jpg';
 import kbrand10 from '../../Assets/kbrand10.jpg';
 import kbrand11 from '../../Assets/kbrand11.jpg';
-import kbrand12 from '../../Assets/kbrand12.jpg';
+import kbrand12 from '../../Assets/kbrand12.png';
 import kcat1 from '../../Assets/kcat1.jpg';
 import kcat2 from '../../Assets/kcat2.jpg';
 import kcat3 from '../../Assets/kcat3.jpg';

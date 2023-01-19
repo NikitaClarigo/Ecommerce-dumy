@@ -70,11 +70,10 @@ export default function Login() {
             <form>
               <input value={loginName} onChange={(e) => setloginName(e.target.value)} type="tel" id="phone" name="phone" placeholder="Mobile No." pattern="[0-9]{3}[0-9]{2}[0-9]{3}[0-9]{2}" required />
               <p className='login-terms'>By Continuing, I agree to the terms of use & Privacy Policy.</p>
-              {!(loginName.length < 10||loginName.length>10) ? <Link to={"/OTP"}>
+             
+              {!(loginName.length < 10||loginName.length>10) ?<Link to={"/OTP"}>
                 <button type="button">Continue</button>
-              </Link>:<button type="button">Continue</button>}
-
-
+                </Link>:<button type="button">Continue</button>}
               <p className='login-terms text-center'>Have trouble logging in? Get help </p>
             </form>
           </div>

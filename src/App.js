@@ -16,6 +16,7 @@ import CheckoutAddress from './Screens/Checkoutmain/CheckoutAddress';
 import CheckoutAddress1 from './Screens/Checkoutmain/CheckoutAddress1';
 import Productdetail from './Screens/Productdetail/Productdetail';
 import OTP from './Screens/Login/OTP';
+import Winter from './Screens/Winter/Winter';
 
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
           <Route path='/OTP' element={<OTP />} />
           <Route path='/' element={<Dashboard />} >
             <Route path='Dashboard' element={<Main />} />
+            <Route path='Winter' element={<Winter />} />
             <Route path='Productdetail' element={<Productdetail />} />
             <Route path='Checkoutmain' element={<Checkoutmain />} />
             <Route path='CheckoutAddress' element={<CheckoutAddress />} />
