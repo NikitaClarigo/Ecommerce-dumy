@@ -24,7 +24,7 @@ export default function Productdetail() {
           <h4><b>English Navy</b></h4>
           <p className='subtitle'>Men Red Slim Fit Formal Shirt</p>
           <Link to={"#progress"}>
-            <button>4fcnv<AiFillStar className='star-icon' /> | 4.5k Ratings</button>
+            <button>4<AiFillStar className='star-icon' /> | 4.5k Ratings</button>
           </Link>
           <hr />
           <h4>₹519</h4>
