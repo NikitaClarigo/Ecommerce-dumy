@@ -58,10 +58,12 @@ export default function Login() {
               </div>
             </form>
           </div>
-          <div className='icon'>
-            <AiOutlineHeart className='icon-size' />
+          {/* <div className='icon'>
+            <Link to={"./Wishlist"}>
+              <AiOutlineHeart className='icon-size' />
+            </Link>
             <HiOutlineShoppingBag className='icon-size' />
-          </div>
+          </div> */}
         </div>
         <div className="Login-main">
           <h4>Flat ₹500 OFF + Free Shipping</h4>

@@ -15,7 +15,7 @@ import Checkoutmain from './Screens/Checkoutmain/Checkoutmain';
 import CheckoutAddress from './Screens/Checkoutmain/CheckoutAddress';
 import CheckoutAddress1 from './Screens/Checkoutmain/CheckoutAddress1';
 import Productdetail from './Screens/Productdetail/Productdetail';
-
+import Loginwishlist from './Screens/Login/Loginwishlist';
 
 export default function App() {
   return (
@@ -24,6 +24,7 @@ export default function App() {
       <div className="main-body">
         <Routes>
           <Route path='/Login' element={<Login />} />
+          <Route path='/Loginwishlist' element={<Loginwishlist />} />
           <Route path='/' element={<Dashboard />} >
             <Route path='Dashboard' element={<Main />} />
             <Route path='Productdetail' element={<Productdetail />} />
