@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ecommerce-dumy/static/css/main.00a09a15.css",
-    "main.js": "/Ecommerce-dumy/static/js/main.d051508b.js",
+    "main.css": "/Ecommerce-dumy/static/css/main.a0d12e35.css",
+    "main.js": "/Ecommerce-dumy/static/js/main.7848d683.js",
     "static/js/787.0c1a86ef.chunk.js": "/Ecommerce-dumy/static/js/787.0c1a86ef.chunk.js",
     "static/media/men-banner.png": "/Ecommerce-dumy/static/media/men-banner.4589e9bc02b5d5ceabb6.png",
     "static/media/beauty-banner.png": "/Ecommerce-dumy/static/media/beauty-banner.07241a20c4de07d82b1a.png",
@@ -79,17 +79,18 @@
     "static/media/kbrand8.jpg": "/Ecommerce-dumy/static/media/kbrand8.512659e874442a763b3e.jpg",
     "static/media/kcat6.jpg": "/Ecommerce-dumy/static/media/kcat6.744f3443f061f478ec79.jpg",
     "static/media/brand4.png": "/Ecommerce-dumy/static/media/brand4.150d8bd81598fa0990c4.png",
+    "static/media/otp.png": "/Ecommerce-dumy/static/media/otp.5c8d921c85e149a4bec4.png",
     "static/media/brand3.png": "/Ecommerce-dumy/static/media/brand3.fe1a38aff1962286f79e.png",
     "static/media/kcat4.jpg": "/Ecommerce-dumy/static/media/kcat4.d37f1e3981abd12a6494.jpg",
     "static/media/brand1.png": "/Ecommerce-dumy/static/media/brand1.660fd961bc66548d9ed9.png",
     "static/media/brand2.png": "/Ecommerce-dumy/static/media/brand2.5a0d9e17b5c2166728ef.png",
     "index.html": "/Ecommerce-dumy/index.html",
-    "main.00a09a15.css.map": "/Ecommerce-dumy/static/css/main.00a09a15.css.map",
-    "main.d051508b.js.map": "/Ecommerce-dumy/static/js/main.d051508b.js.map",
+    "main.a0d12e35.css.map": "/Ecommerce-dumy/static/css/main.a0d12e35.css.map",
+    "main.7848d683.js.map": "/Ecommerce-dumy/static/js/main.7848d683.js.map",
     "787.0c1a86ef.chunk.js.map": "/Ecommerce-dumy/static/js/787.0c1a86ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00a09a15.css",
-    "static/js/main.d051508b.js"
+    "static/css/main.a0d12e35.css",
+    "static/js/main.7848d683.js"
   ]
 }
