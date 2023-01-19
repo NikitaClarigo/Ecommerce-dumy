@@ -12,9 +12,9 @@ import wintercat1 from '../../Assets/wintercat1.png';
 import wintercat2 from '../../Assets/wintercat2.png';
 import wintercat3 from '../../Assets/wintercat3.png';
 import winter1 from '../../Assets/winter1.jpg';
-import windian2 from '../../Assets/windian2.jpg';
-import windian3 from '../../Assets/windian3.jpg';
-import windian4 from '../../Assets/windian4.jpg';
+import winter2 from '../../Assets/winter2.jpg';
+import winter3 from '../../Assets/winter3.jpg';
+import winter4 from '../../Assets/winter4.jpg';
 
 export default function Winter() {
     return (
@@ -91,16 +91,16 @@ export default function Winter() {
                         <h5 className='text-center'>Pullover</h5>
                     </div>
                     <div className='col-md-3'>
-                        <img src={windian2} className="brand-product" alt="something" />
-                        <h5 className='text-center'>Long Kurta</h5>
+                        <img src={winter2} className="brand-product" alt="something" />
+                        <h5 className='text-center'>Jacket</h5>
                     </div>
                     <div className='col-md-3'>
-                        <img src={windian3} className="brand-product" alt="something" />
-                        <h5 className='text-center'>Saree</h5>
+                        <img src={winter3} className="brand-product" alt="something" />
+                        <h5 className='text-center'>Hoodie</h5>
                     </div>
                     <div className='col-md-3'>
-                        <img src={windian4} className="brand-product" alt="something" />
-                        <h5 className='text-center'>Partywear</h5>
+                        <img src={winter4} className="brand-product" alt="something" />
+                        <h5 className='text-center'>Muffler</h5>
                     </div>
                 </div>
             </div>

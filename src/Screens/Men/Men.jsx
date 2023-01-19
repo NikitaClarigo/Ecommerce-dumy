@@ -21,6 +21,7 @@ import indian1 from '../../Assets/indian1.jpg';
 import indian2 from '../../Assets/indian2.jpg';
 import indian3 from '../../Assets/indian3.jpg';
 import indian4 from '../../Assets/indian4.jpg';
+import { Link } from 'react-router-dom';
 
 
 export default function Men() {
@@ -61,7 +62,7 @@ export default function Men() {
                 <img src={mcat1} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Shirt's</h2>
-                  <span className="best"><a href="#">Best New Deals</a></span>
+                  <span className="best"><Link to={"/Shirt"}>Best New Deals</Link></span>
                 </div>
               </div>
             </div>

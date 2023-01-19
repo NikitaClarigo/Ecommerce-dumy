@@ -40,7 +40,7 @@ export default function Main() {
                                 <img src={cat1} alt="something" />
                                 <div className="category-caption">
                                     <h2>Women`s</h2>
-                                    <span className="best"><a href="#">Best New Deals</a></span>
+                                    <span className="best"><Link to={"/Women"}>Best New Deals</Link></span>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ export default function Main() {
                                 <img src={cat2} alt="something" />
                                 <div className="category-caption">
                                     <h2>Winter Cloth</h2>
-                                    <span className="best"><a href="#">Best New Deals</a></span>
+                                    <span className="best"><Link to={"/Winter"}>Best New Deals</Link></span>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ export default function Main() {
                                 <img src={cat3} alt="something" />
                                 <div className="category-caption">
                                     <h2>Men'S Cloth</h2>
-                                    <span className="best"><a href="#">Best New Deals</a></span>
+                                    <span className="best"><Link to={"/Men"}>Best New Deals</Link></span>
                                 </div>
                             </div>
                         </div>

@@ -44,3 +44,35 @@
     display: flex;
     margin: 0 auto;
 }
+.Shirt-section{
+    margin-top: 30px;
+    margin-left: 10px !important;
+}
+.Shirt-section label {
+    margin-right: 10px;
+}
+.Shirt-section .select{
+    float: right;
+    margin-right: 10px !important;
+}
+.Shirt-section hr{
+    margin-top: 10px;
+}
+.filter-section{
+    margin-top: 20px !important;
+    border-top: 1px solid lightgrey;
+}
+.filter-left{
+    border-right: 1px solid lightgrey;
+}
+.filter-left p{
+    padding-top: 20px;
+    font-size: 13px;
+}
+.filter-left  input[type="checkbox"] {
+    margin-right: 10px;
+}
+.filter-left .checkbox-label{
+    font-size: 14px;
+    color: rgb(116, 114, 114);
+}

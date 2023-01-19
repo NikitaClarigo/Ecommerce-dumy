@@ -17,6 +17,7 @@ import CheckoutAddress1 from './Screens/Checkoutmain/CheckoutAddress1';
 import Productdetail from './Screens/Productdetail/Productdetail';
 import OTP from './Screens/Login/OTP';
 import Winter from './Screens/Winter/Winter';
+import Shirt from './Screens/Men/Shirt';
 
 
 export default function App() {
@@ -35,6 +36,7 @@ export default function App() {
             <Route path='CheckoutAddress' element={<CheckoutAddress />} />
             <Route path='CheckoutAddress1' element={<CheckoutAddress1 />} />
             <Route path='Men' element={<Men />} />
+            <Route path='Shirt' element={<Shirt />} />
             <Route path='Women' element={<Women />} />
             <Route path='Kids' element={<Kids />} />
             <Route path='HomeandLiving' element={<HomeandLiving />} />
