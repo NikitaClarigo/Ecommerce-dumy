@@ -18,6 +18,12 @@ import Productdetail from './Screens/Productdetail/Productdetail';
 import OTP from './Screens/Login/OTP';
 import Winter from './Screens/Winter/Winter';
 import Shirt from './Screens/Men/Shirt';
+import Tshirt from './Screens/Men/Tshirt';
+import Shoes from './Screens/Men/Shoes';
+import Blackkurta from './Screens/Men/Blackkurta';
+import Shortkurta from './Screens/Men/Shortkurta';
+import Ethinic from './Screens/Men/Ethinic';
+
 
 
 export default function App() {
@@ -37,6 +43,11 @@ export default function App() {
             <Route path='CheckoutAddress1' element={<CheckoutAddress1 />} />
             <Route path='Men' element={<Men />} />
             <Route path='Shirt' element={<Shirt />} />
+            <Route path='Tshirt' element={<Tshirt />} />
+            <Route path='Shoes' element={<Shoes />} />
+            <Route path='Blackkurta' element={<Blackkurta />} />
+            <Route path='Shortkurta' element={<Shortkurta />} />
+            <Route path='Ethinic' element={<Ethinic />} />
             <Route path='Women' element={<Women />} />
             <Route path='Kids' element={<Kids />} />
             <Route path='HomeandLiving' element={<HomeandLiving />} />

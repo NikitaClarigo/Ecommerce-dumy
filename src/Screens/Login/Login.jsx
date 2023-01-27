@@ -73,7 +73,7 @@ export default function Login() {
              
               {!(loginName.length < 10||loginName.length>10) ?<Link to={"/OTP"}>
                 <button type="button">Continue</button>
-                </Link>:<button type="button">Continue</button>}
+                </Link>:<button type="button" onClick={() => alert('please enter valid Mobile No.')}>Continue</button>}
               <p className='login-terms text-center'>Have trouble logging in? Get help </p>
             </form>
           </div>

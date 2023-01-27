@@ -6,15 +6,15 @@ import color4 from '../../Assets/color4.png';
 import color5 from '../../Assets/color5.png';
 import color6 from '../../Assets/color6.png';
 import color7 from '../../Assets/color7.png';
-import mensshirt1 from '../../Assets/mens-shirt1.png';
+import mensblackkurta from '../../Assets/mens-blackkurta.png';
 import { AiOutlineHeart } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 
-export default function Shirt() {
+export default function Blackkurta() {
     return (
         <div className='container-fluid Shirt-section'>
-            <p><Link to={"/Dashboard"}>Home</Link> / <Link to={"/Men"}>Men</Link> / <b>Shirts</b></p>
-            <p><b>Casual shirts For Men</b> - 200 Items</p>
+            <p><Link to={"/Dashboard"}>Home</Link> / <Link to={"/Men"}>Men</Link> / <b>All Black Indian Wear</b></p>
+            <p><b>Men's Black Kurtas</b> - 200 Items</p>
             <div className='row'>
                 <div className='col-md-2 mt-4'>
                     <h6><b>FILTERS</b></h6>
@@ -35,24 +35,33 @@ export default function Shirt() {
                 </div>
                 <div className='filter-section row'>
                     <div className='col-md-2 filter-left'>
+                        <p><b>CATEGORIES</b></p>
+                        <form>
+                            <input type="checkbox" />
+                            <label className='checkbox-label'>Kurta Sets</label><br />
+                            <input type="checkbox" />
+                            <label className='checkbox-label'>Kurtas</label><br />
+                            <input type="checkbox" />
+                            <label className='checkbox-label'>Dhotis</label><br />
+                        </form>
                         <p><b>BRAND</b></p>
                         <form>
                             <input type="checkbox" />
-                            <label className='checkbox-label'>Allen Solly</label><br />
+                            <label className='checkbox-label'>DEYANN</label><br />
                             <input type="checkbox" />
-                            <label className='checkbox-label'>Roadster</label><br />
+                            <label className='checkbox-label'>SOJANYA</label><br />
                             <input type="checkbox" />
-                            <label className='checkbox-label'>HIGHLANDER</label><br />
+                            <label className='checkbox-label'>KISAH</label><br />
                             <input type="checkbox" />
-                            <label className='checkbox-label'>Louis Philippe Sport</label><br />
+                            <label className='checkbox-label'>Jompers</label><br />
                             <input type="checkbox" />
-                            <label className='checkbox-label'>Flying Machine</label><br />
+                            <label className='checkbox-label'>VASTRAMAY</label><br />
                             <input type="checkbox" />
-                            <label className='checkbox-label'>U.S. Polo Assn.</label><br />
+                            <label className='checkbox-label'>Hangup</label><br />
                             <input type="checkbox" />
-                            <label className='checkbox-label'>Peter England Casuals</label><br />
+                            <label className='checkbox-label'>See Designs</label><br />
                             <input type="checkbox" />
-                            <label className='checkbox-label'>Parx</label><br />
+                            <label className='checkbox-label'>Anouk</label><br />
                         </form>
                         <p><b>PRICE</b></p>
                         <form>
@@ -100,11 +109,11 @@ export default function Shirt() {
                             <label className='checkbox-label'>70% and above</label><br />
                         </form>
                     </div>
-                    <div className='col-md-10 filter-right'>
+                    <div className='col-md-10 tshirt-filter-right'>
                         <div className='row'>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -113,7 +122,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -122,7 +131,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -131,7 +140,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -140,7 +149,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -149,7 +158,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -158,7 +167,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -167,7 +176,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -176,7 +185,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -185,7 +194,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -194,7 +203,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -203,7 +212,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -212,7 +221,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -221,7 +230,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -230,7 +239,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -239,7 +248,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>
@@ -248,7 +257,7 @@ export default function Shirt() {
                             </div>
                             <div className='col-md-3 product-cat-col'>
                                 <Link to={"/productdetail"}>
-                                    <img src={mensshirt1} alt="something" width={"100%"} />
+                                    <img src={mensblackkurta} alt="something" width={"100%"} />
                                     <Link to={"/Wishlist"}><AiOutlineHeart className='wishlist-icon' /></Link>
                                     <h6><b>Hancock</b></h6>
                                     <p>Slim Fit Formal Shirt</p>

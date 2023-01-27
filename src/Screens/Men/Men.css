@@ -76,3 +76,53 @@
     font-size: 14px;
     color: rgb(116, 114, 114);
 }
+.colorball{
+    margin-top: -4px;
+    margin-right: 10px;
+}
+.filter-section .filter-left input[type="radio"] {
+    transform: scale(1.0);
+    float: left;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.filter-right {
+    padding: 20px 40px !important;
+    overflow: scroll;
+    height: 846px;
+    overflow-x: hidden;
+}
+.filter-right::-webkit-scrollbar {
+    display: none;
+}
+.product-cat-col {
+    position: relative;
+    margin-top: 30px !important;
+}
+.product-cat-col .wishlist-icon{
+    position: absolute;
+    font-size: 24px;
+    right: 20px;
+    top: 9px;
+    color: #ef6131;
+}
+.filter-right .product-cat-col h6{
+    margin-top: 20px;
+}
+.product-cat-col p {
+    font-size: 16px !important;
+    color: gray;
+}
+.product-cat-col h5 {
+    font-size: 15px;
+    margin-top: -5px !important;
+}
+.tshirt-filter-right{
+    padding: 20px 40px !important;
+    overflow: scroll;
+    height: 947px;
+    overflow-x: hidden;
+}
+.tshirt-filter-right::-webkit-scrollbar {
+    display: none;
+}
