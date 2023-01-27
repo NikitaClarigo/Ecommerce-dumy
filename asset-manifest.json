@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ecommerce-dumy/static/css/main.f6b36b73.css",
-    "main.js": "/Ecommerce-dumy/static/js/main.e4397c18.js",
+    "main.css": "/Ecommerce-dumy/static/css/main.b9c35a3f.css",
+    "main.js": "/Ecommerce-dumy/static/js/main.9c4f449f.js",
     "static/js/787.0c1a86ef.chunk.js": "/Ecommerce-dumy/static/js/787.0c1a86ef.chunk.js",
     "static/media/men-banner.png": "/Ecommerce-dumy/static/media/men-banner.4589e9bc02b5d5ceabb6.png",
     "static/media/beauty-banner.png": "/Ecommerce-dumy/static/media/beauty-banner.07241a20c4de07d82b1a.png",
@@ -59,6 +59,7 @@
     "static/media/beautycat4.jpg": "/Ecommerce-dumy/static/media/beautycat4.2ded60bfeececd6f3ea0.jpg",
     "static/media/mcat2.jpg": "/Ecommerce-dumy/static/media/mcat2.213dfc48925ade9d06fd.jpg",
     "static/media/mcat1.jpg": "/Ecommerce-dumy/static/media/mcat1.8ecda2d0ca061e334859.jpg",
+    "static/media/mens-tshirt1.png": "/Ecommerce-dumy/static/media/mens-tshirt1.b431c06ec1e12096e083.png",
     "static/media/ap-store.png": "/Ecommerce-dumy/static/media/ap-store.22d8049708b6022f98aa.png",
     "static/media/winter2.jpg": "/Ecommerce-dumy/static/media/winter2.ae7d4e5211480f27d51b.jpg",
     "static/media/beautycat3.jpg": "/Ecommerce-dumy/static/media/beautycat3.e24bec0587af420d91e1.jpg",
@@ -71,13 +72,16 @@
     "static/media/kcat2.jpg": "/Ecommerce-dumy/static/media/kcat2.1eda5aaac6d0b6ec03a9.jpg",
     "static/media/indian4.jpg": "/Ecommerce-dumy/static/media/indian4.caea7e6cab59476aafcd.jpg",
     "static/media/united.jpg": "/Ecommerce-dumy/static/media/united.0b65b879ed27c041734c.jpg",
+    "static/media/mens-shirt1.png": "/Ecommerce-dumy/static/media/mens-shirt1.b7b6e659319485ef36cf.png",
     "static/media/tomy.jpg": "/Ecommerce-dumy/static/media/tomy.c92afcfe621c6e2dc94d.jpg",
+    "static/media/mens-shortkurta.png": "/Ecommerce-dumy/static/media/mens-shortkurta.a1700c93137f3aa1da21.png",
     "static/media/kcat5.jpg": "/Ecommerce-dumy/static/media/kcat5.b49d983d8142923fa2fe.jpg",
     "static/media/winterbrand1.jpg": "/Ecommerce-dumy/static/media/winterbrand1.51b2847f9fc91e3f620f.jpg",
     "static/media/kcat7.jpg": "/Ecommerce-dumy/static/media/kcat7.ce22655ad39c0dff801d.jpg",
     "static/media/kbrand11.jpg": "/Ecommerce-dumy/static/media/kbrand11.1a91be97a6f3c4bf40da.jpg",
     "static/media/kbrand4.jpg": "/Ecommerce-dumy/static/media/kbrand4.ce4c8cbc7adc4faa3733.jpg",
     "static/media/kcat3.jpg": "/Ecommerce-dumy/static/media/kcat3.c0a3618306ff34eb8c96.jpg",
+    "static/media/mens-ethinic.png": "/Ecommerce-dumy/static/media/mens-ethinic.8a625a5a0d7ccd2b346f.png",
     "static/media/kbrand10.jpg": "/Ecommerce-dumy/static/media/kbrand10.a2ee5ba3b2c9ab7c10b2.jpg",
     "static/media/homecat6.jpg": "/Ecommerce-dumy/static/media/homecat6.c50609a0a2a5ffaf06b2.jpg",
     "static/media/homecat3.jpg": "/Ecommerce-dumy/static/media/homecat3.6a4922ecfad3c8483628.jpg",
@@ -90,21 +94,23 @@
     "static/media/kbrand8.jpg": "/Ecommerce-dumy/static/media/kbrand8.512659e874442a763b3e.jpg",
     "static/media/winter4.jpg": "/Ecommerce-dumy/static/media/winter4.62a4ec707ffc060e7d8c.jpg",
     "static/media/kcat6.jpg": "/Ecommerce-dumy/static/media/kcat6.744f3443f061f478ec79.jpg",
+    "static/media/mens-blackkurta.png": "/Ecommerce-dumy/static/media/mens-blackkurta.109dccb99290947991a8.png",
     "static/media/brand4.png": "/Ecommerce-dumy/static/media/brand4.150d8bd81598fa0990c4.png",
     "static/media/kbrand12.png": "/Ecommerce-dumy/static/media/kbrand12.3c226a003c03601b71c1.png",
     "static/media/otp.png": "/Ecommerce-dumy/static/media/otp.5c8d921c85e149a4bec4.png",
+    "static/media/mens-shoes1.png": "/Ecommerce-dumy/static/media/mens-shoes1.24293b3ef066e7f238fd.png",
     "static/media/brand3.png": "/Ecommerce-dumy/static/media/brand3.fe1a38aff1962286f79e.png",
     "static/media/kcat4.jpg": "/Ecommerce-dumy/static/media/kcat4.d37f1e3981abd12a6494.jpg",
     "static/media/brand1.png": "/Ecommerce-dumy/static/media/brand1.660fd961bc66548d9ed9.png",
     "static/media/winterbrand2.png": "/Ecommerce-dumy/static/media/winterbrand2.7386ce613657b89072f6.png",
     "static/media/brand2.png": "/Ecommerce-dumy/static/media/brand2.5a0d9e17b5c2166728ef.png",
     "index.html": "/Ecommerce-dumy/index.html",
-    "main.f6b36b73.css.map": "/Ecommerce-dumy/static/css/main.f6b36b73.css.map",
-    "main.e4397c18.js.map": "/Ecommerce-dumy/static/js/main.e4397c18.js.map",
+    "main.b9c35a3f.css.map": "/Ecommerce-dumy/static/css/main.b9c35a3f.css.map",
+    "main.9c4f449f.js.map": "/Ecommerce-dumy/static/js/main.9c4f449f.js.map",
     "787.0c1a86ef.chunk.js.map": "/Ecommerce-dumy/static/js/787.0c1a86ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6b36b73.css",
-    "static/js/main.e4397c18.js"
+    "static/css/main.b9c35a3f.css",
+    "static/js/main.9c4f449f.js"
   ]
 }
