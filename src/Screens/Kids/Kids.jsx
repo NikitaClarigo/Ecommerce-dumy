@@ -32,6 +32,7 @@ import exploreimg1 from '../../Assets/explore-img1.jpg';
 import exploreimg2 from '../../Assets/explore-img2.jpg';
 import exploreimg3 from '../../Assets/explore-img3.jpg';
 import exploreimg4 from '../../Assets/explore-img4.jpg';
+import { Link } from 'react-router-dom';
 
 export default function Kids() {
   return (
@@ -41,40 +42,64 @@ export default function Kids() {
         <h2 className='inner-heading'>Favourite brands</h2>
         <div className='row'>
           <div className='col-md-2'>
-            <img src={kbrand1} className="kbrand" alt="something" />
+            <Link to={"/Shirt"}>
+              <img src={kbrand1} className="kbrand" alt="something" />
+            </Link>
           </div>
           <div className='col-md-2'>
-            <img src={kbrand2} className="kbrand" alt="something" />
+            <Link to={"/Shirt"}>
+              <img src={kbrand2} className="kbrand" alt="something" />
+            </Link>
           </div>
           <div className='col-md-2'>
-            <img src={kbrand3} className="kbrand" alt="something" />
+            <Link to={"/Shirt"}>
+              <img src={kbrand3} className="kbrand" alt="something" />
+            </Link>
           </div>
           <div className='col-md-2'>
-            <img src={kbrand4} className="kbrand" alt="something" />
+            <Link to={"/Shirt"}>
+              <img src={kbrand4} className="kbrand" alt="something" />
+            </Link>
           </div>
           <div className='col-md-2'>
-            <img src={kbrand5} className="kbrand" alt="something" />
+            <Link to={"/Shirt"}>
+              <img src={kbrand5} className="kbrand" alt="something" />
+            </Link>
           </div>
           <div className='col-md-2'>
-            <img src={kbrand6} className="kbrand" alt="something" />
+            <Link to={"/Shirt"}>
+              <img src={kbrand6} className="kbrand" alt="something" />
+            </Link>
           </div>
           <div className='col-md-2'>
-            <img src={kbrand7} className="kbrand" alt="something" />
+            <Link to={"/Shirt"}>
+              <img src={kbrand7} className="kbrand" alt="something" />
+            </Link>
           </div>
           <div className='col-md-2'>
-            <img src={kbrand8} className="kbrand" alt="something" />
+            <Link to={"/Shirt"}>
+              <img src={kbrand8} className="kbrand" alt="something" />
+            </Link>
           </div>
           <div className='col-md-2'>
-            <img src={kbrand9} className="kbrand" alt="something" />
+            <Link to={"/Shirt"}>
+              <img src={kbrand9} className="kbrand" alt="something" />
+            </Link>
           </div>
           <div className='col-md-2'>
-            <img src={kbrand10} className="kbrand" alt="something" />
+            <Link to={"/Shirt"}>
+              <img src={kbrand10} className="kbrand" alt="something" />
+            </Link>
           </div>
           <div className='col-md-2'>
-            <img src={kbrand11} className="kbrand" alt="something" />
+            <Link to={"/Shirt"}>
+              <img src={kbrand11} className="kbrand" alt="something" />
+            </Link>
           </div>
           <div className='col-md-2'>
-            <img src={kbrand12} className="kbrand" alt="something" />
+            <Link to={"/Shirt"}>
+              <img src={kbrand12} className="kbrand" alt="something" />
+            </Link>
           </div>
         </div>
       </div>
@@ -82,36 +107,52 @@ export default function Kids() {
         <h2 className='inner-heading'>Categories to bag</h2>
         <div className='row card-content'>
           <div className='col-md-3'>
-            <img src={kcat1} className="brand-product" alt="something" />
-            <h5 className='text-center'>+ Dresses</h5>
+            <Link to={"/Shirt"}>
+              <img src={kcat1} className="brand-product" alt="something" />
+              <h5 className='text-center'>+ Dresses</h5>
+            </Link>
           </div>
           <div className='col-md-3'>
-            <img src={kcat2} className="brand-product" alt="something" />
-            <h5 className='text-center'>+ Babycare</h5>
+            <Link to={"/Shirt"}>
+              <img src={kcat2} className="brand-product" alt="something" />
+              <h5 className='text-center'>+ Babycare</h5>
+            </Link>
           </div>
           <div className='col-md-3'>
-            <img src={kcat3} className="brand-product" alt="something" />
-            <h5 className='text-center'>+ Shorts </h5>
+            <Link to={"/Shirt"}>
+              <img src={kcat3} className="brand-product" alt="something" />
+              <h5 className='text-center'>+ Shorts </h5>
+            </Link>
           </div>
           <div className='col-md-3'>
-            <img src={kcat4} className="brand-product" alt="something" />
-            <h5 className='text-center'>+ Value Packs & Sets</h5>
+            <Link to={"/Shirt"}>
+              <img src={kcat4} className="brand-product" alt="something" />
+              <h5 className='text-center'>+ Value Packs & Sets</h5>
+            </Link>
           </div>
           <div className='col-md-3'>
-            <img src={kcat5} className="brand-product" alt="something" />
-            <h5 className='text-center'>+ Sleepwear & Innerwear</h5>
+            <Link to={"/Shirt"}>
+              <img src={kcat5} className="brand-product" alt="something" />
+              <h5 className='text-center'>+ Sleepwear & Innerwear</h5>
+            </Link>
           </div>
           <div className='col-md-3'>
-            <img src={kcat6} className="brand-product" alt="something" />
-            <h5 className='text-center'>+ Onesies</h5>
+            <Link to={"/Shirt"}>
+              <img src={kcat6} className="brand-product" alt="something" />
+              <h5 className='text-center'>+ Onesies</h5>
+            </Link>
           </div>
           <div className='col-md-3'>
-            <img src={kcat7} className="brand-product" alt="something" />
-            <h5 className='text-center'>+ Flip-Flops & Sandals</h5>
+            <Link to={"/Shirt"}>
+              <img src={kcat7} className="brand-product" alt="something" />
+              <h5 className='text-center'>+ Flip-Flops & Sandals</h5>
+            </Link>
           </div>
           <div className='col-md-3'>
-            <img src={kcat8} className="brand-product" alt="something" />
-            <h5 className='text-center'>+ T-Shirts & Tops</h5>
+            <Link to={"/Shirt"}>
+              <img src={kcat8} className="brand-product" alt="something" />
+              <h5 className='text-center'>+ T-Shirts & Tops</h5>
+            </Link>
           </div>
         </div>
       </div>
@@ -120,24 +161,32 @@ export default function Kids() {
         <div className='row'>
           <div className='col-md-6 row'>
             <div className='col-md-6'>
-              <img src={exploreimg1} className="explore-img-big" alt="something" />
+              <Link to={"/Productdetail"}>
+                <img src={exploreimg1} className="explore-img-big" alt="something" />
+              </Link>
             </div>
             <div className='col-md-6'>
-              <h1 className='explore-content'>1</h1><span className='explore-head'>Logo Mania</span>
-              <h5 className='lh-lg'>A li'l brand love for the li'l ones</h5>
-              <a>+ Explore</a><br />
-              <img src={exploreimg2} className="explore-img-big" alt="something" />
+              <Link to={"/Productdetail"}>
+                <h1 className='explore-content'>1</h1><span className='explore-head'>Logo Mania</span>
+                <h5 className='lh-lg'>A li'l brand love for the li'l ones</h5>
+                <a>+ Explore</a><br />
+                <img src={exploreimg2} className="explore-img-big" alt="something" />
+              </Link>
             </div>
           </div>
           <div className='col-md-6 row'>
             <div className='col-md-6'>
-              <h1 className='explore-content float-end'>2</h1><span className='explore-head lh-sm'>Character Store</span>
-              <h5>Let them wear their favourites</h5>
-              <a>+ Explore</a><br />
-              <img src={exploreimg4} className="explore-img-big" alt="something" />
+              <Link to={"/Productdetail"}>
+                <h1 className='explore-content float-end'>2</h1><span className='explore-head lh-sm'>Character Store</span>
+                <h5>Let them wear their favourites</h5>
+                <a>+ Explore</a><br />
+                <img src={exploreimg4} className="explore-img-big" alt="something" />
+              </Link>
             </div>
             <div className='col-md-6'>
-              <img src={exploreimg3} className="explore-img-big" alt="something" />
+              <Link to={"/Productdetail"}>
+                <img src={exploreimg3} className="explore-img-big" alt="something" />
+              </Link>
             </div>
           </div>
         </div>

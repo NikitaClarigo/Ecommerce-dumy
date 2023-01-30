@@ -28,7 +28,7 @@ export default function Main() {
                 <p>60% Discount</p>
                 <h1>Winter <br />Collection</h1>
                 <Link to={"/Winter"}>
-                <button>Shop Now</button>
+                    <button>Shop Now</button>
                 </Link>
             </div>
             <div className='main-page'>
@@ -92,49 +92,71 @@ export default function Main() {
                                 </Link>
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p5} className='product-img' alt="something" />
+                                <Link to={"/Productdetail"}>
+                                    <img src={p5} className='product-img' alt="something" />
+                                </Link>
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p3} className='product-img' alt="something" />
+                                <Link to={"/Productdetail"}>
+                                    <img src={p3} className='product-img' alt="something" />
+                                </Link>
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p2} className='product-img' alt="something" />
+                                <Link to={"/Productdetail"}>
+                                    <img src={p2} className='product-img' alt="something" />
+                                </Link>
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p4} className='product-img' alt="something" />
+                                <Link to={"/Productdetail"}>
+                                    <img src={p4} className='product-img' alt="something" />
+                                </Link>
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p6} className='product-img' alt="something" />
+                                <Link to={"/Productdetail"}>
+                                    <img src={p6} className='product-img' alt="something" />
+                                </Link>
                             </div>
                         </div>
                     </TabPanel>
                     <TabPanel eventKey="second">
                         <div className='tab-content row'>
                             <div className='col-md-4 product-col'>
-                                <img src={p6} className='product-img' alt="something" />
+                                <Link to={"/Productdetail"}>
+                                    <img src={p6} className='product-img' alt="something" />
+                                </Link>
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p3} className='product-img' alt="something" />
+                                <Link to={"/Productdetail"}>
+                                    <img src={p3} className='product-img' alt="something" />
+                                </Link>
                             </div>
                         </div>
                     </TabPanel>
                     <TabPanel eventKey="third">
                         <div className='tab-content row'>
                             <div className='col-md-4 product-col'>
-                                <img src={p4} className='product-img' alt="something" />
+                                <Link to={"/Productdetail"}>
+                                    <img src={p4} className='product-img' alt="something" />
+                                </Link>
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p5} className='product-img' alt="something" />
+                                <Link to={"/Productdetail"}>
+                                    <img src={p5} className='product-img' alt="something" />
+                                </Link>
                             </div>
                         </div>
                     </TabPanel>
                     <TabPanel eventKey="fourth">
                         <div className='tab-content row'>
                             <div className='col-md-4 product-col'>
-                                <img src={p2} className='product-img' alt="something" />
+                                <Link to={"/Productdetail"}>
+                                    <img src={p2} className='product-img' alt="something" />
+                                </Link>
                             </div>
                             <div className='col-md-4 product-col'>
-                                <img src={p1} className='product-img' alt="something" />
+                                <Link to={"/Productdetail"}>
+                                    <img src={p1} className='product-img' alt="something" />
+                                </Link>
                             </div>
                         </div>
                     </TabPanel>

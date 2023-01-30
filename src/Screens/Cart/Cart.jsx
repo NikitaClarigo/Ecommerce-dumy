@@ -5,7 +5,6 @@
 
 import React from 'react';
 import './Cart.css';
-import indian1 from '../../Assets/indian1.jpg';
 import windian2 from '../../Assets/windian2.jpg';
 import indian3 from '../../Assets/indian3.jpg';
 import indian4 from '../../Assets/indian4.jpg';

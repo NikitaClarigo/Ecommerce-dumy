@@ -72,10 +72,10 @@ export default function Header() {
                             </Dropdown.Item>
                             <hr />
                             <Dropdown.Item href="#">
-                                <p>Orders</p>
+                            <Link to="Order"><p>Orders</p></Link>
                             </Dropdown.Item>
                             <Dropdown.Item href="#">
-                                <p>Wishlist</p>
+                            <Link to="Wishlist"><p>Wishlist</p></Link>
                             </Dropdown.Item>
                             <Dropdown.Item href="#">
                                 <p>Gift Cards</p>

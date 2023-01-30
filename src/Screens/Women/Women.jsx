@@ -20,6 +20,7 @@ import windian1 from '../../Assets/windian1.jpg';
 import windian2 from '../../Assets/windian2.jpg';
 import windian3 from '../../Assets/windian3.jpg';
 import windian4 from '../../Assets/windian4.jpg';
+import { Link } from 'react-router-dom';
 
 export default function Women() {
   return (
@@ -29,37 +30,45 @@ export default function Women() {
         <h2 className='inner-heading'>Biggest deal on top brands</h2>
         <div className='row'>
           <div className='col-md-3'>
-            <img src={womenbrandproduct1} className="brand-product" alt="something" />
-            <img src={womenbrand1} className="brand" alt="something" />
-            <h2 className='text-center'>30-60% Off</h2>
+            <Link to={"/Shirt"}>
+              <img src={womenbrandproduct1} className="brand-product" alt="something" />
+              <img src={womenbrand1} className="brand" alt="something" />
+              <h2 className='text-center'>30-60% Off</h2>
+            </Link>
           </div>
           <div className='col-md-3'>
-            <img src={womenbrandproduct2} className="brand-product" alt="something" />
-            <img src={womenbrand4} className="brand" alt="something" />
-            <h2 className='text-center'>30-60% Off</h2>
+            <Link to={"/Shirt"}>
+              <img src={womenbrandproduct2} className="brand-product" alt="something" />
+              <img src={womenbrand4} className="brand" alt="something" />
+              <h2 className='text-center'>30-60% Off</h2>
+            </Link>
           </div>
           <div className='col-md-3'>
-            <img src={womenbrandproduct3} className="brand-product" alt="something" />
-            <img src={womenbrand2} className="brand" alt="something" />
-            <h2 className='text-center'>30-60% Off</h2>
+            <Link to={"/Shirt"}>
+              <img src={womenbrandproduct3} className="brand-product" alt="something" />
+              <img src={womenbrand2} className="brand" alt="something" />
+              <h2 className='text-center'>30-60% Off</h2>
+            </Link>
           </div>
           <div className='col-md-3'>
-            <img src={womenbrandproduct4} className="brand-product" alt="something" />
-            <img src={womenbrand3} className="brand" alt="something" />
-            <h2 className='text-center'>30-60% Off</h2>
+            <Link to={"/Shirt"}>
+              <img src={womenbrandproduct4} className="brand-product" alt="something" />
+              <img src={womenbrand3} className="brand" alt="something" />
+              <h2 className='text-center'>30-60% Off</h2>
+            </Link>
           </div>
         </div>
       </div>
       <div className='section'>
         <h2 className='inner-heading'>Categories to bag</h2>
-        <div className='row category-area' style={{ padding: "0px", margin:"0px" }}>
+        <div className='row category-area' style={{ padding: "0px", margin: "0px" }}>
           <div className='col-md-4'>
             <div class="single-category mb-30">
               <div class="category-img">
                 <img src={wcat1} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center text-white'>Western</h2>
-                  <span className="best"><a href="#">Best New Deals</a></span>
+                  <span className="best"><Link to={"/Shirt"}>Best New Deals</Link></span>
                 </div>
               </div>
             </div>
@@ -70,7 +79,7 @@ export default function Women() {
                 <img src={wcat2} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Indian</h2>
-                  <span className="best"><a href="#">Best New Deals</a></span>
+                  <span className="best"><Link to={"/Shirt"}>Best New Deals</Link></span>
                 </div>
               </div>
             </div>
@@ -81,7 +90,7 @@ export default function Women() {
                 <img src={wcat3} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Accessories</h2>
-                  <span className="best"><a href="#">Best New Deals</a></span>
+                  <span className="best"><Link to={"/Shirt"}>Best New Deals</Link></span>
                 </div>
               </div>
             </div>
@@ -92,20 +101,28 @@ export default function Women() {
         <h2 className='inner-heading'>Trending in indian wear</h2>
         <div className='row card-content'>
           <div className='col-md-3'>
-            <img src={windian1} className="brand-product" alt="something"  />
-            <h5 className='text-center'>Anarkali</h5>
+            <Link to={"/Shirt"}>
+              <img src={windian1} className="brand-product" alt="something" />
+              <h5 className='text-center'>Anarkali</h5>
+            </Link>
           </div>
           <div className='col-md-3'>
-            <img src={windian2} className="brand-product" alt="something" />
-            <h5 className='text-center'>Long Kurta</h5>
+            <Link to={"/Shirt"}>
+              <img src={windian2} className="brand-product" alt="something" />
+              <h5 className='text-center'>Long Kurta</h5>
+            </Link>
           </div>
           <div className='col-md-3'>
-            <img src={windian3} className="brand-product" alt="something" />
-            <h5 className='text-center'>Saree</h5>
+            <Link to={"/Shirt"}>
+              <img src={windian3} className="brand-product" alt="something" />
+              <h5 className='text-center'>Saree</h5>
+            </Link>
           </div>
           <div className='col-md-3'>
-            <img src={windian4} className="brand-product" alt="something" />
-            <h5 className='text-center'>Partywear</h5>
+            <Link to={"/Shirt"}>
+              <img src={windian4} className="brand-product" alt="something" />
+              <h5 className='text-center'>Partywear</h5>
+            </Link>
           </div>
         </div>
       </div>

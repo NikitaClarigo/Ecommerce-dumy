@@ -23,6 +23,7 @@ import Shoes from './Screens/Men/Shoes';
 import Blackkurta from './Screens/Men/Blackkurta';
 import Shortkurta from './Screens/Men/Shortkurta';
 import Ethinic from './Screens/Men/Ethinic';
+import Order from './Screens/Profile/Order';
 
 
 
@@ -53,6 +54,7 @@ export default function App() {
             <Route path='HomeandLiving' element={<HomeandLiving />} />
             <Route path='Beauty' element={<Beauty />} />
             <Route path='Wishlist' element={<Wishlist />} />
+            <Route path='Order' element={<Order />} />
             <Route path='Cart' element={<Cart />} />
           </Route>
         </Routes>

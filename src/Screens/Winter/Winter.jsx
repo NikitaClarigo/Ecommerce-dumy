@@ -15,6 +15,7 @@ import winter1 from '../../Assets/winter1.jpg';
 import winter2 from '../../Assets/winter2.jpg';
 import winter3 from '../../Assets/winter3.jpg';
 import winter4 from '../../Assets/winter4.jpg';
+import { Link } from 'react-router-dom';
 
 export default function Winter() {
     return (
@@ -24,24 +25,32 @@ export default function Winter() {
                 <h2 className='inner-heading'>Biggest deal on top brands</h2>
                 <div className='row'>
                     <div className='col-md-3'>
-                        <img src={winterbrandproduct1} className="brand-product" alt="something" />
-                        <img src={kbrand12} className="brand" alt="something"  width={"30%"} />
-                        <h2 className='text-center'>30-60% Off</h2>
+                        <Link to={"/shirt"}>
+                            <img src={winterbrandproduct1} className="brand-product" alt="something" />
+                            <img src={kbrand12} className="brand" alt="something" width={"30%"} />
+                            <h2 className='text-center'>30-60% Off</h2>
+                        </Link>
                     </div>
                     <div className='col-md-3'>
-                        <img src={winterbrandproduct2} className="brand-product" alt="something" />
-                        <img src={winterbrand2} className="brand" alt="something" width={"30%"} />
-                        <h2 className='text-center'>30-60% Off</h2>
+                        <Link to={"/shirt"}>
+                            <img src={winterbrandproduct2} className="brand-product" alt="something" />
+                            <img src={winterbrand2} className="brand" alt="something" width={"30%"} />
+                            <h2 className='text-center'>30-60% Off</h2>
+                        </Link>
                     </div>
                     <div className='col-md-3'>
-                        <img src={winterbrandproduct3} className="brand-product" alt="something" />
-                        <img src={winterbrand3} className="brand" alt="something" width={"30%"} />
-                        <h2 className='text-center'>30-60% Off</h2>
+                        <Link to={"/shirt"}>
+                            <img src={winterbrandproduct3} className="brand-product" alt="something" />
+                            <img src={winterbrand3} className="brand" alt="something" width={"30%"} />
+                            <h2 className='text-center'>30-60% Off</h2>
+                        </Link>
                     </div>
                     <div className='col-md-3'>
-                        <img src={winterbrandproduct4} className="brand-product" alt="something" />
-                        <img src={winterbrand4} className="brand" alt="something" width={"30%"} />
-                        <h2 className='text-center'>30-60% Off</h2>
+                        <Link to={"/shirt"}>
+                            <img src={winterbrandproduct4} className="brand-product" alt="something" />
+                            <img src={winterbrand4} className="brand" alt="something" width={"30%"} />
+                            <h2 className='text-center'>30-60% Off</h2>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -54,7 +63,7 @@ export default function Winter() {
                                 <img src={wintercat1} alt="something" />
                                 <div className="category-caption">
                                     <h2 className='text-center text-black'>Men's</h2>
-                                    <span className="best"><a href="#">Best New Deals</a></span>
+                                    <Link to={"/shirt"}><span className="best"><a href="#">Best New Deals</a></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +74,7 @@ export default function Winter() {
                                 <img src={wintercat2} alt="something" />
                                 <div className="category-caption">
                                     <h2 className='text-center'>Women's</h2>
-                                    <span className="best"><a href="#">Best New Deals</a></span>
+                                    <Link to={"/shirt"}><span className="best"><a href="#">Best New Deals</a></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +85,7 @@ export default function Winter() {
                                 <img src={wintercat3} alt="something" />
                                 <div className="category-caption">
                                     <h2 className='text-center'>Kid's</h2>
-                                    <span className="best"><a href="#">Best New Deals</a></span>
+                                    <Link to={"/shirt"}><span className="best"><a href="#">Best New Deals</a></span></Link>
                                 </div>
                             </div>
                         </div>
@@ -87,20 +96,28 @@ export default function Winter() {
                 <h2 className='inner-heading'>Trending in indian wear</h2>
                 <div className='row card-content'>
                     <div className='col-md-3'>
-                        <img src={winter1} className="brand-product" alt="something" />
-                        <h5 className='text-center'>Pullover</h5>
+                        <Link to={"/productdetail"}>
+                            <img src={winter1} className="brand-product" alt="something" />
+                            <h5 className='text-center'>Pullover</h5>
+                        </Link>
                     </div>
                     <div className='col-md-3'>
+                    <Link to={"/productdetail"}>
                         <img src={winter2} className="brand-product" alt="something" />
                         <h5 className='text-center'>Jacket</h5>
+                    </Link>
                     </div>
                     <div className='col-md-3'>
+                    <Link to={"/productdetail"}>
                         <img src={winter3} className="brand-product" alt="something" />
                         <h5 className='text-center'>Hoodie</h5>
+                    </Link>
                     </div>
                     <div className='col-md-3'>
+                    <Link to={"/productdetail"}>
                         <img src={winter4} className="brand-product" alt="something" />
                         <h5 className='text-center'>Muffler</h5>
+                    </Link>
                     </div>
                 </div>
             </div>
