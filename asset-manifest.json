@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/Ecommerce-dumy/static/css/main.b9c35a3f.css",
-    "main.js": "/Ecommerce-dumy/static/js/main.9c4f449f.js",
+    "main.css": "/Ecommerce-dumy/static/css/main.f33b6096.css",
+    "main.js": "/Ecommerce-dumy/static/js/main.bcdd4921.js",
     "static/js/787.0c1a86ef.chunk.js": "/Ecommerce-dumy/static/js/787.0c1a86ef.chunk.js",
     "static/media/men-banner.png": "/Ecommerce-dumy/static/media/men-banner.4589e9bc02b5d5ceabb6.png",
     "static/media/beauty-banner.png": "/Ecommerce-dumy/static/media/beauty-banner.07241a20c4de07d82b1a.png",
     "static/media/kids-banner.png": "/Ecommerce-dumy/static/media/kids-banner.cceba8fb1da1418b3cde.png",
     "static/media/home-banner.png": "/Ecommerce-dumy/static/media/home-banner.6582c54a79ff802b981c.png",
+    "static/media/profile.png": "/Ecommerce-dumy/static/media/profile.50413bde9c6c05ec7c2b.png",
     "static/media/women-banner.png": "/Ecommerce-dumy/static/media/women-banner.553c9a44b598ccba7729.png",
     "static/media/winterbrandproduct2.png": "/Ecommerce-dumy/static/media/winterbrandproduct2.35a644beecf57b2ba78d.png",
     "static/media/homecat1.jpg": "/Ecommerce-dumy/static/media/homecat1.0127cd8e3c63a97faf14.jpg",
@@ -105,12 +106,12 @@
     "static/media/winterbrand2.png": "/Ecommerce-dumy/static/media/winterbrand2.7386ce613657b89072f6.png",
     "static/media/brand2.png": "/Ecommerce-dumy/static/media/brand2.5a0d9e17b5c2166728ef.png",
     "index.html": "/Ecommerce-dumy/index.html",
-    "main.b9c35a3f.css.map": "/Ecommerce-dumy/static/css/main.b9c35a3f.css.map",
-    "main.9c4f449f.js.map": "/Ecommerce-dumy/static/js/main.9c4f449f.js.map",
+    "main.f33b6096.css.map": "/Ecommerce-dumy/static/css/main.f33b6096.css.map",
+    "main.bcdd4921.js.map": "/Ecommerce-dumy/static/js/main.bcdd4921.js.map",
     "787.0c1a86ef.chunk.js.map": "/Ecommerce-dumy/static/js/787.0c1a86ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9c35a3f.css",
-    "static/js/main.9c4f449f.js"
+    "static/css/main.f33b6096.css",
+    "static/js/main.bcdd4921.js"
   ]
 }
