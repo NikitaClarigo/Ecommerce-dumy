@@ -68,17 +68,18 @@ export default function Header() {
                                 <h6>To access account and manage orders</h6>
                             </Dropdown.Item>
                             <Dropdown.Item>
-                                <Link to="Login" className='text-centre login-button'>Login / signup</Link>
+                                <Link to="Login">
+                                    <button className='text-centre login-button'>Login / signup</button>
+                                </Link>
                             </Dropdown.Item>
                             <hr />
-                            <Dropdown.Item href="#">
-                            <Link to="Order"><p>Orders</p></Link>
+                            <Dropdown.Item>
+                                <Link to="Order">
+                                    <p>Profile</p>
+                                </Link>
                             </Dropdown.Item>
                             <Dropdown.Item href="#">
-                            <Link to="Wishlist"><p>Wishlist</p></Link>
-                            </Dropdown.Item>
-                            <Dropdown.Item href="#">
-                                <p>Gift Cards</p>
+                                <Link to="Wishlist"><p>Wishlist</p></Link>
                             </Dropdown.Item>
                             <Dropdown.Item href="#">
                                 <p>Contact Us</p>

@@ -83,7 +83,7 @@ input:focus {
 }
 .profile-dropdown p {
     font-size: 15px;
-    line-height: 6px;
+    margin-bottom: 0px;
 }
 .login-button {
     border: 2px solid #d24011 !important;

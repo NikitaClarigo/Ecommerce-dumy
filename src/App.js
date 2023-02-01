@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, Outlet } from 'react-router-dom';
+import { Route, Routes, Outlet} from 'react-router-dom';
 import './Screens/Home/home.css';
 import Main from './Screens/Main/Main';
 import Men from './Screens/Men/Men';
@@ -24,15 +24,16 @@ import Blackkurta from './Screens/Men/Blackkurta';
 import Shortkurta from './Screens/Men/Shortkurta';
 import Ethinic from './Screens/Men/Ethinic';
 import Order from './Screens/Profile/Order';
-
-
+import { useEffect } from "react";
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 
 export default function App() {
   return (
     <div>
-      {/* <Home /> */}
       <div className="main-body">
+      <ScrollToTop />
         <Routes>
+       
           <Route path='/Login' element={<Login />} />
           <Route path='/OTP' element={<OTP />} />
           <Route path='/' element={<Dashboard />} >

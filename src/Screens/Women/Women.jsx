@@ -63,8 +63,8 @@ export default function Women() {
         <h2 className='inner-heading'>Categories to bag</h2>
         <div className='row category-area' style={{ padding: "0px", margin: "0px" }}>
           <div className='col-md-4'>
-            <div class="single-category mb-30">
-              <div class="category-img">
+            <div className="single-category mb-30">
+              <div className="category-img">
                 <img src={wcat1} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center text-white'>Western</h2>
@@ -74,8 +74,8 @@ export default function Women() {
             </div>
           </div>
           <div className='col-md-4'>
-            <div class="single-category mb-30">
-              <div class="category-img">
+            <div className="single-category mb-30">
+              <div className="category-img">
                 <img src={wcat2} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Indian</h2>
@@ -85,8 +85,8 @@ export default function Women() {
             </div>
           </div>
           <div className='col-md-4'>
-            <div class="single-category mb-30">
-              <div class="category-img">
+            <div className="single-category mb-30">
+              <div className="category-img">
                 <img src={wcat3} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Accessories</h2>
