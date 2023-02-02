@@ -65,8 +65,8 @@ export default function Men() {
         <h2 className='inner-heading'>Categories to bag</h2>
         <div className='row category-area' style={{ padding: "0px", margin: "0px" }}>
           <div className='col-md-4'>
-            <div class="single-category mb-30">
-              <div class="category-img">
+            <div className="single-category mb-30">
+              <div className="category-img">
                 <img src={mcat1} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Shirt's</h2>
@@ -76,8 +76,8 @@ export default function Men() {
             </div>
           </div>
           <div className='col-md-4'>
-            <div class="single-category mb-30">
-              <div class="category-img">
+            <div className="single-category mb-30">
+              <div className="category-img">
                 <img src={mcat2} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>T-shirts's</h2>
@@ -87,8 +87,8 @@ export default function Men() {
             </div>
           </div>
           <div className='col-md-4'>
-            <div class="single-category mb-30">
-              <div class="category-img">
+            <div className="single-category mb-30">
+              <div className="category-img">
                 <img src={mcat3} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Shoe's</h2>

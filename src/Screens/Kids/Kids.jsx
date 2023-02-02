@@ -169,7 +169,7 @@ export default function Kids() {
               <Link to={"/Productdetail"}>
                 <h1 className='explore-content'>1</h1><span className='explore-head'>Logo Mania</span>
                 <h5 className='lh-lg'>A li'l brand love for the li'l ones</h5>
-                <a>+ Explore</a><br />
+                <p>+ Explore</p><br />
                 <img src={exploreimg2} className="explore-img-big" alt="something" />
               </Link>
             </div>
@@ -179,7 +179,7 @@ export default function Kids() {
               <Link to={"/Productdetail"}>
                 <h1 className='explore-content float-end'>2</h1><span className='explore-head lh-sm'>Character Store</span>
                 <h5>Let them wear their favourites</h5>
-                <a>+ Explore</a><br />
+                <p>+ Explore</p><br />
                 <img src={exploreimg4} className="explore-img-big" alt="something" />
               </Link>
             </div>

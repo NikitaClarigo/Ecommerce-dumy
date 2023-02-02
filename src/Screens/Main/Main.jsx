@@ -70,21 +70,21 @@ export default function Main() {
                 </div>
             </div>
             <div className='main-page row'>
-                <Tabs selectedTabClassName="select-tab" defaultActiveKey="first">
+                <Tabs selectedTabClassName="select-tab" defaultactivekey="first">
                     <TabList>
                         <div className='row'>
                             <div className='col-md-6'>
                                 <h2 className='heading mb-0'>Latest Products</h2>
                             </div>
                             <div className='col-md-6'>
-                                <Tab className="tab" eventKey="first">All</Tab>
-                                <Tab className="tab" eventKey="second">New</Tab>
-                                <Tab className="tab" eventKey="third">Featured</Tab>
-                                <Tab className="tab" eventKey="fourth">Offer</Tab>
+                                <Tab className="tab" eventkey="first">All</Tab>
+                                <Tab className="tab" eventkey="second">New</Tab>
+                                <Tab className="tab" eventkey="third">Featured</Tab>
+                                <Tab className="tab" eventkey="fourth">Offer</Tab>
                             </div>
                         </div>
                     </TabList>
-                    <TabPanel eventKey="first">
+                    <TabPanel eventkey="first">
                         <div className='tab-content row'>
                             <div className='col-md-4 product-col'>
                                 <Link to={"/Productdetail"}>
@@ -118,7 +118,7 @@ export default function Main() {
                             </div>
                         </div>
                     </TabPanel>
-                    <TabPanel eventKey="second">
+                    <TabPanel eventkey="second">
                         <div className='tab-content row'>
                             <div className='col-md-4 product-col'>
                                 <Link to={"/Productdetail"}>
@@ -132,7 +132,7 @@ export default function Main() {
                             </div>
                         </div>
                     </TabPanel>
-                    <TabPanel eventKey="third">
+                    <TabPanel eventkey="third">
                         <div className='tab-content row'>
                             <div className='col-md-4 product-col'>
                                 <Link to={"/Productdetail"}>
@@ -146,7 +146,7 @@ export default function Main() {
                             </div>
                         </div>
                     </TabPanel>
-                    <TabPanel eventKey="fourth">
+                    <TabPanel eventkey="fourth">
                         <div className='tab-content row'>
                             <div className='col-md-4 product-col'>
                                 <Link to={"/Productdetail"}>

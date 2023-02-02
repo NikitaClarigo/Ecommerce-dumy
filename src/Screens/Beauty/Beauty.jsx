@@ -58,8 +58,8 @@ export default function Beauty() {
         <h2 className='inner-heading'>Categories to bag</h2>
         <div className='row category-area' style={{ padding: "0px", margin: "0px" }}>
           <div className='col-md-4'>
-            <div class="single-category mb-30">
-              <div class="category-img">
+            <div className="single-category mb-30">
+              <div className="category-img">
                 <img src={beautycat1} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Makeup</h2>
@@ -69,8 +69,8 @@ export default function Beauty() {
             </div>
           </div>
           <div className='col-md-4'>
-            <div class="single-category mb-30">
-              <div class="category-img">
+            <div className="single-category mb-30">
+              <div className="category-img">
                 <img src={beautycat2} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Skincare</h2>
@@ -80,8 +80,8 @@ export default function Beauty() {
             </div>
           </div>
           <div className='col-md-4'>
-            <div class="single-category mb-30">
-              <div class="category-img">
+            <div className="single-category mb-30">
+              <div className="category-img">
                 <img src={beautycat3} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Haircare</h2>
@@ -91,8 +91,8 @@ export default function Beauty() {
             </div>
           </div>
           <div className='col-md-4'>
-            <div class="single-category mb-30">
-              <div class="category-img">
+            <div className="single-category mb-30">
+              <div className="category-img">
                 <img src={beautycat4} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Fragrances</h2>
@@ -102,8 +102,8 @@ export default function Beauty() {
             </div>
           </div>
           <div className='col-md-4'>
-            <div class="single-category mb-30">
-              <div class="category-img">
+            <div className="single-category mb-30">
+              <div className="category-img">
                 <img src={beautycat5} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Appliances</h2>
@@ -113,8 +113,8 @@ export default function Beauty() {
             </div>
           </div>
           <div className='col-md-4'>
-            <div class="single-category mb-30">
-              <div class="category-img">
+            <div className="single-category mb-30">
+              <div className="category-img">
                 <img src={beautycat6} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Herbal</h2>

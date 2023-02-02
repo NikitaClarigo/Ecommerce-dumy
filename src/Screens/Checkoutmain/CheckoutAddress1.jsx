@@ -81,24 +81,28 @@ export default function CheckoutAddress1() {
           <div className='row'>
             <p>PRICE DETAILS (1 Item)</p>
             <table className='p-text-small'>
-              <tr>
-                <td>Total MRP</td>
-                <td className='float-end'>₹999</td>
-              </tr>
-              <tr>
-                <td>Discount on MRP</td>
-                <td className='float-end text-success'>₹-380</td>
-              </tr>
-              <tr>
-                <td>Coupon Discount</td>
-                <td className='float-end text-danger'>Apply Coupon</td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td>Total MRP</td>
+                  <td className='float-end'>₹999</td>
+                </tr>
+                <tr>
+                  <td>Discount on MRP</td>
+                  <td className='float-end text-success'>₹-380</td>
+                </tr>
+                <tr>
+                  <td>Coupon Discount</td>
+                  <td className='float-end text-danger'>Apply Coupon</td>
+                </tr>
+              </tbody>
             </table>
             <table>
-              <tr>
-                <td><b>Total Amount</b></td>
-                <td className='float-end'><b>₹619</b></td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td><b>Total Amount</b></td>
+                  <td className='float-end'><b>₹619</b></td>
+                </tr>
+              </tbody>
             </table>
 
           </div>

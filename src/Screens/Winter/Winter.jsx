@@ -58,8 +58,8 @@ export default function Winter() {
                 <h2 className='inner-heading'>Categories to bag</h2>
                 <div className='row category-area' style={{ padding: "0px", margin: "0px" }}>
                     <div className='col-md-4'>
-                        <div class="single-category mb-30">
-                            <div class="category-img">
+                        <div className="single-category mb-30">
+                            <div className="category-img">
                                 <img src={wintercat1} alt="something" />
                                 <div className="category-caption">
                                     <h2 className='text-center text-black'>Men's</h2>
@@ -69,8 +69,8 @@ export default function Winter() {
                         </div>
                     </div>
                     <div className='col-md-4'>
-                        <div class="single-category mb-30">
-                            <div class="category-img">
+                        <div className="single-category mb-30">
+                            <div className="category-img">
                                 <img src={wintercat2} alt="something" />
                                 <div className="category-caption">
                                     <h2 className='text-center'>Women's</h2>
@@ -80,8 +80,8 @@ export default function Winter() {
                         </div>
                     </div>
                     <div className='col-md-4'>
-                        <div class="single-category mb-30">
-                            <div class="category-img">
+                        <div className="single-category mb-30">
+                            <div className="category-img">
                                 <img src={wintercat3} alt="something" />
                                 <div className="category-caption">
                                     <h2 className='text-center'>Kid's</h2>

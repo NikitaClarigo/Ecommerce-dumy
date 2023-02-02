@@ -124,7 +124,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 255px;
+  height: 206px;
   margin-top: 15px !important;
 }
 
@@ -257,22 +257,22 @@
 
 .modal .modal-dialog {
   transform: none;
-  width: 30% !important;
+  width: 40% !important;
 }
-
-.modal-body input,select {
-  margin-bottom: 17px !important;
+.modal-body input, select {
+  margin-bottom: 35px !important;
   border: 1px solid lightgrey;
   padding: 3px;
   border-radius: 5px;
+  width: 100%;
 }
 .modal-body .col-md-12 {
   padding: 0px 11px;
 }
-.tb-box .col-md-4 {
-  flex: 0 0 auto;
-  width: 30.333333%;
-  margin: 12px;
+.tb-box .col-md-3 {
+  flex: 3 0 auto;
+  width: 22.333333%;
+  margin: 7px;
 }
 input[type="submit"] {
   width: 20%;

@@ -37,7 +37,7 @@ export default function Cart() {
                             <p className='inner-content'><b>Colour : Black </b></p>
                             <form>
                                 <select name='Quantity'>
-                                    <option value={""} disabled selected>Quantity</option>
+                                    <option value={""} disabled defaultValue>Quantity</option>
                                     <option>1</option>
                                     <option>2</option>
                                     <option>3</option>
@@ -76,7 +76,7 @@ export default function Cart() {
                             <p className='inner-content'><b>Colour : Black </b></p>
                             <form>
                                 <select name='Quantity'>
-                                    <option value={""} disabled selected>Quantity</option>
+                                    <option value={""} disabled defaultValue>Quantity</option>
                                     <option>1</option>
                                     <option>2</option>
                                     <option>3</option>

@@ -24,11 +24,11 @@ export default function CheckoutAddress() {
                             <p className='form-heading'><b>CONTACT DETAILS</b></p>
                             <form>
                                 <input type="text" placeholder="Name*" required />
-                                <input type="tel" maxlength="10" placeholder="Mobile No*" required />
+                                <input type="tel" placeholder="Mobile No*" required />
                             </form>
                             <p className='form-heading'><b>ADDRESS</b></p>
                             <form>
-                                <input type="tel" maxlength="6" placeholder="Pin Code*" required />
+                                <input type="tel" placeholder="Pin Code*" required />
                                 <input type="text" placeholder="Address (House No, Building, Street, Area)*" row="3" required />
                                 <input type="text" placeholder="Locality/Town*" required />
                             </form>
@@ -51,24 +51,28 @@ export default function CheckoutAddress() {
                     <div className='row'>
                         <p>PRICE DETAILS (1 Item)</p>
                         <table className='p-text-small'>
-                            <tr>
-                                <td>Total MRP</td>
-                                <td className='float-end'>₹999</td>
-                            </tr>
-                            <tr>
-                                <td>Discount on MRP</td>
-                                <td className='float-end text-success'>₹-380</td>
-                            </tr>
-                            <tr>
-                                <td>Coupon Discount</td>
-                                <td className='float-end text-danger'>Apply Coupon</td>
-                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>Total MRP</td>
+                                    <td className='float-end'>₹999</td>
+                                </tr>
+                                <tr>
+                                    <td>Discount on MRP</td>
+                                    <td className='float-end text-success'>₹-380</td>
+                                </tr>
+                                <tr>
+                                    <td>Coupon Discount</td>
+                                    <td className='float-end text-danger'>Apply Coupon</td>
+                                </tr>
+                            </tbody>
                         </table>
                         <table>
-                            <tr>
-                                <td><b>Total Amount</b></td>
-                                <td className='float-end'><b>₹619</b></td>
-                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td><b>Total Amount</b></td>
+                                    <td className='float-end'><b>₹619</b></td>
+                                </tr>
+                            </tbody>
                         </table>
 
                     </div>
