@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ecommerce-dumy/static/css/main.79f1a575.css",
-    "main.js": "/Ecommerce-dumy/static/js/main.b5f144fe.js",
+    "main.css": "/Ecommerce-dumy/static/css/main.1f467eb9.css",
+    "main.js": "/Ecommerce-dumy/static/js/main.b55bdf24.js",
     "static/js/787.0c1a86ef.chunk.js": "/Ecommerce-dumy/static/js/787.0c1a86ef.chunk.js",
     "static/media/men-banner.png": "/Ecommerce-dumy/static/media/men-banner.4589e9bc02b5d5ceabb6.png",
     "static/media/beauty-banner.png": "/Ecommerce-dumy/static/media/beauty-banner.07241a20c4de07d82b1a.png",
@@ -106,12 +106,12 @@
     "static/media/winterbrand2.png": "/Ecommerce-dumy/static/media/winterbrand2.7386ce613657b89072f6.png",
     "static/media/brand2.png": "/Ecommerce-dumy/static/media/brand2.5a0d9e17b5c2166728ef.png",
     "index.html": "/Ecommerce-dumy/index.html",
-    "main.79f1a575.css.map": "/Ecommerce-dumy/static/css/main.79f1a575.css.map",
-    "main.b5f144fe.js.map": "/Ecommerce-dumy/static/js/main.b5f144fe.js.map",
+    "main.1f467eb9.css.map": "/Ecommerce-dumy/static/css/main.1f467eb9.css.map",
+    "main.b55bdf24.js.map": "/Ecommerce-dumy/static/js/main.b55bdf24.js.map",
     "787.0c1a86ef.chunk.js.map": "/Ecommerce-dumy/static/js/787.0c1a86ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79f1a575.css",
-    "static/js/main.b5f144fe.js"
+    "static/css/main.1f467eb9.css",
+    "static/js/main.b55bdf24.js"
   ]
 }
