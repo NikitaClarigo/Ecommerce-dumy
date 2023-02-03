@@ -222,6 +222,7 @@
 .removebutton{
   position: absolute;
   right: 20px;
+  bottom: 10px;
 }
 
 .edit-button {
@@ -338,6 +339,16 @@ button.cat-button {
 .terms p {
   font-size: 13px;
   color: #ababab;
+}
+.modal-body button {
+  width: 20%;
+  margin: 0 auto;
+  background: #f15a2d;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 15px;
 }
 
  

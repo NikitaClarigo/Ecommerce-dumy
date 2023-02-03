@@ -19,6 +19,7 @@ import Modal from 'react-bootstrap/Modal';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { FaEdit } from "react-icons/fa";
+import { MdDelete } from "react-icons/md";
 
 function MyVerticallyCenteredModal(props) {
 
@@ -136,16 +137,17 @@ function Termsmodal(props) {
     );
 }
 function Addadressmodal(props) {
-    const { items, Setitems, onHide } = props
-    const [inputlist, setInputlist] = useState("Address");
-    const itemevent = (event) => {
-        setInputlist(event.target.value)
-    };
-    const listofitems = () => {
-        Setitems((olditems) => {
-            return [...olditems, inputlist];
-        })
-    };
+    const { useradd, setuseradd, artists, setArtists, onHide, addAddress } = props
+
+    const [addname, addsetName] = useState('')
+    const [addmobile, addsetmobile] = useState('')
+    const [addaddress, addsetaddress] = useState('')
+    const [addpin, addsetpin] = useState('')
+    const [addlocality, addsetlocality] = useState('')
+    const [addcity, addsetcity] = useState('')
+    const [adddistrict, addsetdistrict] = useState('')
+    const [addtaddress, addsettaddress] = useState('')
+    const [adderror, addsetError] = useState('')
 
     return (
         <Modal
@@ -162,181 +164,123 @@ function Addadressmodal(props) {
             <Modal.Body>
                 <form>
                     <div className='row'>
-                        <div className='col-md-6'>
-                            <input type={"text"} placeholder="First Name" onChange={itemevent} />
-                        </div>
-                        <div className='col-md-6'>
-                            <input type={"text"} placeholder="Last Name" />
+                        <div className='col-md-12'>
+                            <input type={"text"} placeholder="First Name" onChange={e => addsetName(e.target.value)} />
                         </div>
                         <div className='col-md-12'>
-                            <input className='w-100' type={"tel"} pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Mobile No." />
+                            <input className='w-100' type={"tel"} placeholder="Mobile No." onChange={e => addsetmobile(e.target.value)} />
                         </div>
                         <div className='col-md-12'>
-                            <input className='text w-100' placeholder="Address (House No,Building,Street,Area)" />
+                            <input className='text w-100' placeholder="Address (House No,Building,Street,Area)" onChange={e => addsetaddress(e.target.value)} />
                         </div>
                         <div className='col-md-6'>
-                            <input name="pincode" type="text" placeholder='Pincode' />
+                            <input name="pincode" type="text" placeholder='Pincode' onChange={e => addsetpin(e.target.value)} />
                         </div>
                         <div className='col-md-6'>
-                            <input type={"text"} placeholder="Locality/Town" />
+                            <input type={"text"} placeholder="Locality/Town" onChange={e => addsetlocality(e.target.value)} />
                         </div>
                         <div className='col-md-6'>
-                            <input type={"text"} placeholder="City" />
+                            <input type={"text"} placeholder="City" onChange={e => addsetcity(e.target.value)} />
                         </div>
                         <div className='col-md-6'>
-                            <input type={"text"} placeholder="District" />
+                            <input type={"text"} placeholder="District" onChange={e => addsetdistrict(e.target.value)} />
                         </div>
                         <div className='col-md-12'>
-                            <select name="type" className='w-100'>
-                                <option value="" disabled defaultValue={"Type Of Address"} hidden></option>
-                                <option value="coffee">Home</option>
-                                <option value="coffee">Office</option>
-                            </select>
+                                <input type={"text"} placeholder="Type of Address" onChange={e => addsettaddress(e.target.value)} />
                         </div>
-                        <input type="submit" onClick={listofitems}></input>
+                        <button type='button' onClick={() => {
+                            if (addname !== '') {
+                                addsetName('');
+                                addAddress(addname)
+                            }
+
+
+                        }}>Add</button>
+                    </div>
+                </form>
+
+            </Modal.Body>
+        </Modal>
+    );
+}
+function EditAddressModal(props) {
+    const { usera, setauser, onHide } = props
+
+    const [aname, asetName] = useState(usera?.aname)
+    const [amobile, asetmobile] = useState(usera?.amobile)
+    const [aaddress, asetaddress] = useState(usera?.aaddress)
+    const [apin, asetpin] = useState(usera?.apin)
+    const [alocality, asetlocality] = useState(usera?.alocality)
+    const [acity, asetcity] = useState(usera?.acity)
+    const [adistrict, asetdistrict] = useState(usera?.adistrict)
+    const [ataddress, asettaddress] = useState(usera?.ataddress)
+    const [aerror, asetError] = useState('')
+
+    const ahandleUpdate = () => {
+        if (!aname && !amobile && !aaddress && !apin && !amobile && !alocality && !acity && !adistrict && !ataddress) {
+            return asetError('Name and email is required')
+        }
+        asetError('')
+        setauser({ aname, amobile, aaddress, apin, amobile, alocality, acity, adistrict, ataddress })
+        return onHide()
+    }
+    return (
+        <Modal
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    Edit Your Address
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <form>
+                    <div className='row'>
+                        <div className='col-md-12'>
+                            <input className='w-100' type={"text"} placeholder="Name" onInput={(e) => asetName(e.target.value)} value={aname} />
+                        </div>
+                        <div className='col-md-12'>
+                            <input className='w-100' type={"tel"} placeholder="Mobile No." onInput={(e) => asetmobile(e.target.value)} value={amobile} />
+                        </div>
+                        <div className='col-md-12'>
+                            <input className='text w-100' placeholder="Address (House No,Building,Street,Area)" onInput={(e) => asetaddress(e.target.value)} value={aaddress} />
+                        </div>
+                        <div className='col-md-6'>
+                            <input name="pincode" type="number" placeholder='Pincode' onInput={(e) => asetpin(e.target.value)} value={apin} />
+                        </div>
+                        <div className='col-md-6'>
+                            <input type={"text"} placeholder="Locality/Town" onInput={(e) => asetlocality(e.target.value)} value={alocality} />
+                        </div>
+                        <div className='col-md-6'>
+                            <input type={"text"} placeholder="City" onInput={(e) => asetcity(e.target.value)} value={acity} />
+                        </div>
+                        <div className='col-md-6'>
+                            <input type={"text"} placeholder="District" onInput={(e) => asetdistrict(e.target.value)} value={adistrict} />
+                        </div>
+                        <div className='col-md-12'>
+                            <input type={"text"} placeholder="Type of Address" onInput={(e) => asettaddress(e.target.value)} value={ataddress} />
+                        </div>
+                        <button type="button" onClick={() => ahandleUpdate()}>Submit</button>
                     </div>
                 </form>
             </Modal.Body>
         </Modal>
     );
 }
-// function Editaddress(props) {
-//     return (
-//         <Modal
-//             {...props}
-//             size="lg"
-//             aria-labelledby="contained-modal-title-vcenter"
-//             centered
-//         >
-//             <Modal.Header closeButton>
-//                 <Modal.Title id="contained-modal-title-vcenter">
-//                     Edit Your Profile
-//                 </Modal.Title>
-//             </Modal.Header>
-//             <Modal.Body>
-//                 <form>
-//                     <div className='row'>
-//                         <div className='col-md-12'>
-//                             <input className='w-100' type={"text"} placeholder="First Name" />
-//                         </div>
-//                         <div className='col-md-12'>
-//                             <input className='w-100' type={"email"} placeholder="Email Address" />
-//                         </div>
-//                         <div className='col-md-6'>
-//                             <input type={"text"} placeholder="Gender" />
-//                         </div>
-//                         <div className='col-md-6'>
-//                             <input type={"tel"} pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Mobile No." />
-//                         </div>
-//                         <div className='col-md-6'>
-//                             <input className='w-100' type={"date"} placeholder="DOB" />
-//                         </div>
-//                         <div className='col-md-6'>
-//                             <input type={"text"} placeholder="Location" />
-//                         </div>
-//                         <div className='col-md-12'>
-//                             <input className='tel w-100' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Alternate Mobile No." />
-//                         </div>
-//                         <input type="submit"></input>
-//                     </div>
-//                 </form>
-//             </Modal.Body>
-//         </Modal>
-//     );
-// }
-// function Editaddress1(props) {
-
-//     const { user, setuser, onHide } = props
-
-//     const [image, setimage] = useState(user?.image)
-//     const [name, setName] = useState(user?.name)
-//     const [email, setEmail] = useState(user?.email)
-//     const [gender, setgender] = useState(user?.gender)
-//     const [mobile, setmobile] = useState(user?.mobile)
-//     const [dob, setdob] = useState(user?.dob)
-//     const [location, setlocation] = useState(user?.location)
-//     const [amobile, setamobile] = useState(user?.amobile)
-//     const [error, setError] = useState('')
-
-//     const handleUpdate = () => {
-//         if (!image && !name && !email && !gender && !mobile && !dob && !location && !amobile) {
-//             return setError('Name and email is required')
-//         }
-//         setError('')
-//         setuser({ image, name, email, gender, mobile, dob, location, amobile })
-//         return onHide()
-//     }
-
-//     useEffect(() => {
-//         console.log('modal called')
-//     }, [user])
-
-//     console.log(image, 'image---------->')
-//     function getBase64(e) {
-//         var file = e.target.files[0]
-//         let reader = new FileReader()
-//         reader.readAsDataURL(file)
-//         reader.onload = () => {
-//             setimage(reader.result)
-//             // console.log( reader.result,' reader.result')
-//             // props.onImageSelect(reader.result)
-
-
-//         };
-//         reader.onerror = function (error) {
-//             console.log('Error: ', error);
-//         }
-//     }
-//     return (
-//         <Modal
-//             {...props}
-//             size="lg"
-//             aria-labelledby="contained-modal-title-vcenter"
-//             centered
-//         >
-//             <Modal.Header closeButton>
-//                 <Modal.Title id="contained-modal-title-vcenter">
-//                     Edit Your Profile
-//                 </Modal.Title>
-//             </Modal.Header>
-//             <Modal.Body>
-//                 <form>
-//                     <div className='row'>
-//                         <div className='col-md-12'>
-//                             <input className='w-100' id='choose-file' type={"file"} onChange={getBase64} />
-//                         </div>
-//                         <div className='col-md-12'>
-//                             <input className='w-100' type={"text"} placeholder="First Name" onInput={(e) => setName(e.target.value)} value={name} />
-//                         </div>
-//                         <div className='col-md-12'>
-//                             <input className='w-100' type={"email"} placeholder="Email Address" onInput={(e) => setEmail(e.target.value)} value={email} />
-//                         </div>
-//                         <div className='col-md-6'>
-//                             <input type={"text"} placeholder="Gender" onInput={(e) => setgender(e.target.value)} value={gender} />
-//                         </div>
-//                         <div className='col-md-6'>
-//                             <input type={"tel"} pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Mobile No." onInput={(e) => setmobile(e.target.value)} value={mobile} />
-//                         </div>
-//                         <div className='col-md-6'>
-//                             <input className='w-100' type={"date"} placeholder="DOB" onInput={(e) => setdob(e.target.value)} value={dob} />
-//                         </div>
-//                         <div className='col-md-6'>
-//                             <input type={"text"} placeholder="Location" onInput={(e) => setlocation(e.target.value)} value={location} />
-//                         </div>
-//                         <div className='col-md-12'>
-//                             <input className='tel w-100' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Alternate Mobile No." onInput={(e) => setamobile(e.target.value)} value={amobile} />
-//                         </div>
-//                         <input type="submit" onClick={() => handleUpdate()}></input>
-//                     </div>
-//                 </form>
-//             </Modal.Body>
-//         </Modal>
-//     );
-// }
+let nextId = 0;
 export default function Order() {
+    // Update profileImage 
     const [image, setimage] = useState('')
+    // Modal show
     const [modalShow, setModalShow] = React.useState(false);
-
+    // Modal show
+    const [addressmodalShow, addresssetModalShow] = React.useState(false);
+    // Modal show
+    // const [modalShow, setModalShow] = React.useState(false);
+    // tab switch
     const switchTab1 = (id) => {
         const tab = document.getElementById('tab:r1:1')
         // console.log(tab?.click,'this is the tab click')
@@ -363,10 +307,38 @@ export default function Order() {
         'amobile': '1234567890',
         'image': profile
     })
+    // asetuser
+    const [usera, setauser] = useState([{
+        'aname': 'Nikita',
+        'amobile': '9876543210',
+        'aaddress': 'Airport road',
+        'apin': '452001',
+        'alocality': 'indore',
+        'acity': 'indore',
+        'adistrict': 'Madhya Pradesh',
+        'ataddress': 'Home'
+    }, {
+        'aname': 'Nikita------->',
+        'amobile': '9876543210',
+        'aaddress': 'Airport road',
+        'apin': '452001',
+        'alocality': 'indore',
+        'acity': 'indore',
+        'adistrict': 'Madhya Pradesh',
+        'ataddress': 'Office'
+    }])
 
-    const [items, Setitems] = useState([])
+    const removehandler = (itemindex) => {
+
+        let data = [...usera]
+        data.splice(itemindex, 1)
+        setauser(data)
+        console.log('clicked', data)
+
+    };
 
     return (
+
         <div>
             <div className='container order-container'>
                 <Tabs className="order-tab">
@@ -393,10 +365,6 @@ export default function Order() {
                             <p>Coupons</p>
                             <hr />
                         </Tab>
-                        {/* <Tab className="order-tab__tab">
-                            <p>Saved Cards</p>
-                            <hr />
-                        </Tab> */}
                         <Tab className="order-tab__tab">
                             <p>Addresses</p>
                             <hr />
@@ -467,13 +435,6 @@ export default function Order() {
                                             <p>Manage Coupons for additional discount</p>
                                         </div>
                                     </div>
-                                    {/* <div className='col-md-4 other-box'>
-                                        <div className='text-center'>
-                                            <img src={profile6} alt="something" />
-                                            <h6>Profile Details</h6>
-                                            <p>Change Your Profile Details and Password</p>
-                                        </div>
-                                    </div> */}
                                 </div>
                             </div>
                             <button className='Logout-button'>Logout</button>
@@ -596,15 +557,6 @@ export default function Order() {
                             </div>
                         </div>
                     </TabPanel>
-                    {/* <TabPanel>
-                        <div className="order-tab-panel-content">
-                            <div className='row'>
-                                <div className='col-md-6 text-start'>
-                                    <h4>Saved Cards</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </TabPanel> */}
                     <TabPanel>
                         <div className="order-tab-panel-content">
                             <div className='row'>
@@ -614,6 +566,23 @@ export default function Order() {
                                 <div className='col-md-6 text-end'>
                                     <button className='new-address-button' onClick={() => setModalShow(true)}><GrFormAdd className='plus-icon' />Add New Address</button>
                                     <Addadressmodal
+                                        addAddress={(address) => {
+                                            let data = [...usera]
+                                            data.push(
+                                                {
+                                                    'aname': 'static',
+                                                    'amobile': 'static',
+                                                    'aaddress': address,
+                                                    'apin': 'static',
+                                                    'alocality': 'static',
+                                                    'acity': 'static',
+                                                    'adistrict': 'Madhya Pradesh',
+                                                    'ataddress': 'home'
+
+                                                })
+                                            setauser(data)
+                                            setModalShow(false)
+                                        }}
                                         show={modalShow}
                                         onHide={() => setModalShow(false)}
                                     />
@@ -621,47 +590,37 @@ export default function Order() {
                             </div>
                             <p className='username'>Default Address</p>
                             <div className='row add'>
-                                <div className='address-box col-md-6'>
-                                    <button className='cat-button'>Home</button>
-                                    <p className='username'><b>Dumy dumy</b></p><br />
-                                    <p className='username'>Airport Road</p>
-                                    <p className='username'>Indore</p>
-                                    <p className='username'>Indore - 452016</p>
-                                    <p className='username'>Madhya Pradesh</p><br />
-                                    <p className='username'>Mobile : 9874563210</p>
-                                    <div className='row editbutton'>
-                                        {/* <FaEdit  onClick={() => setModalShow(true)}/>
-                                        <Editaddress
-                                   show={modalShow}
-                                   onHide={() => setModalShow(false)}
-                                /> */}
-                            
-                                    </div>
-                                </div>
-                                <div className='address-box col-md-6'>
-                                    <button className='cat-button'>Office</button>
-                                    <p className='username'><b>Dumy dumy</b></p><br />
-                                    <p className='username'>Airport Road</p>
-                                    <p className='username'>Indore</p>
-                                    <p className='username'>Indore - 452016</p>
-                                    <p className='username'>Madhya Pradesh</p><br />
-                                    <p className='username'>Mobile : 9874563210</p>
-                                    <div className='row editbutton'>
-                                        {/* <FaEdit  onClick={() => setModalShow(true)}/>
-                                    <Editaddress1
-                                        show={modalShow}
-                                        onHide={() => setModalShow(false)}
-                                    /> */}
-                                    </div>
-                                </div>
-                                <ol>
-                                    {items.map((itemval) => {
-                                        return <li>{itemval}</li>
-                                    })}
-                                </ol>
+                                {/* usera */}
+                                {usera.map((e, s) => {
+                                    return (
+                                        <div className='address-box col-md-6'>
+                                            <button className='cat-button'>{e.ataddress}</button>
+                                            <p className='username'><b>{e.aname}</b></p><br />
+                                            <p className='username'>{e.aaddress}</p>
+                                            <p className='username'>{e.alocality}</p>
+                                            <p className='username'>{e.acity} - {e.apin}</p>
+                                            <p className='username'>{e.adistrict}</p><br />
+                                            <p className='username'>Mobile : {e.amobile}</p>
+                                            <div className='row editbutton'>
+                                            {usera && (
+                                                    <MdDelete onClick={() => removehandler(s)} />
+                                                )}
+                                            </div>
+                                        </div>
+                                    )
+                                })}
+
+
+
+
+
+
+
+
                             </div>
                         </div>
                     </TabPanel>
+                    {/* Terms of use */}
                     <TabPanel>
                         <div className="order-tab-panel-content terms">
                             <h2 className='text-center'>emart Terms of Use</h2>
@@ -676,6 +635,7 @@ export default function Order() {
                             </p>
                         </div>
                     </TabPanel>
+                    {/* Privacy Policy */}
                     <TabPanel>
                         <div className="order-tab-panel-content terms">
                             <h2 className='text-center'>emart Privacy policy</h2>
