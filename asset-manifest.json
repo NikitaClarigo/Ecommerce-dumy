@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ecommerce-dumy/static/css/main.e7b4350c.css",
-    "main.js": "/Ecommerce-dumy/static/js/main.c379260c.js",
+    "main.js": "/Ecommerce-dumy/static/js/main.8763e881.js",
     "static/js/787.0c1a86ef.chunk.js": "/Ecommerce-dumy/static/js/787.0c1a86ef.chunk.js",
     "static/media/men-banner.png": "/Ecommerce-dumy/static/media/men-banner.4589e9bc02b5d5ceabb6.png",
     "static/media/beauty-banner.png": "/Ecommerce-dumy/static/media/beauty-banner.07241a20c4de07d82b1a.png",
@@ -107,11 +107,11 @@
     "static/media/brand2.png": "/Ecommerce-dumy/static/media/brand2.5a0d9e17b5c2166728ef.png",
     "index.html": "/Ecommerce-dumy/index.html",
     "main.e7b4350c.css.map": "/Ecommerce-dumy/static/css/main.e7b4350c.css.map",
-    "main.c379260c.js.map": "/Ecommerce-dumy/static/js/main.c379260c.js.map",
+    "main.8763e881.js.map": "/Ecommerce-dumy/static/js/main.8763e881.js.map",
     "787.0c1a86ef.chunk.js.map": "/Ecommerce-dumy/static/js/787.0c1a86ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7b4350c.css",
-    "static/js/main.c379260c.js"
+    "static/js/main.8763e881.js"
   ]
 }
