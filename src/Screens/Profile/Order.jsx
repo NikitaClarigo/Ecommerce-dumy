@@ -137,7 +137,7 @@ function Termsmodal(props) {
     );
 }
 function Addadressmodal(props) {
-    const { useradd, setuseradd, artists, setArtists, onHide, addAddress } = props
+    const { useradd, setuseradd, onHide, addaddresstwo } = props
 
     const [addname, addsetName] = useState('')
     const [addmobile, addsetmobile] = useState('')
@@ -148,6 +148,11 @@ function Addadressmodal(props) {
     const [adddistrict, addsetdistrict] = useState('')
     const [addtaddress, addsettaddress] = useState('')
     const [adderror, addsetError] = useState('')
+
+    useEffect(()=>{
+        //You can add your code for updating phase of component
+        console.log(useradd)
+    },[addname,addmobile,addaddress,addpin,addlocality,addcity,adddistrict,addtaddress])
 
     return (
         <Modal
@@ -186,15 +191,19 @@ function Addadressmodal(props) {
                             <input type={"text"} placeholder="District" onChange={e => addsetdistrict(e.target.value)} />
                         </div>
                         <div className='col-md-12'>
-                                <input type={"text"} placeholder="Type of Address" onChange={e => addsettaddress(e.target.value)} />
+                            <input type={"text"} placeholder="Type of Address" onChange={e => addsettaddress(e.target.value)} />
                         </div>
                         <button type='button' onClick={() => {
                             if (addname !== '') {
                                 addsetName('');
-                                addAddress(addname)
+                                addaddresstwo({
+                                    name: addname,
+                                });
+                                addsetmobile('');
+                                addaddresstwo({
+                                    mobile: addmobile
+                                });
                             }
-
-
                         }}>Add</button>
                     </div>
                 </form>
@@ -318,7 +327,7 @@ export default function Order() {
         'adistrict': 'Madhya Pradesh',
         'ataddress': 'Home'
     }, {
-        'aname': 'Nikita------->',
+        'aname': 'user2',
         'amobile': '9876543210',
         'aaddress': 'Airport road',
         'apin': '452001',
@@ -566,25 +575,24 @@ export default function Order() {
                                 <div className='col-md-6 text-end'>
                                     <button className='new-address-button' onClick={() => setModalShow(true)}><GrFormAdd className='plus-icon' />Add New Address</button>
                                     <Addadressmodal
-                                        addAddress={(address) => {
+                                        addaddresstwo={(address) => {
                                             let data = [...usera]
                                             data.push(
                                                 {
-                                                    'aname': 'static',
-                                                    'amobile': 'static',
-                                                    'aaddress': address,
-                                                    'apin': 'static',
-                                                    'alocality': 'static',
-                                                    'acity': 'static',
-                                                    'adistrict': 'Madhya Pradesh',
-                                                    'ataddress': 'home'
-
+                                                    'aname': address.addname,
+                                                    'amobile': address.addsetmobile,
+                                                    'aaddress': address.addsetaddress,
+                                                    'apin': address.addsetpin,
+                                                    'alocality': address.addsetlocality,
+                                                    'acity':address.addsetcity,
+                                                    'adistrict':address.addsetdistrict,
+                                                    'ataddress':address.addsettaddress
                                                 })
-                                            setauser(data)
-                                            setModalShow(false)
-                                        }}
-                                        show={modalShow}
-                                        onHide={() => setModalShow(false)}
+                                        setauser(data)
+                                        setModalShow(false)
+                                    }}
+                                    show={modalShow}
+                                    onHide={() => setModalShow(false)}
                                     />
                                 </div>
                             </div>
@@ -602,8 +610,8 @@ export default function Order() {
                                             <p className='username'>{e.adistrict}</p><br />
                                             <p className='username'>Mobile : {e.amobile}</p>
                                             <div className='row editbutton'>
-                                            {usera && (
-                                                    <MdDelete onClick={() => removehandler(s)} />
+                                                {usera && (
+                                                    <MdDelete onClick={() =>removehandler(s)} />
                                                 )}
                                             </div>
                                         </div>
