@@ -36,7 +36,7 @@ import { Link } from 'react-router-dom';
 
 export default function Kids() {
   return (
-    <div>
+    <div className='kids-section'>
       <img src={kidsnbanner} className='banner' alt="something" />
       <div className='section'>
         <h2 className='inner-heading'>Favourite brands</h2>
@@ -156,7 +156,7 @@ export default function Kids() {
           </div>
         </div>
       </div>
-      <div className='section'>
+      <div className='section kids-explore'>
         <h2 className='inner-heading'>Explore more</h2>
         <div className='row'>
           <div className='col-md-6 row'>

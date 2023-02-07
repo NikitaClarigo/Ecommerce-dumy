@@ -31,28 +31,28 @@ export default function Men() {
       <div className='section'>
         <h2 className='inner-heading'>Biggest deal on top brands</h2>
         <div className='row'>
-          <div className='col-md-3'>
+          <div className='col-md-3 men-cat-col'>
             <Link to={"/Shirt"}>
               <img src={brandproduct1} className="brand-product" alt="something" />
               <img src={brand1} className="brand" alt="something" />
               <h2 className='text-center'>30-60% Off</h2>
             </Link>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 men-cat-col'>
             <Link to={"/Shirt"}>
               <img src={brandproduct2} className="brand-product" alt="something" />
               <img src={brand2} className="brand" alt="something" />
               <h2 className='text-center'>30-60% Off</h2>
             </Link>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 men-cat-col'>
             <Link to={"/Shirt"}>
               <img src={brandproduct3} className="brand-product" alt="something" />
               <img src={brand3} className="brand" alt="something" />
               <h2 className='text-center'>30-60% Off</h2>
             </Link>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 men-cat-col'>
             <Link to={"/Shirt"}>
               <img src={brandproduct4} className="brand-product" alt="something" />
               <img src={brand4} className="brand" alt="something" />

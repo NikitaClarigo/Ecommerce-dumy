@@ -29,28 +29,28 @@ export default function Women() {
       <div className='section'>
         <h2 className='inner-heading'>Biggest deal on top brands</h2>
         <div className='row'>
-          <div className='col-md-3'>
+          <div className='col-md-3 women-cal-col'>
             <Link to={"/Shirt"}>
               <img src={womenbrandproduct1} className="brand-product" alt="something" />
               <img src={womenbrand1} className="brand" alt="something" />
               <h2 className='text-center'>30-60% Off</h2>
             </Link>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 women-cal-col'>
             <Link to={"/Shirt"}>
               <img src={womenbrandproduct2} className="brand-product" alt="something" />
               <img src={womenbrand4} className="brand" alt="something" />
               <h2 className='text-center'>30-60% Off</h2>
             </Link>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 women-cal-col'>
             <Link to={"/Shirt"}>
               <img src={womenbrandproduct3} className="brand-product" alt="something" />
               <img src={womenbrand2} className="brand" alt="something" />
               <h2 className='text-center'>30-60% Off</h2>
             </Link>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 women-cal-col'>
             <Link to={"/Shirt"}>
               <img src={womenbrandproduct4} className="brand-product" alt="something" />
               <img src={womenbrand3} className="brand" alt="something" />

@@ -147,13 +147,14 @@ function Addadressmodal(props) {
     const [addcity, addsetcity] = useState('')
     const [adddistrict, addsetdistrict] = useState('')
     const [addtaddress, addsettaddress] = useState('')
-    const [adderror, addsetError] = useState('')
 
-    useEffect(()=>{
-        //You can add your code for updating phase of component
-        console.log(useradd)
-    },[addname,addmobile,addaddress,addpin,addlocality,addcity,adddistrict,addtaddress])
-
+    // useEffect(()=>{
+    //     //You can add your code for updating phase of component
+    //     console.log(useradd)
+    // },[addname,addmobile,addaddress,addpin,addlocality,addcity,adddistrict,addtaddress])
+    const handlesubmit = (e) => {
+        console.log(addname, addmobile);
+    }
     return (
         <Modal
             {...props}
@@ -195,16 +196,21 @@ function Addadressmodal(props) {
                         </div>
                         <button type='button' onClick={() => {
                             if (addname !== '') {
-                                addsetName('');
-                                addaddresstwo({
-                                    name: addname,
-                                });
-                                addsetmobile('');
-                                addaddresstwo({
-                                    mobile: addmobile
-                                });
+
+                                let data = {
+                                    aname: addname,
+                                    amobile: addmobile,
+                                    aaddress: addaddress,
+                                    apin: addpin,
+                                    alocality: addlocality,
+                                    acity: addcity,
+                                    adistrict: adddistrict,
+                                    ataddress: addtaddress
+                                }
+                                addaddresstwo(data)
                             }
-                        }}>Add</button>
+                        }
+                        }>Add</button>
                     </div>
                 </form>
 
@@ -290,8 +296,11 @@ export default function Order() {
     // Modal show
     // const [modalShow, setModalShow] = React.useState(false);
     // tab switch
-    const switchTab1 = (id) => {
+    const switchTab1 = (Id) => {
         const tab = document.getElementById('tab:r1:1')
+        // 
+        console.log(tab, 'tab-------------------->')
+
         // console.log(tab?.click,'this is the tab click')
         tab.click()
     }
@@ -318,7 +327,7 @@ export default function Order() {
     })
     // asetuser
     const [usera, setauser] = useState([{
-        'aname': 'Nikita',
+        'aname': 'user1',
         'amobile': '9876543210',
         'aaddress': 'Airport road',
         'apin': '452001',
@@ -343,7 +352,8 @@ export default function Order() {
         data.splice(itemindex, 1)
         setauser(data)
         console.log('clicked', data)
-
+        window.alert("Are you sure you want to delete ??");
+        alert("Are you sure you want to delete ??");
     };
 
     return (
@@ -366,7 +376,7 @@ export default function Order() {
                             <p>Overview</p>
                             <hr />
                         </Tab>
-                        <Tab className="order-tab__tab">
+                        <Tab className="order-tab__tab" id='tab2'>
                             <p>Orders & Returns</p>
                             <hr />
                         </Tab>
@@ -449,7 +459,7 @@ export default function Order() {
                             <button className='Logout-button'>Logout</button>
                         </div>
                     </TabPanel>
-                    <TabPanel>
+                    <TabPanel className='order'>
                         <div className="order-tab-panel-content">
                             <div>
                                 <button className='filter-button'>All</button>
@@ -577,22 +587,12 @@ export default function Order() {
                                     <Addadressmodal
                                         addaddresstwo={(address) => {
                                             let data = [...usera]
-                                            data.push(
-                                                {
-                                                    'aname': address.addname,
-                                                    'amobile': address.addsetmobile,
-                                                    'aaddress': address.addsetaddress,
-                                                    'apin': address.addsetpin,
-                                                    'alocality': address.addsetlocality,
-                                                    'acity':address.addsetcity,
-                                                    'adistrict':address.addsetdistrict,
-                                                    'ataddress':address.addsettaddress
-                                                })
-                                        setauser(data)
-                                        setModalShow(false)
-                                    }}
-                                    show={modalShow}
-                                    onHide={() => setModalShow(false)}
+                                            data.push(address)
+                                            setauser(data)
+                                            setModalShow(false)
+                                        }}
+                                        show={modalShow}
+                                        onHide={() => setModalShow(false)}
                                     />
                                 </div>
                             </div>
@@ -611,7 +611,7 @@ export default function Order() {
                                             <p className='username'>Mobile : {e.amobile}</p>
                                             <div className='row editbutton'>
                                                 {usera && (
-                                                    <MdDelete onClick={() =>removehandler(s)} />
+                                                    <MdDelete onClick={() => removehandler(s)} />
                                                 )}
                                             </div>
                                         </div>
