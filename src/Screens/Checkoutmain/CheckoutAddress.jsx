@@ -14,7 +14,7 @@ import footerbank10 from '../../Assets/footer-bank10.png';
 
 export default function CheckoutAddress() {
     return (
-        <div className='container'>
+        <div className='container checkout-address-page'>
             {/* <h2 className='text-center'>Bag</h2>
             <hr /> */}
             <div className='row'>

@@ -19,7 +19,7 @@ export default function Beauty() {
   return (
     <div>
       <img src={beautybanner} className='banner' alt="something" />
-      <div className='row section'>
+      <div className='row section beauty-brand-row'>
         <h2 className='inner-heading'>Favourite Brands</h2>
         <div className='row'>
           <div className='col-md-2 beauty-brand'>
@@ -39,7 +39,7 @@ export default function Beauty() {
           </div>
           <div className='col-md-2 beauty-brand'>
             <Link to={"/Shirt"}>
-              <img src='https://www.dlfmallofindia.com/wp-content/uploads/2020/04/Color-Bar.png' className='home-brand' alt="something" />
+              <img src='https://www.ranklogos.com/wp-content/uploads/2012/06/colorbar-logo.png' className='home-brand' alt="something" />
             </Link>
           </div>
           <div className='col-md-2 beauty-brand'>

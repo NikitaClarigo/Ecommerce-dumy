@@ -1355,6 +1355,9 @@ a {
         margin-top: 78px;
         cursor: pointer;
     }
+    .dropdown-item {
+        line-height: 19px !important;
+    }
 
 }
 

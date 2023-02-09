@@ -15,7 +15,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 export default function CheckoutAddress1() {
   return (
-    <div className='container'>
+    <div className='container checkout-address1'>
       {/* <h2 className='text-center'>Bag</h2>
             <hr /> */}
       <div className='row'>
@@ -29,7 +29,7 @@ export default function CheckoutAddress1() {
                 <p>United states of America</p>
               </div>
             </div>
-            <div className='col-md-12'>
+            <div className='col-md-12 payment-method'>
               <p className='form-heading'><b>PAYMENT METHOD</b></p>
               <div className='checkoutmain-col'>
                 <div className='row d-flex align-items-center'>

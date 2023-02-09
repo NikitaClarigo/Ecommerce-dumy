@@ -126,7 +126,9 @@
 .tshirt-filter-right::-webkit-scrollbar {
     display: none;
 }
-
+.mobile-shirt-section{
+    display: none;
+}
 
 
 /*********** MEDIA QUERY FOR MOBILE,TABLET & LAPTOP RESPONSIVE ***********/
@@ -169,6 +171,46 @@
         font-weight: 600;
         font-size: 23px !important;
     }
+    .mobile-shirt-section{
+        display: block;
+    }
+    .product-cat-filter-button {
+        margin-right: 10px;
+        border: none;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        position: absolute;
+        right: 0px;
+        font-size: 16px;
+    }
+    .filter-right {
+        padding: 20px 20px !important;
+        overflow: scroll;
+        height: auto;
+        overflow-x: hidden;
+    }
+    .product-cat-col {
+        position: relative;
+        margin-top: 30px !important;
+        width: 50% !important;
+
+    }
+    .Shirt-section {
+        margin-top: 30px;
+        margin-left: 0px !important;
+    }
+    .Shirt-section .select {
+        float: left;
+        margin-right: 10px !important;
+    }
+    .checkbox-label {
+        margin-left: 13px !important;
+    }
+    .popup-heading {
+        margin-top: 1rem !important;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 360px) {
@@ -207,6 +249,46 @@
         margin-bottom: 24px;
         font-weight: 600;
         font-size: 23px !important;
+    }
+    .mobile-shirt-section{
+        display: block;
+    }
+    .product-cat-filter-button {
+        margin-right: 10px;
+        border: none;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        position: absolute;
+        right: 0px;
+        font-size: 16px;
+    }
+    .filter-right {
+        padding: 20px 20px !important;
+        overflow: scroll;
+        height: auto;
+        overflow-x: hidden;
+    }
+    .product-cat-col {
+        position: relative;
+        margin-top: 30px !important;
+        width: 50% !important;
+
+    }
+    .Shirt-section {
+        margin-top: 30px;
+        margin-left: 0px !important;
+    }
+    .Shirt-section .select {
+        float: left;
+        margin-right: 10px !important;
+    }
+    .checkbox-label {
+        margin-left: 13px !important;
+    }
+    .popup-heading {
+        margin-top: 1rem !important;
     }
 }
 
@@ -247,6 +329,46 @@
         font-weight: 600;
         font-size: 23px !important;
     }
+    .mobile-shirt-section{
+        display: block;
+    }
+    .product-cat-filter-button {
+        margin-right: 10px;
+        border: none;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        position: absolute;
+        right: 0px;
+        font-size: 16px;
+    }
+    .filter-right {
+        padding: 20px 20px !important;
+        overflow: scroll;
+        height: auto;
+        overflow-x: hidden;
+    }
+    .product-cat-col {
+        position: relative;
+        margin-top: 30px !important;
+        width: 50% !important;
+
+    }
+    .Shirt-section {
+        margin-top: 30px;
+        margin-left: 0px !important;
+    }
+    .Shirt-section .select {
+        float: left;
+        margin-right: 10px !important;
+    }
+    .checkbox-label {
+        margin-left: 13px !important;
+    }
+    .popup-heading {
+        margin-top: 1rem !important;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 390px) {
@@ -283,6 +405,46 @@
         margin-bottom: 24px;
         font-weight: 600;
         font-size: 23px !important;
+    }
+    .mobile-shirt-section{
+        display: block;
+    }
+    .product-cat-filter-button {
+        margin-right: 10px;
+        border: none;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        position: absolute;
+        right: 0px;
+        font-size: 16px;
+    }
+    .filter-right {
+        padding: 20px 20px !important;
+        overflow: scroll;
+        height: auto;
+        overflow-x: hidden;
+    }
+    .product-cat-col {
+        position: relative;
+        margin-top: 30px !important;
+        width: 50% !important;
+
+    }
+    .Shirt-section {
+        margin-top: 30px;
+        margin-left: 0px !important;
+    }
+    .Shirt-section .select {
+        float: left;
+        margin-right: 10px !important;
+    }
+    .checkbox-label {
+        margin-left: 13px !important;
+    }
+    .popup-heading {
+        margin-top: 1rem !important;
     }
 }
 
@@ -321,6 +483,46 @@
         font-weight: 600;
         font-size: 23px !important;
     }
+    .mobile-shirt-section{
+        display: block;
+    }
+    .product-cat-filter-button {
+        margin-right: 10px;
+        border: none;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        position: absolute;
+        right: 0px;
+        font-size: 16px;
+    }
+    .filter-right {
+        padding: 20px 20px !important;
+        overflow: scroll;
+        height: auto;
+        overflow-x: hidden;
+    }
+    .product-cat-col {
+        position: relative;
+        margin-top: 30px !important;
+        width: 50% !important;
+
+    }
+    .Shirt-section {
+        margin-top: 30px;
+        margin-left: 0px !important;
+    }
+    .Shirt-section .select {
+        float: left;
+        margin-right: 10px !important;
+    }
+    .checkbox-label {
+        margin-left: 13px !important;
+    }
+    .popup-heading {
+        margin-top: 1rem !important;
+    }
 }
 
 @media screen and (min-width: 394px) and (max-width: 412px) {
@@ -358,6 +560,46 @@
         font-weight: 600;
         font-size: 23px !important;
     }
+    .mobile-shirt-section{
+        display: block;
+    }
+    .product-cat-filter-button {
+        margin-right: 10px;
+        border: none;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        position: absolute;
+        right: 0px;
+        font-size: 16px;
+    }
+    .filter-right {
+        padding: 20px 20px !important;
+        overflow: scroll;
+        height: auto;
+        overflow-x: hidden;
+    }
+    .product-cat-col {
+        position: relative;
+        margin-top: 30px !important;
+        width: 50% !important;
+
+    }
+    .Shirt-section {
+        margin-top: 30px;
+        margin-left: 0px !important;
+    }
+    .Shirt-section .select {
+        float: left;
+        margin-right: 10px !important;
+    }
+    .checkbox-label {
+        margin-left: 13px !important;
+    }
+    .popup-heading {
+        margin-top: 1rem !important;
+    }
 }
 
 @media screen and (min-width: 413px) and (max-width: 414px) {
@@ -394,6 +636,46 @@
         margin-bottom: 24px;
         font-weight: 600;
         font-size: 23px !important;
+    }
+    .mobile-shirt-section{
+        display: block;
+    }
+    .product-cat-filter-button {
+        margin-right: 10px;
+        border: none;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        position: absolute;
+        right: 0px;
+        font-size: 16px;
+    }
+    .filter-right {
+        padding: 20px 20px !important;
+        overflow: scroll;
+        height: auto;
+        overflow-x: hidden;
+    }
+    .product-cat-col {
+        position: relative;
+        margin-top: 30px !important;
+        width: 50% !important;
+
+    }
+    .Shirt-section {
+        margin-top: 30px;
+        margin-left: 0px !important;
+    }
+    .Shirt-section .select {
+        float: left;
+        margin-right: 10px !important;
+    }
+    .checkbox-label {
+        margin-left: 13px !important;
+    }
+    .popup-heading {
+        margin-top: 1rem !important;
     }
 }
 
@@ -436,6 +718,46 @@
         font-size: 24px;
         padding: 4px;
     }
+    .mobile-shirt-section{
+        display: block;
+    }
+    .product-cat-filter-button {
+        margin-right: 10px;
+        border: none;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        position: absolute;
+        right: 0px;
+        font-size: 16px;
+    }
+    .filter-right {
+        padding: 20px 20px !important;
+        overflow: scroll;
+        height: auto;
+        overflow-x: hidden;
+    }
+    .product-cat-col {
+        position: relative;
+        margin-top: 30px !important;
+        width: 50% !important;
+
+    }
+    .Shirt-section {
+        margin-top: 30px;
+        margin-left: 0px !important;
+    }
+    .Shirt-section .select {
+        float: left;
+        margin-right: 10px !important;
+    }
+    .checkbox-label {
+        margin-left: 13px !important;
+    }
+    .popup-heading {
+        margin-top: 1rem !important;
+    }
 }
 
 @media screen and (min-width: 541px) and (max-width: 768px) {
@@ -471,6 +793,29 @@
         align-items: center;
         justify-content: center;
         padding: 9px;
+    }
+    .filter-left {
+        border-right: 1px solid lightgrey;
+        width: 25% !important;
+    }
+    .filter-right {
+        width: 75% !important;
+    }
+    .filter-left .checkbox-label {
+        font-size: 13px;
+        color: rgb(116, 114, 114);
+    }
+    .product-cat-col h5 {
+        font-size: 9px;
+        margin-top: -5px !important;
+    }
+    .filter-right .product-cat-col h6 {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .product-cat-col p {
+        font-size: 11px !important;
+        color: gray;
     }
 }
 
@@ -508,6 +853,13 @@
         justify-content: center;
         padding: 9px;
     }
+      .filter-left {
+        border-right: 1px solid lightgrey;
+        width: 25% !important;
+    }
+    .filter-right {
+        width: 75% !important;
+    }
 }
 
 @media screen and (min-width: 821px) and (max-width: 912px) {
@@ -521,6 +873,13 @@
         transform: scale(1);
         transition: .5s;
     }
+    .filter-left {
+        border-right: 1px solid lightgrey;
+        width: 25% !important;
+    }
+    .filter-right {
+        width: 75% !important;
+    }
 }
 
 @media screen and (min-width: 913px) and (max-width: 1024px) {
@@ -533,6 +892,13 @@
         margin-bottom: 20px;
         transform: scale(1);
         transition: .5s;
+    }
+    .filter-left {
+        border-right: 1px solid lightgrey;
+        width: 20% !important;
+    }
+    .filter-right {
+        width: 80% !important;
     }
 }
 

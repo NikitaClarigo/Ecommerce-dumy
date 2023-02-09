@@ -1,4 +1,5 @@
 import React from 'react';
+import './Winter.css';
 import winter from '../../Assets/winter.png';
 import winterbrandproduct1 from '../../Assets/winterbrandproduct1.png';
 import winterbrandproduct2 from '../../Assets/winterbrandproduct2.png';
@@ -23,32 +24,32 @@ export default function Winter() {
             <img src={winter} className='banner' alt="something" />
             <div className='section'>
                 <h2 className='inner-heading'>Biggest deal on top brands</h2>
-                <div className='row'>
+                <div className='row winter-page'>
                     <div className='col-md-3'>
                         <Link to={"/shirt"}>
                             <img src={winterbrandproduct1} className="brand-product" alt="something" />
-                            <img src={kbrand12} className="brand" alt="something" width={"30%"} />
+                            <img src={kbrand12} className="brand" alt="something" />
                             <h2 className='text-center'>30-60% Off</h2>
                         </Link>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-md-3 '>
                         <Link to={"/shirt"}>
                             <img src={winterbrandproduct2} className="brand-product" alt="something" />
-                            <img src={winterbrand2} className="brand" alt="something" width={"30%"} />
+                            <img src={winterbrand2} className="brand" alt="something"/>
                             <h2 className='text-center'>30-60% Off</h2>
                         </Link>
                     </div>
                     <div className='col-md-3'>
                         <Link to={"/shirt"}>
                             <img src={winterbrandproduct3} className="brand-product" alt="something" />
-                            <img src={winterbrand3} className="brand" alt="something" width={"30%"} />
+                            <img src={winterbrand3} className="brand" alt="something"/>
                             <h2 className='text-center'>30-60% Off</h2>
                         </Link>
                     </div>
                     <div className='col-md-3'>
                         <Link to={"/shirt"}>
                             <img src={winterbrandproduct4} className="brand-product" alt="something" />
-                            <img src={winterbrand4} className="brand" alt="something" width={"30%"} />
+                            <img src={winterbrand4} className="brand" alt="something" />
                             <h2 className='text-center'>30-60% Off</h2>
                         </Link>
                     </div>

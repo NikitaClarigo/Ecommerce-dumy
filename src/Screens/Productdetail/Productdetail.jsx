@@ -9,14 +9,14 @@ import { Link } from 'react-router-dom';
 
 export default function Productdetail() {
   return (
-    <div className='container-fluid row'>
+    <div className='container-fluid row prduct-detail-img'>
       <p>Home / Mens / Shirt / English Navy</p>
       <div className='col-md-7 row'>
         <div className='col-md-6'>
-          <img src={p1} alt="something" width={350} />
+          <img src={p1} alt="something" className='detail-product-img'/>
         </div>
         <div className='col-md-6'>
-          <img src={product2} alt="something" width={350} />
+          <img src={product2} alt="something" className='detail-product-img'/>
         </div>
       </div>
       <div className='col-md-5'>

@@ -10,16 +10,16 @@ import p1 from '../../Assets/p1.png';
 
 export default function Checkoutmain() {
     return (
-        <div className='container'>
+        <div className='checkout container'>
             {/* <h2 className='text-center'>Bag</h2>
             <hr /> */}
             <div className='row'>
-                <div className='col-md-8'>
+                <div className='col-md-8 left-col'>
                     <div className='checkoutmain-col row'>
                         <div className='col-md-9 d-flex align-items-center'>
                             <b>Check Delivery time & services</b>
                         </div>
-                        <div className='col-md-3'>
+                        <div className='col-md-3 enter-pin-code'>
                             <button className='float-end pin-button'>Enter Pin Code</button>
                         </div>
                     </div>
@@ -38,11 +38,11 @@ export default function Checkoutmain() {
                         </ul>
                     </div>
                     <div className='row'>
-                        <div className='col-md-8'>
+                        <div className='col-md-8 checkbox'>
                             <input type="checkbox" defaultChecked /><span><b>  1/1 ITEMS SELECTED </b></span>
                         </div>
-                        <div className='col-md-4'>
-                            <span className='inner-content text-right'> Remove | </span>
+                        <div className='col-md-4 remove'>
+                            <span className='inner-content'> Remove | </span>
                             <span className='inner-content'> Move to Wishlist</span>
                         </div>
                     </div>
@@ -72,18 +72,24 @@ export default function Checkoutmain() {
                         </div>
                     </Link>
                 </div>
-                <div className='col-md-4'>
-                    <div className='right-col row'>
+                <div className='col-md-4 right-column'>
+                    <div className='right-col'>
                         <p>COUPONS</p>
-                        <div className='col-md-2'>
-                            <IoMdPricetag className='discount-icon' />
+
+                        {/* Dextop */}
+                        <div className='row dextop-coupon-line'>
+                            <div className='col-md-2 coupon-icon'>
+                                <IoMdPricetag className='discount-icon' />
+                            </div>
+                            <div className='col-md-8 apply-coupon'>
+                                <b>Apply Coupons</b>
+                            </div>
+                            <div className='col-md-2 coupon-apply-button'>
+                                <button className='float-end apply-button'>Apply</button>
+                            </div>
                         </div>
-                        <div className='col-md-8'>
-                            <b>Apply Coupons</b>
-                        </div>
-                        <div className='col-md-2'>
-                            <button className='float-end apply-button'>Apply</button>
-                        </div>
+
+
                         <p>PRICE DETAILS (1 Item)</p>
                         <table className='p-text-small'>
                             <tbody>

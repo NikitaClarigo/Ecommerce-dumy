@@ -10,16 +10,29 @@ import { BiSearch } from "react-icons/bi";
 import { AiOutlineHeart } from "react-icons/ai";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
+import Dropdown from 'react-bootstrap/Dropdown';
+import { MdClose } from "react-icons/md"
+import { FiMenu } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 
 
 
 export default function Login() {
   const [loginName, setloginName] = useState('')
+  const [navbarOpen, setNavbarOpen] = useState(false)
+  const handleToggle = () => {
+    setNavbarOpen(!navbarOpen)
+  }
+  const closeMenu = () => {
+    setNavbarOpen(false)
+  }
+  const link = () => {
 
+  }
   return (
     <div>
       <div className='main'>
+        {/* Dextop & Laptop Header */}
         <div className='header login-header'>
           <Link to={"/Dashboard"} className='logo-container'>
             <img src={Logo} className='logo' alt="something" />
@@ -61,6 +74,109 @@ export default function Login() {
             </form>
           </div>
         </div>
+        {/* Mobile & Tablet Header */}
+        <nav className="navBar login-mobile-navbar">
+          <button onClick={handleToggle}>{navbarOpen ? (
+            <MdClose className='close-button' style={{ color: "black", width: "40px", height: "40px" }} />
+          ) : (
+            <FiMenu className='hamburger-icon' style={{ color: "#7b7b7b" }} />
+          )}</button>
+          <NavLink
+            to={link.path}
+            activeClassName="active-link"
+            onClick={() => closeMenu()}
+            exact
+          >
+            {link.text}
+          </NavLink>
+          <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
+            <li>
+              <NavLink to="/Dashboard" onClick={() => closeMenu()}>Home
+              </NavLink>
+            </li>
+            <li >
+              <NavLink to="/Men" onClick={() => closeMenu()}>Men
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/Women" onClick={() => closeMenu()}>Women
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/Kids" onClick={() => closeMenu()}>Kids
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/HomeandLiving" onClick={() => closeMenu()}>Home & Living
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/Beauty" onClick={() => closeMenu()}>Beauty
+              </NavLink>
+            </li>
+          </ul>
+          <div>
+            <form>
+              <div className="form-group has-search">
+                <BiSearch className='search' />
+                <input type="search" placeholder="Search" aria-describedby="button-addon1" />
+              </div>
+            </form>
+          </div>
+          {/* <div className='icon'>
+                    <Dropdown className='profile'>
+                        <Dropdown.Toggle>
+                            <CgProfile className='icon-size' />
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu className='profile-dropdown'>
+                            <Dropdown.Item>
+                                <h6><b>Welcome</b></h6>
+                                <h6>To access account and manage orders</h6>
+                            </Dropdown.Item>
+                            <Dropdown.Item>
+                                <Link to="Login">
+                                    <button className='text-centre login-button'>Login / signup</button>
+                                </Link>
+                            </Dropdown.Item>
+                            <hr className='hr1' />
+                            <Dropdown.Item>
+                                <Link to="Order">
+                                    <p>Profile</p>
+                                </Link>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <Link to="Wishlist"><p>Wishlist</p></Link>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Contact Us</p>
+                            </Dropdown.Item>
+                            <hr className='hr2' />
+                            <Dropdown.Item href="#">
+                                <p>Emart Credits</p>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Coupons</p>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Saved Cards</p>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Saved VPA</p>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#">
+                                <p>Saved Addresses</p>
+                            </Dropdown.Item>
+                        </Dropdown.Menu>
+                    </Dropdown>
+                    <Link to={"./Wishlist"}>
+                        <AiOutlineHeart className='icon-size' />
+                    </Link>
+                    <Link to={"./Cart"}>
+                        <HiOutlineShoppingBag className='icon-size' />
+                    </Link>
+                </div> */}
+
+        </nav>
         <div className="Login-main">
           <h4>Flat ₹500 OFF + Free Shipping</h4>
           <p>On First Order</p><br />
@@ -70,10 +186,10 @@ export default function Login() {
             <form>
               <input value={loginName} onChange={(e) => setloginName(e.target.value)} type="tel" id="phone" name="phone" placeholder="Mobile No." pattern="[0-9]{3}[0-9]{2}[0-9]{3}[0-9]{2}" required />
               <p className='login-terms'>By Continuing, I agree to the terms of use & Privacy Policy.</p>
-             
-              {!(loginName.length < 10||loginName.length>10) ?<Link to={"/OTP"}>
+
+              {!(loginName.length < 10 || loginName.length > 10) ? <Link to={"/OTP"}>
                 <button type="button">Continue</button>
-                </Link>:<button type="button" onClick={() => alert('please enter valid Mobile No.')}>Continue</button>}
+              </Link> : <button type="button" onClick={() => alert('please enter valid Mobile No.')}>Continue</button>}
               <p className='login-terms text-center'>Have trouble logging in? Get help </p>
             </form>
           </div>

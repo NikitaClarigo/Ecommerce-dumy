@@ -22,6 +22,7 @@
     "react-simple-image-slider": "^2.4.1",
     "react-tabs": "^6.0.0",
     "react-vertical-tabs": "^0.0.4",
+    "reactjs-popup": "^2.0.5",
     "redux": "^4.2.1",
     "web-vitals": "^2.1.4"
   },

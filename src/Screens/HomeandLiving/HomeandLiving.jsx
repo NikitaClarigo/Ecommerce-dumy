@@ -13,12 +13,16 @@ import homecat4 from '../../Assets/homecat4.jpg';
 import homecat5 from '../../Assets/homecat5.jpg';
 import homecat6 from '../../Assets/homecat6.jpg';
 import { Link } from 'react-router-dom';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+import { BsFilter } from "react-icons/bs"
 
 export default function HomeandLiving() {
   return (
     <div>
       <img src={homebanner} className='banner' alt="something" />
-      <div className='row section'>
+
+      <div className='row section filter-section'>
         <div className='col-md-4 sidebar'>
           <h5><b>Furnishing & Bedline</b></h5>
           <Link to={"/Shirt"}><p>Bed Sheets</p></Link>
@@ -116,7 +120,110 @@ export default function HomeandLiving() {
           </div>
         </div>
       </div>
-      <div className='row section'>
+
+      <div className='d-flex'>
+        <div className='mobile-filter'>
+          <Popup trigger=
+            {<button className='home-filter-button'><BsFilter /> Filter</button>}
+            position="bottom center">
+            <h5><b>Furnishing & Bedline</b></h5>
+            <Link to={"/Shirt"}><p>Bed Sheets</p></Link>
+            <Link to={"/Shirt"}><p>Bedding Sets & Bed Covers</p></Link>
+            <Link to={"/Shirt"}><p>Blankets, Quilts & Dohars</p></Link>
+            <Link to={"/Shirt"}><p>Pillows & Pillow Covers</p></Link>
+            <Link to={"/Shirt"}><p>Cushions & Cushion Covers</p></Link>
+            <Link to={"/Shirt"}><p>Curtains</p></Link>
+            <Link to={"/Shirt"}><p>Mats & Dhurries</p></Link>
+            <Link to={"/Shirt"}><p>Carpets</p></Link>
+
+            <h5><b>Bath & Bed Linen</b></h5>
+            <Link to={"/Shirt"}><p>Towels & Towel Sets</p></Link>
+            <Link to={"/Shirt"}><p>Bath Robes</p></Link>
+            <Link to={"/Shirt"}><p>Bathroom Accessories</p></Link>
+            <Link to={"/Shirt"}><p>Shower Curtains</p></Link>
+            <Link to={"/Shirt"}><p>Bath Rugs</p></Link>
+
+            <h5><b>Home Décor</b></h5>
+            <Link to={"/Shirt"}><p>Pooja Essentials</p></Link>
+            <Link to={"/Shirt"}><p>Laptop Table</p></Link>
+            <Link to={"/Shirt"}><p>Ottomans</p></Link>
+            <Link to={"/Shirt"}><p>Artificial Flowers & Plants</p></Link>
+            <Link to={"/Shirt"}><p>Candles & Candle Holders</p></Link>
+            <Link to={"/Shirt"}><p>Clocks</p></Link>
+            <Link to={"/Shirt"}><p>Planters & Garden Accessories</p></Link>
+            <Link to={"/Shirt"}><p>Home Fragrances</p></Link>
+            <Link to={"/Shirt"}><p>Mirrors</p></Link>
+            <Link to={"/Shirt"}><p>Wall Art</p></Link>
+            <Link to={"/Shirt"}><p>Wall Décor</p></Link>
+            <Link to={"/Shirt"}><p>Wall Shelves</p></Link>
+            <Link to={"/Shirt"}><p>Showpieces & Vases</p></Link>
+
+            <h5><b>Lamps & Lighting</b></h5>
+            <Link to={"/Shirt"}><p>Floor Lamps</p></Link>
+            <Link to={"/Shirt"}><p>Table Lamps</p></Link>
+            <Link to={"/Shirt"}><p>Wall Lamp & String Lights</p></Link>
+            <Link to={"/Shirt"}><p>Bathroom Lights & Outdoor Lamps</p></Link>
+            <Link to={"/Shirt"}><p>Ceiling Lamps</p></Link>
+
+            <h5><b>Kitchen & Table</b></h5>
+            <Link to={"/Shirt"}><p>Dinnerware</p></Link>
+            <Link to={"/Shirt"}><p>Cups & Mugs</p></Link>
+            <Link to={"/Shirt"}><p>Water Bottles</p></Link>
+            <Link to={"/Shirt"}><p>Bakeware</p></Link>
+            <Link to={"/Shirt"}><p>Trays & Serveware</p></Link>
+            <Link to={"/Shirt"}><p>Bar & Drinkware</p></Link>
+            <Link to={"/Shirt"}><p>Cookware & Kitchen Tools</p></Link>
+            <Link to={"/Shirt"}><p>Kitchen Storage</p></Link>
+            <Link to={"/Shirt"}><p>Table Covers & Furnishings</p></Link>
+
+            <h5><b>Storage & Organisers</b></h5>
+            <Link to={"/Shirt"}><p>Organisers</p></Link>
+            <Link to={"/Shirt"}><p>Hooks & Holders</p></Link>
+          </Popup>
+          <div className='col-md-12 section'>
+            <h2 className='inner-heading'>Categories to bag</h2>
+            <div className='row card-content'>
+              <div className='col-md-6'>
+                <Link to={"/Productdetail"}>
+                  <img src={homecat1} className="brand-product" alt="something" />
+                  <h5 className='text-center'>Bed Line</h5>
+                </Link>
+              </div>
+              <div className='col-md-6'>
+                <Link to={"/Productdetail"}>
+                  <img src={homecat2} className="brand-product" alt="something" />
+                  <h5 className='text-center'>Furnishing</h5>
+                </Link>
+              </div>
+              <div className='col-md-6'>
+                <Link to={"/Productdetail"}>
+                  <img src={homecat3} className="brand-product" alt="something" />
+                  <h5 className='text-center'>Art & Decore</h5>
+                </Link>
+              </div>
+              <div className='col-md-6'>
+                <Link to={"/Productdetail"}>
+                  <img src={homecat4} className="brand-product" alt="something" />
+                  <h5 className='text-center'>Lamps & Lightning</h5>
+                </Link>
+              </div>
+              <div className='col-md-6'>
+                <Link to={"/Productdetail"}>
+                  <img src={homecat5} className="brand-product" alt="something" />
+                  <h5 className='text-center'>Kitchen & Dinning</h5>
+                </Link>
+              </div>
+              <div className='col-md-6'>
+                <Link to={"/Productdetail"}>
+                  <img src={homecat6} className="brand-product" alt="something" />
+                  <h5 className='text-center'>Bath</h5>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='row section home-brand-section'>
         <h2 className='inner-heading'>Featured Brands</h2>
         <div className='row'>
           <div className='col-md-2'>
