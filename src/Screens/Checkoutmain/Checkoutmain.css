@@ -234,13 +234,22 @@ input[type="radio"] {
         width: 20%;
     }
     .payment-method .col-md-2 {
-        width: 36%;
+        width: 40%;
     }
     .payment-method .col-md-8 {
-        width: 27%;
+        width: 19%;
     }
     .payment-method .col-md-8 h6 {
        font-size: 13px;
+    }
+    .checkout-address-page {
+        margin-top: 20px;
+    }
+    .checkout-address-page .col-md-6 {
+        padding: 0px;
+    }
+    .checkout-address1 {
+        margin-top: 20px;
     }
 }
 
@@ -362,6 +371,15 @@ input[type="radio"] {
     .payment-method .col-md-8 h6 {
        font-size: 13px;
     }
+    .checkout-address-page {
+        margin-top: 20px;
+    }
+    .checkout-address-page .col-md-6 {
+        padding: 0px;
+    }
+    .checkout-address1 {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (min-width: 361px) and (max-width: 375px) {
@@ -481,6 +499,15 @@ input[type="radio"] {
     }
     .payment-method .col-md-8 h6 {
        font-size: 13px;
+    }
+   .checkout-address-page {
+        margin-top: 20px;
+    }
+    .checkout-address-page .col-md-6 {
+        padding: 0px;
+    }
+    .checkout-address1 {
+        margin-top: 20px;
     }
 }
 
@@ -602,6 +629,15 @@ input[type="radio"] {
     .payment-method .col-md-8 h6 {
        font-size: 13px;
     }
+    .checkout-address-page {
+        margin-top: 20px;
+    }
+    .checkout-address-page .col-md-6 {
+        padding: 0px;
+    }
+    .checkout-address1 {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (min-width: 391px) and (max-width: 393px) {
@@ -721,6 +757,15 @@ input[type="radio"] {
     }
     .payment-method .col-md-8 h6 {
        font-size: 13px;
+    }
+    .checkout-address-page {
+        margin-top: 20px;
+    }
+    .checkout-address-page .col-md-6 {
+        padding: 0px;
+    }
+    .checkout-address1 {
+        margin-top: 20px;
     }
 }
 
@@ -842,6 +887,15 @@ input[type="radio"] {
     .payment-method .col-md-8 h6 {
        font-size: 13px;
     }
+    .checkout-address-page {
+        margin-top: 20px;
+    }
+    .checkout-address-page .col-md-6 {
+        padding: 0px;
+    }
+    .checkout-address1 {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (min-width: 413px) and (max-width: 414px) {
@@ -962,6 +1016,15 @@ input[type="radio"] {
     .payment-method .col-md-8 h6 {
        font-size: 13px;
     }
+    .checkout-address-page {
+        margin-top: 20px;
+    }
+    .checkout-address-page .col-md-6 {
+        padding: 0px;
+    }
+    .checkout-address1 {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (min-width: 415px) and (max-width: 540px) {
@@ -1081,6 +1144,15 @@ input[type="radio"] {
     }
     .payment-method .col-md-8 h6 {
        font-size: 13px;
+    }
+    .checkout-address-page {
+        margin-top: 20px;
+    }
+    .checkout-address-page .col-md-6 {
+        padding: 0px;
+    }
+    .checkout-address1 {
+        margin-top: 20px;
     }
 }
 
