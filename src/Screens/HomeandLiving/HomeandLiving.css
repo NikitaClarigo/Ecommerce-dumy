@@ -74,6 +74,10 @@
         font-weight: 600;
         font-size: 17px !important;
     }
+    .mobile-filter {
+        display: block !important;
+        position: relative;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 360px) {

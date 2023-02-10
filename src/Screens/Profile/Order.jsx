@@ -20,6 +20,9 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { FaEdit } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+import { BsFilter } from "react-icons/bs"
 
 function MyVerticallyCenteredModal(props) {
 
@@ -361,12 +364,12 @@ export default function Order() {
         <div>
             <div className='container order-container'>
                 <Tabs className="order-tab">
-                    <TabList className="order-tab__tab-list">
-                        <div className='row'>
+                    <TabList className="order-tab__tab-list dextop-tab">
+                        <div className='row profile-section'>
                             <div className='col-md-3'>
                                 <img src={user.image} className="profile-round" alt="something" />
                             </div>
-                            <div className='col-md-9'>
+                            <div className='col-md-9 name-area'>
                                 <h5 className='m-0'><b>Account</b></h5>
                                 <p className='username'>{user.name}</p>
                             </div>
@@ -396,6 +399,34 @@ export default function Order() {
                             <p>Privacy Policy</p>
                         </Tab>
                     </TabList>
+
+                    <Popup trigger=
+                        {<button className='home-filter-button mobile-tab'>Profile Overview</button>}
+                        position="bottom center">
+                        <Tab className="order-tab__tab" onClick={() => switchTab1('orderTab')}>
+                            <p>Overview</p>
+                            <hr />
+                        </Tab>
+                        <Tab className="order-tab__tab" id='tab2'>
+                            <p>Orders & Returns</p>
+                            <hr />
+                        </Tab>
+                        <Tab className="order-tab__tab">
+                            <p>Coupons</p>
+                            <hr />
+                        </Tab>
+                        <Tab className="order-tab__tab">
+                            <p>Addresses</p>
+                            <hr />
+                        </Tab>
+                        <Tab className="order-tab__tab">
+                            <p>Terms of Use</p>
+                            <hr />
+                        </Tab>
+                        <Tab className="order-tab__tab">
+                            <p>Privacy Policy</p>
+                        </Tab>
+                    </Popup>
 
                     <TabPanel>
                         <div className="order-tab-panel-content">
