@@ -81,7 +81,7 @@ export default function Men() {
                 <img src={mcat2} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>T-shirts's</h2>
-                  <span className="best"><Link to={"/Tshirt"}>Best New Deals</Link></span>
+                  <span className="best"><Link to={"/Shirt"}>Best New Deals</Link></span>
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@ export default function Men() {
                 <img src={mcat3} alt="something" />
                 <div className="category-caption">
                   <h2 className='text-center'>Shoe's</h2>
-                  <span className="best"><Link to={"/Shoes"}>Best New Deals</Link></span>
+                  <span className="best"><Link to={"/Shirt"}>Best New Deals</Link></span>
                 </div>
               </div>
             </div>
@@ -103,25 +103,25 @@ export default function Men() {
         <h2 className='inner-heading'>Trending in indian wear</h2>
         <div className='row card-content'>
           <div className='col-md-3'>
-            <Link to={"/Blackkurta"}>
+            <Link to={"/Shirt"}>
               <img src={indian1} className="brand-product" alt="something" />
               <h5 className='text-center'>All black indian wear</h5>
             </Link>
           </div>
           <div className='col-md-3'>
-            <Link to={"/Shortkurta"}>
+            <Link to={"/Shirt"}>
               <img src={indian2} className="brand-product" alt="something" />
               <h5 className='text-center'>Short Kurta</h5>
             </Link>
           </div>
           <div className='col-md-3'>
-            <Link to={"/Ethinic"}>
+            <Link to={"/Shirt"}>
               <img src={indian3} className="brand-product" alt="something" />
               <h5 className='text-center'>Ethinic Casuals</h5>
             </Link>
           </div>
           <div className='col-md-3'>
-            <Link to={"/Ethinic"}>
+            <Link to={"/Shirt"}>
               <img src={indian4} className="brand-product" alt="something" />
               <h5 className='text-center'>Partywear</h5>
             </Link>

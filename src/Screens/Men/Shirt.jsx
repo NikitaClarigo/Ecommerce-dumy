@@ -16,13 +16,13 @@ import { BsFilter } from "react-icons/bs"
 export default function Shirt() {
     return (
         <div className='container-fluid Shirt-section'>
-            <p><Link to={"/Dashboard"}>Home</Link> / <Link to={"/Men"}>Men</Link> / <b>Shirts</b></p>
-            <p><b>Casual shirts For Men</b> - 200 Items</p>
+            <p className='cat-head-p'><Link to={"/Dashboard"}>Home</Link> / <Link to={"/Men"}>Men</Link> / <b>Shirts</b></p>
+            <p className='cat-head-p'><b>Casual shirts For Men</b> - 200 Items</p>
             <div className='row'>
-                <div className='col-md-2 mt-4'>
+                <div className='col-md-2 mt-4 cat-head'>
                     <h6><b>FILTERS</b></h6>
                 </div>
-                <div className='col-md-10 mt-4'>
+                <div className='col-md-10 mt-4 cat-head'>
                     <form className='select'>
                         <label>Sort by : </label>
                         <select>
@@ -37,7 +37,7 @@ export default function Shirt() {
                     </form>
                 </div>
                 {/* dextop Filter section */}
-                <div className='filter-section row'>
+                <div className='filter-section-shirt row'>
                     <div className='col-md-2 filter-left'>
                         <p><b>BRAND</b></p>
                         <form>
