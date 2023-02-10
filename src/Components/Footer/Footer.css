@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 280px) and (max-width: 320px) {
     .footer {
-        padding: 60px 40px !important;
+        padding: 60px 0px !important;
     }
     .footer .col-md-3 {
         width: 50%;
@@ -331,12 +331,20 @@
     .footer {
         padding: 60px 32px !important;
     }
+    .footer-icon {
+        font-size: 46px;
+        padding: 3px;
+    }
 
 }
 
 @media screen and (min-width: 769px) and (max-width: 820px) {
     .footer {
         padding: 60px 32px;
+    }
+    .footer-icon {
+        font-size: 46px;
+        padding: 3px;
     }
 }
 
