@@ -105,15 +105,18 @@ select {
     }
     .product-des {
         font-size: 12px;
+        margin-top: 0px;
     }
     .cart-col {
-        margin: 20px;
-        padding: 14px 23px !important;
+        padding: 14px 9px !important;
     }
     .cart-col h5 {
         text-align: left;
         margin-top: 25px;
         font-size: 16px;
+    }
+    .cart-main {
+        padding: 0px;
     }
 }
 
