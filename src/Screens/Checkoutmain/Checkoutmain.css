@@ -126,8 +126,16 @@ input[type="radio"] {
 
 
 @media screen and (min-width: 280px) and (max-width: 320px) {
-    .checkout .left-col{
-        width:100% !important;
+    .checkout .left-col {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .checkout.container {
+        padding: 0px;
+    }
+    .checkbox input {
+        width: 11px;
+        margin-right: 10px;
     }
     .checkout .right-column{
         width:100% !important;
@@ -168,13 +176,18 @@ input[type="radio"] {
         display: flex;
     }
     .checkout .checkbox {
-        width: 40% !important;
+        width: 45% !important;
         font-size: 9px;
         display: flex;
         align-items: center;
+        margin-bottom: 9px;
+    }
+    .inner-content {
+        font-size: 11px;
+        margin-bottom: 13px;
     }
     .checkout .remove {
-        width: 59% !important;
+        width: 55% !important;
         font-size: 9px;
     }
     .left input[type="checkbox"] {
@@ -232,8 +245,16 @@ input[type="radio"] {
 }
 
 @media screen and (min-width: 321px) and (max-width: 360px) {
-    .checkout .left-col{
-        width:100% !important;
+    .checkout .left-col {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .checkout.container {
+        padding: 0px;
+    }
+    .checkbox input {
+        width: 11px;
+        margin-right: 10px;
     }
     .checkout .right-column{
         width:100% !important;
@@ -247,31 +268,47 @@ input[type="radio"] {
         padding: 12px;
     }
     .checkoutmain-col .col-md-9 {
-        width: 60% !important;
-        font-size: 13px;
+        width: 57% !important;
+        font-size: 12px;
     }
-    .checkoutmain-col .enter-pin-code{
-        width: 40% !important;   
+    .checkoutmain-col .enter-pin-code {
+        width: 43% !important;
     }
     .checkoutmain-col .col-md-1 {
-        width: 10% !important;
+        width: 7% !important;
         padding: 0px;
     }
-    .checkoutmain-col .col-md-11{
-        width: 90% !important;   
+    .checkoutmain-col .col-md-11 {
+        width: 90% !important;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        padding: 4px;
     }
     .coupon-icon {
         width: 10% !important;
+        font-size: 5px;
+        padding: 0px !important;
     }
     .apply-coupon {
         width: 67% !important;
+        font-size: 12px;
+        display: flex;
     }
     .checkout .checkbox {
         width: 45% !important;
-        font-size: 12px;
+        font-size: 9px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 9px;
+    }
+    .inner-content {
+        font-size: 11px;
+        margin-bottom: 13px;
     }
     .checkout .remove {
-        width: 52% !important;
+        width: 55% !important;
+        font-size: 9px;
     }
     .left input[type="checkbox"] {
         display: none;
@@ -286,7 +323,7 @@ input[type="radio"] {
         width: 23% !important;
     }
     .pin-button {
-        font-size: 9px;
+        font-size: 11px;
     }
     .offer-list {
         margin-left: 12px;
@@ -296,19 +333,19 @@ input[type="radio"] {
         margin-top: 42px;
     }
     .discount-icon {
-        font-size: 23px;
+        font-size: 22px;
     }
     .right-col p {
         padding: 0px;
-        font-size: 14px;
+        font-size: 13px;
     }
     .place-order-button {
-        font-size: 14px;
+        font-size: 13px;
     }
     .price-col {
         margin: 16px;
         line-height: 35px;
-        width: 93% !important;
+        width: 90% !important;
     }
     .price-col p{
         padding: 0px;
@@ -317,10 +354,10 @@ input[type="radio"] {
         width: 20%;
     }
     .payment-method .col-md-2 {
-        width: 29%;
+        width: 36%;
     }
     .payment-method .col-md-8 {
-        width: 42%;
+        width: 27%;
     }
     .payment-method .col-md-8 h6 {
        font-size: 13px;
@@ -328,8 +365,16 @@ input[type="radio"] {
 }
 
 @media screen and (min-width: 361px) and (max-width: 375px) {
-    .checkout .left-col{
-        width:100% !important;
+    .checkout .left-col {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .checkout.container {
+        padding: 0px;
+    }
+    .checkbox input {
+        width: 11px;
+        margin-right: 10px;
     }
     .checkout .right-column{
         width:100% !important;
@@ -340,33 +385,50 @@ input[type="radio"] {
         margin-bottom: 16px !important;
         margin-right: 0px !important;
         margin-left: 0px !important;
+        padding: 12px;
     }
     .checkoutmain-col .col-md-9 {
-        width: 60% !important;
-        font-size: 13px;
+        width: 57% !important;
+        font-size: 12px;
     }
-    .checkoutmain-col .enter-pin-code{
-        width: 40% !important;   
+    .checkoutmain-col .enter-pin-code {
+        width: 43% !important;
     }
     .checkoutmain-col .col-md-1 {
-        width: 10% !important;
+        width: 7% !important;
         padding: 0px;
     }
-    .checkoutmain-col .col-md-11{
-        width: 90% !important;   
+    .checkoutmain-col .col-md-11 {
+        width: 90% !important;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        padding: 4px;
     }
     .coupon-icon {
         width: 10% !important;
+        font-size: 5px;
+        padding: 0px !important;
     }
     .apply-coupon {
         width: 67% !important;
+        font-size: 12px;
+        display: flex;
     }
     .checkout .checkbox {
-        width: 47% !important;
-        font-size: 13px;
+        width: 45% !important;
+        font-size: 11px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 9px;
+    }
+    .inner-content {
+        font-size: 11px;
+        margin-bottom: 13px;
     }
     .checkout .remove {
-        width: 50% !important;
+        width: 55% !important;
+        font-size: 9px;
     }
     .left input[type="checkbox"] {
         display: none;
@@ -381,7 +443,7 @@ input[type="radio"] {
         width: 23% !important;
     }
     .pin-button {
-        font-size: 9px;
+        font-size: 11px;
     }
     .offer-list {
         margin-left: 12px;
@@ -391,19 +453,19 @@ input[type="radio"] {
         margin-top: 42px;
     }
     .discount-icon {
-        font-size: 23px;
+        font-size: 22px;
     }
     .right-col p {
         padding: 0px;
-        font-size: 14px;
+        font-size: 13px;
     }
     .place-order-button {
-        font-size: 14px;
+        font-size: 13px;
     }
     .price-col {
         margin: 16px;
         line-height: 35px;
-        width: 93% !important;
+        width: 90% !important;
     }
     .price-col p{
         padding: 0px;
@@ -412,10 +474,10 @@ input[type="radio"] {
         width: 20%;
     }
     .payment-method .col-md-2 {
-        width: 29%;
+        width: 36%;
     }
     .payment-method .col-md-8 {
-        width: 42%;
+        width: 27%;
     }
     .payment-method .col-md-8 h6 {
        font-size: 13px;
@@ -423,8 +485,16 @@ input[type="radio"] {
 }
 
 @media screen and (min-width: 376px) and (max-width: 390px) {
-    .checkout .left-col{
-        width:100% !important;
+    .checkout .left-col {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .checkout.container {
+        padding: 0px;
+    }
+    .checkbox input {
+        width: 11px;
+        margin-right: 10px;
     }
     .checkout .right-column{
         width:100% !important;
@@ -435,31 +505,50 @@ input[type="radio"] {
         margin-bottom: 16px !important;
         margin-right: 0px !important;
         margin-left: 0px !important;
+        padding: 12px;
     }
-    .checkoutmain-col .col-md-9{
-        width: 60% !important;
-
+    .checkoutmain-col .col-md-9 {
+        width: 57% !important;
+        font-size: 12px;
     }
-    .checkoutmain-col .enter-pin-code{
-        width: 40% !important;   
+    .checkoutmain-col .enter-pin-code {
+        width: 43% !important;
     }
-    .checkoutmain-col .col-md-1{
-        width: 10% !important;   
+    .checkoutmain-col .col-md-1 {
+        width: 7% !important;
+        padding: 0px;
     }
-    .checkoutmain-col .col-md-11{
-        width: 90% !important;   
+    .checkoutmain-col .col-md-11 {
+        width: 90% !important;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        padding: 4px;
     }
     .coupon-icon {
         width: 10% !important;
+        font-size: 5px;
+        padding: 0px !important;
     }
     .apply-coupon {
         width: 67% !important;
+        font-size: 12px;
+        display: flex;
     }
     .checkout .checkbox {
-        width: 51% !important;
+        width: 45% !important;
+        font-size: 11px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 9px;
+    }
+    .inner-content {
+        font-size: 11px;
+        margin-bottom: 13px;
     }
     .checkout .remove {
-        width: 48% !important;
+        width: 55% !important;
+        font-size: 9px;
     }
     .left input[type="checkbox"] {
         display: none;
@@ -474,12 +563,29 @@ input[type="radio"] {
         width: 23% !important;
     }
     .pin-button {
-        font-size: 10px;
+        font-size: 11px;
+    }
+    .offer-list {
+        margin-left: 12px;
+        padding-top: 20px;
+        line-height: 29px;
+        font-size: 13px;
+        margin-top: 42px;
+    }
+    .discount-icon {
+        font-size: 22px;
+    }
+    .right-col p {
+        padding: 0px;
+        font-size: 13px;
+    }
+    .place-order-button {
+        font-size: 13px;
     }
     .price-col {
         margin: 16px;
         line-height: 35px;
-        width: 93% !important;
+        width: 90% !important;
     }
     .price-col p{
         padding: 0px;
@@ -488,16 +594,27 @@ input[type="radio"] {
         width: 20%;
     }
     .payment-method .col-md-2 {
-        width: 29%;
+        width: 36%;
     }
     .payment-method .col-md-8 {
-        width: 42%;
+        width: 27%;
+    }
+    .payment-method .col-md-8 h6 {
+       font-size: 13px;
     }
 }
 
 @media screen and (min-width: 391px) and (max-width: 393px) {
-    .checkout .left-col{
-        width:100% !important;
+    .checkout .left-col {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .checkout.container {
+        padding: 0px;
+    }
+    .checkbox input {
+        width: 11px;
+        margin-right: 10px;
     }
     .checkout .right-column{
         width:100% !important;
@@ -508,31 +625,50 @@ input[type="radio"] {
         margin-bottom: 16px !important;
         margin-right: 0px !important;
         margin-left: 0px !important;
+        padding: 12px;
     }
-    .checkoutmain-col .col-md-9{
-        width: 60% !important;
-
+    .checkoutmain-col .col-md-9 {
+        width: 57% !important;
+        font-size: 13px;
     }
-    .checkoutmain-col .enter-pin-code{
-        width: 40% !important;   
+    .checkoutmain-col .enter-pin-code {
+        width: 43% !important;
     }
-    .checkoutmain-col .col-md-1{
-        width: 10% !important;   
+    .checkoutmain-col .col-md-1 {
+        width: 7% !important;
+        padding: 0px;
     }
-    .checkoutmain-col .col-md-11{
-        width: 90% !important;   
+    .checkoutmain-col .col-md-11 {
+        width: 90% !important;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        padding: 4px;
     }
     .coupon-icon {
         width: 10% !important;
+        font-size: 5px;
+        padding: 0px !important;
     }
     .apply-coupon {
         width: 67% !important;
+        font-size: 12px;
+        display: flex;
     }
     .checkout .checkbox {
-        width: 51% !important;
+        width: 45% !important;
+        font-size: 11px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 9px;
+    }
+    .inner-content {
+        font-size: 11px;
+        margin-bottom: 13px;
     }
     .checkout .remove {
-        width: 47% !important;
+        width: 55% !important;
+        font-size: 9px;
     }
     .left input[type="checkbox"] {
         display: none;
@@ -547,12 +683,29 @@ input[type="radio"] {
         width: 23% !important;
     }
     .pin-button {
-        font-size: 10px;
+        font-size: 12px;
+    }
+    .offer-list {
+        margin-left: 12px;
+        padding-top: 20px;
+        line-height: 29px;
+        font-size: 13px;
+        margin-top: 42px;
+    }
+    .discount-icon {
+        font-size: 22px;
+    }
+    .right-col p {
+        padding: 0px;
+        font-size: 13px;
+    }
+    .place-order-button {
+        font-size: 13px;
     }
     .price-col {
         margin: 16px;
         line-height: 35px;
-        width: 93% !important;
+        width: 90% !important;
     }
     .price-col p{
         padding: 0px;
@@ -561,16 +714,27 @@ input[type="radio"] {
         width: 20%;
     }
     .payment-method .col-md-2 {
-        width: 29%;
+        width: 36%;
     }
     .payment-method .col-md-8 {
-        width: 42%;
+        width: 27%;
+    }
+    .payment-method .col-md-8 h6 {
+       font-size: 13px;
     }
 }
 
 @media screen and (min-width: 394px) and (max-width: 412px) {
-    .checkout .left-col{
-        width:100% !important;
+    .checkout .left-col {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .checkout.container {
+        padding: 0px;
+    }
+    .checkbox input {
+        width: 11px;
+        margin-right: 10px;
     }
     .checkout .right-column{
         width:100% !important;
@@ -581,31 +745,50 @@ input[type="radio"] {
         margin-bottom: 16px !important;
         margin-right: 0px !important;
         margin-left: 0px !important;
+        padding: 12px;
     }
-    .checkoutmain-col .col-md-9{
-        width: 60% !important;
-
+    .checkoutmain-col .col-md-9 {
+        width: 57% !important;
+        font-size: 13px;
     }
-    .checkoutmain-col .enter-pin-code{
-        width: 40% !important;   
+    .checkoutmain-col .enter-pin-code {
+        width: 43% !important;
     }
-    .checkoutmain-col .col-md-1{
-        width: 10% !important;   
+    .checkoutmain-col .col-md-1 {
+        width: 7% !important;
+        padding: 0px;
     }
-    .checkoutmain-col .col-md-11{
-        width: 90% !important;   
+    .checkoutmain-col .col-md-11 {
+        width: 90% !important;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        padding: 4px;
     }
     .coupon-icon {
         width: 10% !important;
+        font-size: 5px;
+        padding: 0px !important;
     }
     .apply-coupon {
         width: 67% !important;
+        font-size: 12px;
+        display: flex;
     }
     .checkout .checkbox {
-        width: 55% !important;
-    }
-    .checkout .remove{
         width: 45% !important;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 9px;
+    }
+    .inner-content {
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+    .checkout .remove {
+        width: 55% !important;
+        font-size: 9px;
     }
     .left input[type="checkbox"] {
         display: none;
@@ -620,12 +803,29 @@ input[type="radio"] {
         width: 23% !important;
     }
     .pin-button {
-        font-size: 11px;
+        font-size: 12px;
+    }
+    .offer-list {
+        margin-left: 12px;
+        padding-top: 20px;
+        line-height: 29px;
+        font-size: 13px;
+        margin-top: 42px;
+    }
+    .discount-icon {
+        font-size: 22px;
+    }
+    .right-col p {
+        padding: 0px;
+        font-size: 13px;
+    }
+    .place-order-button {
+        font-size: 13px;
     }
     .price-col {
         margin: 16px;
         line-height: 35px;
-        width: 93% !important;
+        width: 90% !important;
     }
     .price-col p{
         padding: 0px;
@@ -634,16 +834,27 @@ input[type="radio"] {
         width: 20%;
     }
     .payment-method .col-md-2 {
-        width: 29%;
+        width: 36%;
     }
     .payment-method .col-md-8 {
-        width: 42%;
+        width: 27%;
+    }
+    .payment-method .col-md-8 h6 {
+       font-size: 13px;
     }
 }
 
 @media screen and (min-width: 413px) and (max-width: 414px) {
-    .checkout .left-col{
-        width:100% !important;
+    .checkout .left-col {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .checkout.container {
+        padding: 0px;
+    }
+    .checkbox input {
+        width: 11px;
+        margin-right: 10px;
     }
     .checkout .right-column{
         width:100% !important;
@@ -654,31 +865,50 @@ input[type="radio"] {
         margin-bottom: 16px !important;
         margin-right: 0px !important;
         margin-left: 0px !important;
+        padding: 12px;
     }
-    .checkoutmain-col .col-md-9{
-        width: 60% !important;
-
+    .checkoutmain-col .col-md-9 {
+        width: 57% !important;
+        font-size: 13px;
     }
-    .checkoutmain-col .enter-pin-code{
-        width: 40% !important;   
+    .checkoutmain-col .enter-pin-code {
+        width: 43% !important;
     }
-    .checkoutmain-col .col-md-1{
-        width: 10% !important;   
+    .checkoutmain-col .col-md-1 {
+        width: 7% !important;
+        padding: 0px;
     }
-    .checkoutmain-col .col-md-11{
-        width: 90% !important;   
+    .checkoutmain-col .col-md-11 {
+        width: 90% !important;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        padding: 4px;
     }
     .coupon-icon {
         width: 10% !important;
+        font-size: 5px;
+        padding: 0px !important;
     }
     .apply-coupon {
         width: 67% !important;
+        font-size: 12px;
+        display: flex;
     }
     .checkout .checkbox {
-        width: 55% !important;
-    }
-    .checkout .remove{
         width: 45% !important;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 9px;
+    }
+    .inner-content {
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+    .checkout .remove {
+        width: 55% !important;
+        font-size: 9px;
     }
     .left input[type="checkbox"] {
         display: none;
@@ -693,12 +923,29 @@ input[type="radio"] {
         width: 23% !important;
     }
     .pin-button {
-        font-size: 11px;
+        font-size: 12px;
+    }
+    .offer-list {
+        margin-left: 12px;
+        padding-top: 20px;
+        line-height: 29px;
+        font-size: 13px;
+        margin-top: 42px;
+    }
+    .discount-icon {
+        font-size: 22px;
+    }
+    .right-col p {
+        padding: 0px;
+        font-size: 13px;
+    }
+    .place-order-button {
+        font-size: 13px;
     }
     .price-col {
         margin: 16px;
         line-height: 35px;
-        width: 93% !important;
+        width: 90% !important;
     }
     .price-col p{
         padding: 0px;
@@ -707,16 +954,27 @@ input[type="radio"] {
         width: 20%;
     }
     .payment-method .col-md-2 {
-        width: 29%;
+        width: 36%;
     }
     .payment-method .col-md-8 {
-        width: 42%;
+        width: 27%;
+    }
+    .payment-method .col-md-8 h6 {
+       font-size: 13px;
     }
 }
 
 @media screen and (min-width: 415px) and (max-width: 540px) {
-    .checkout .left-col{
-        width:100% !important;
+    .checkout .left-col {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .checkout.container {
+        padding: 0px;
+    }
+    .checkbox input {
+        width: 11px;
+        margin-right: 10px;
     }
     .checkout .right-column{
         width:100% !important;
@@ -727,31 +985,50 @@ input[type="radio"] {
         margin-bottom: 16px !important;
         margin-right: 0px !important;
         margin-left: 0px !important;
+        padding: 12px;
     }
-    .checkoutmain-col .col-md-9{
-        width: 60% !important;
-
+    .checkoutmain-col .col-md-9 {
+        width: 57% !important;
+        font-size: 13px;
     }
-    .checkoutmain-col .enter-pin-code{
-        width: 40% !important;   
+    .checkoutmain-col .enter-pin-code {
+        width: 43% !important;
     }
-    .checkoutmain-col .col-md-1{
-        width: 10% !important;   
+    .checkoutmain-col .col-md-1 {
+        width: 7% !important;
+        padding: 0px;
     }
-    .checkoutmain-col .col-md-11{
-        width: 90% !important;   
+    .checkoutmain-col .col-md-11 {
+        width: 90% !important;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        padding: 4px;
     }
     .coupon-icon {
-        width: 8% !important;
+        width: 10% !important;
+        font-size: 5px;
+        padding: 0px !important;
     }
     .apply-coupon {
-        width: 59% !important;
+        width: 67% !important;
+        font-size: 12px;
+        display: flex;
     }
-    .checkout .checkbox{
-        width: 60% !important;
+    .checkout .checkbox {
+        width: 45% !important;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 9px;
     }
-    .checkout .remove{
-        width: 40% !important;
+    .inner-content {
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+    .checkout .remove {
+        width: 55% !important;
+        font-size: 9px;
     }
     .left input[type="checkbox"] {
         display: none;
@@ -763,24 +1040,47 @@ input[type="radio"] {
         border: none;
     }
     .coupon-apply-button {
-        width: 33% !important;
+        width: 23% !important;
+    }
+    .pin-button {
+        font-size: 12px;
+    }
+    .offer-list {
+        margin-left: 12px;
+        padding-top: 20px;
+        line-height: 29px;
+        font-size: 13px;
+        margin-top: 42px;
+    }
+    .discount-icon {
+        font-size: 22px;
+    }
+    .right-col p {
+        padding: 0px;
+        font-size: 13px;
+    }
+    .place-order-button {
+        font-size: 13px;
     }
     .price-col {
         margin: 16px;
         line-height: 35px;
-        width: 93% !important;
+        width: 90% !important;
     }
     .price-col p{
         padding: 0px;
     }
     .footer-payment img {
-        width: 10%;
+        width: 20%;
     }
     .payment-method .col-md-2 {
-        width: 21%;
+        width: 36%;
     }
     .payment-method .col-md-8 {
-        width: 58%;
+        width: 27%;
+    }
+    .payment-method .col-md-8 h6 {
+       font-size: 13px;
     }
 }
 
