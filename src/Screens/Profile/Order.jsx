@@ -22,7 +22,8 @@ import { FaEdit } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import { BsFilter } from "react-icons/bs"
+import { BsFilter } from "react-icons/bs";
+import { RiArrowDropDownLine } from "react-icons/ri"
 
 function MyVerticallyCenteredModal(props) {
 
@@ -401,7 +402,7 @@ export default function Order() {
                     </TabList>
 
                     <Popup trigger=
-                        {<button className='home-filter-button mobile-tab'>Profile Overview</button>}
+                        {<button className='home-filter-button mobile-tab'>Profile Overview <RiArrowDropDownLine /></button>}
                         position="bottom center">
                         <Tab className="order-tab__tab" onClick={() => switchTab1('orderTab')}>
                             <p>Overview</p>
@@ -514,7 +515,7 @@ export default function Order() {
                                     <img src={windian2} alt="something" width="100%" />
                                 </div>
                                 <div className='col-md-9'>
-                                    <h6>Kaynat Women's Rayon Green Print Kurta & duptta Set Rayon (Size: S-3XL)</h6>
+                                    <h6 className='pro-detail'>Kaynat Women's Rayon Green Print Kurta & duptta Set Rayon (Size: S-3XL)</h6>
                                     <GoPrimitiveDot className='cancel' /> Cancelled<br />
                                 </div>
                                 <div className='col-md-1'>
@@ -534,7 +535,7 @@ export default function Order() {
                                     <img src={p1} alt="something" width="100%" />
                                 </div>
                                 <div className='col-md-9'>
-                                    <h6>Ethluxis Men's Silk Blend Kurta, Churidar Pyjama With Nehru Jacket (ETH-TRI-FLR_Navy Blue_42)</h6>
+                                    <h6 className='pro-detail'>Ethluxis Men's Silk Blend Kurta, Churidar Pyjama With Nehru Jacket (ETH-TRI-FLR_Navy Blue_42)</h6>
                                     <GoPrimitiveDot className='deliver' /> Delivered on 29th Sepetember,2022<br />
                                     <AiFillStar className='star' />
                                     <AiFillStar className='star' />
