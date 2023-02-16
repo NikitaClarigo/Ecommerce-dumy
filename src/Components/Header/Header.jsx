@@ -101,18 +101,18 @@ export default function Header() {
                             <Dropdown.Item href="#">
                                 <p>Emart Credits</p>
                             </Dropdown.Item>
-                            <Dropdown.Item href="#">
+                            {/* <Dropdown.Item href="#">
                                 <p>Coupons</p>
-                            </Dropdown.Item>
-                            <Dropdown.Item href="#">
+                            </Dropdown.Item> */}
+                            {/* <Dropdown.Item href="#">
                                 <p>Saved Cards</p>
-                            </Dropdown.Item>
+                            </Dropdown.Item> */}
                             <Dropdown.Item href="#">
                                 <p>Saved VPA</p>
                             </Dropdown.Item>
-                            <Dropdown.Item href="#">
+                            {/* <Dropdown.Item href="#">
                                 <p>Saved Addresses</p>
-                            </Dropdown.Item>
+                            </Dropdown.Item> */}
                         </Dropdown.Menu>
                     </Dropdown>
                     <Link to={"./Wishlist"}>
@@ -203,18 +203,18 @@ export default function Header() {
                             <Dropdown.Item href="#">
                                 <p>Emart Credits</p>
                             </Dropdown.Item>
-                            <Dropdown.Item href="#">
+                            {/* <Dropdown.Item href="#">
                                 <p>Coupons</p>
-                            </Dropdown.Item>
-                            <Dropdown.Item href="#">
+                            </Dropdown.Item> */}
+                            {/* <Dropdown.Item href="#">
                                 <p>Saved Cards</p>
-                            </Dropdown.Item>
+                            </Dropdown.Item> */}
                             <Dropdown.Item href="#">
                                 <p>Saved VPA</p>
                             </Dropdown.Item>
-                            <Dropdown.Item href="#">
+                            {/* <Dropdown.Item href="#">
                                 <p>Saved Addresses</p>
-                            </Dropdown.Item>
+                            </Dropdown.Item> */}
                         </Dropdown.Menu>
                     </Dropdown>
                     <Link to={"./Wishlist"}>

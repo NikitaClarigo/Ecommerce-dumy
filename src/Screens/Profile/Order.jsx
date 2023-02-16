@@ -378,6 +378,8 @@ export default function Order() {
         alert("Are you sure you want to delete ??");
     };
 
+    const [open, setOpen] = useState(false)
+
     return (
 
         <div>
@@ -418,11 +420,10 @@ export default function Order() {
                             <p>Privacy Policy</p>
                         </Tab>
                     </TabList>
-
                     <Popup trigger=
-                        {<button className='home-filter-button mobile-tab'>Profile Overview <RiArrowDropDownLine /></button>}
-                        position="bottom center" >
-                        <Tab className="order-tab__tab" closeondocumentclick onClick={() => {
+                        {<button id="closePopup" className='home-filter-button mobile-tab'>Profile Overview <RiArrowDropDownLine /></button>}
+                        position="bottom center" closeOnDocumentClick>
+                        <Tab className="order-tab__tab" onClick={() => {
 
                             document.getElementById('popup-root').innerHTML = ''
 
@@ -433,11 +434,11 @@ export default function Order() {
                         </Tab>
 
 
-                        <Tab className="order-tab__tab" onClick={() => switchTab1('orderTab')}>
+                        <Tab className="order-tab__tab" onClick={() =>switchTab1('orderTab')}>
                             <p>Orders & Returns</p>
                             <hr />
                         </Tab>
-                        <Tab className="order-tab__tab" onClick={() => switchTab2('orderTab')}>
+                        <Tab className="order-tab__tab" onClick={() =>switchTab2('orderTab')}>
                             <p>Coupons</p>
                             <hr />
                         </Tab>

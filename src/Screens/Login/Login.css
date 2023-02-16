@@ -124,10 +124,22 @@ form button:hover {
         margin: 0 auto;
         text-align: center;
         background: #f3692821;
-        height: 531px;
+        height: 350px;
         border-radius: 25px;
         padding: 22px;
         margin-top: 103px;
+    }
+    .UserInput Input {
+        Margin: 5px;
+        Height: 39px;
+        Width: 39px;
+        Border: None;
+        Border-Radius: 5px;
+        Text-Align: Center;
+        Font-Family: Arimo;
+        Font-Size: 1.2rem;
+        Background: transparent;
+        border: 1px solid lightgrey;
     }
     .login-mobile-navbar .form-group.has-search {
         display: flex;
