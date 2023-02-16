@@ -380,7 +380,7 @@ button.cat-button {
 
 @media screen and (min-width: 280px) and (max-width: 320px) {
   .dextop-tab {
-    display: none;
+    display: none !important;
   }
 
   .mobile-tab {
@@ -557,7 +557,7 @@ button.cat-button {
 
 @media screen and (min-width: 321px) and (max-width: 360px) {
   .dextop-tab {
-    display: none;
+    display: none !important;
   }
 
   .mobile-tab {
@@ -756,7 +756,7 @@ button.cat-button {
 
 @media screen and (min-width: 361px) and (max-width: 375px) {
   .dextop-tab {
-    display: none;
+    display: none !important;
   }
 
   .mobile-tab {
@@ -938,8 +938,8 @@ button.cat-button {
 }
 
 @media screen and (min-width: 376px) and (max-width: 390px) {
-  .dextop-tab {
-    display: none;
+   .dextop-tab {
+    display: none !important;
   }
 
   .mobile-tab {
@@ -1121,7 +1121,7 @@ button.cat-button {
 
 @media screen and (min-width: 391px) and (max-width: 393px) {
   .dextop-tab {
-    display: none;
+    display: none !important;
   }
 
   .mobile-tab {
@@ -1309,7 +1309,7 @@ button.cat-button {
 
 @media screen and (min-width: 394px) and (max-width: 412px) {
   .dextop-tab {
-    display: none;
+    display: none !important;
   }
 
   .mobile-tab {
@@ -1497,7 +1497,7 @@ button.cat-button {
 
 @media screen and (min-width: 413px) and (max-width: 414px) {
   .dextop-tab {
-    display: none;
+    display: none !important;
   }
 
   .mobile-tab {
@@ -1685,7 +1685,7 @@ button.cat-button {
 
 @media screen and (min-width: 415px) and (max-width: 540px) {
   .dextop-tab {
-    display: none;
+    display: none !important;
   }
 
   .mobile-tab {
