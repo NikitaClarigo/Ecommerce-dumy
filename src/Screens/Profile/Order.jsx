@@ -300,24 +300,42 @@ export default function Order() {
     // Modal show
     // const [modalShow, setModalShow] = React.useState(false);
     // tab switch
-    const switchTab1 = (Id) => {
-        const tab = document.getElementById('tab:r1:1')
-        // 
-        console.log(tab, 'tab-------------------->')
 
-        // console.log(tab?.click,'this is the tab click')
-        tab.click()
+    const tabList = document.getElementsByClassName('order-tab__tab')
+
+    const switchTab0 = (Id) => {
+        console.log(tabList)
+        console.log(tabList[0], 'tab-------------------->')
+        tabList[0].click()
+    }
+    const switchTab1 = (Id) => {
+        console.log(tabList)
+        console.log(tabList[1], 'tab-------------------->')
+        tabList[1].click()
     }
     const switchTab2 = (id) => {
-        const tab = document.getElementById('tab:r1:2')
-        // console.log(tab?.click,'this is the tab click')
-        tab.click()
+        console.log(tabList)
+        console.log(tabList[2], 'tab-------------------->')
+        tabList[2].click()
     }
     const switchTab3 = (id) => {
-        const tab = document.getElementById('tab:r1:3')
-        // console.log(tab?.click,'this is the tab click')
-        tab.click()
+        console.log(tabList)
+        console.log(tabList[3], 'tab-------------------->')
+        tabList[3].click()
     }
+    const switchTab4 = (id) => {
+        console.log(tabList)
+        console.log(tabList[4], 'tab-------------------->')
+        tabList[4].click()
+    }
+    const switchTab5 = (id) => {
+        console.log(tabList)
+        console.log(tabList[5], 'tab-------------------->')
+        tabList[5].click()
+    }
+
+    // Close popup
+
     // setuser
     const [user, setuser] = useState({
         'name': 'Nikita',
@@ -380,7 +398,7 @@ export default function Order() {
                             <p>Overview</p>
                             <hr />
                         </Tab>
-                        <Tab className="order-tab__tab" id='tab2'>
+                        <Tab className="order-tab__tab">
                             <p>Orders & Returns</p>
                             <hr />
                         </Tab>
@@ -403,33 +421,40 @@ export default function Order() {
 
                     <Popup trigger=
                         {<button className='home-filter-button mobile-tab'>Profile Overview <RiArrowDropDownLine /></button>}
-                        position="bottom center">
-                        <Tab className="order-tab__tab" onClick={() => switchTab1('orderTab')}>
+                        position="bottom center" >
+                        <Tab className="order-tab__tab" closeondocumentclick onClick={() => {
+
+                            document.getElementById('popup-root').innerHTML = ''
+
+                            switchTab0('orderTab')
+                        }}>
                             <p>Overview</p>
                             <hr />
                         </Tab>
-                        <Tab className="order-tab__tab" id='tab2'>
+
+
+                        <Tab className="order-tab__tab" onClick={() => switchTab1('orderTab')}>
                             <p>Orders & Returns</p>
                             <hr />
                         </Tab>
-                        <Tab className="order-tab__tab">
+                        <Tab className="order-tab__tab" onClick={() => switchTab2('orderTab')}>
                             <p>Coupons</p>
                             <hr />
                         </Tab>
-                        <Tab className="order-tab__tab">
+                        <Tab className="order-tab__tab" onClick={() => switchTab3('orderTab')}>
                             <p>Addresses</p>
                             <hr />
                         </Tab>
-                        <Tab className="order-tab__tab">
+                        <Tab className="order-tab__tab" onClick={() => switchTab4('orderTab')}>
                             <p>Terms of Use</p>
                             <hr />
                         </Tab>
-                        <Tab className="order-tab__tab">
+                        <Tab className="order-tab__tab" onClick={() => switchTab5('orderTab')}>
                             <p>Privacy Policy</p>
                         </Tab>
                     </Popup>
 
-                    <TabPanel>
+                    <TabPanel className="panel1">
                         <div className="order-tab-panel-content">
                             <div className='row profile-box'>
                                 <div className='col-md-3'>
