@@ -11,16 +11,18 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
 import Dropdown from 'react-bootstrap/Dropdown';
-import { MdClose } from "react-icons/md"
+import { MdClose, MdDisabledVisible } from "react-icons/md"
 import { FiMenu } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 import axios from "axios";
+import { isDisabled } from '@testing-library/user-event/dist/utils';
 
 
 
 export default function Login() {
   const [username, setloginName] = useState('')
   const [password, setpassword] = useState('')
+  const [message, setMessage] = useState(null);
   const [navbarOpen, setNavbarOpen] = useState(false)
   const handleToggle = () => {
     setNavbarOpen(!navbarOpen)
@@ -32,16 +34,24 @@ export default function Login() {
 
   }
 
-  const login=()=> {
-    axios.post('https://dummyjson.com/auth/login',{
+  const login = () => {
+    axios.post('https://dummyjson.com/auth/login', {
       username,
       password
     }).then(
-      (res)=>{
+      (res) => {
         console.log(res)
+        setMessage(res.message);
       },
-      err=>console.log(err)
+      (err) => {
+        console.log(err)
+        setMessage(err.message);
+      }
     )
+    // if(err){
+    //     return(true);
+    //     isDisabled("menuNav")
+    // }
   }
 
   return (
@@ -199,14 +209,15 @@ export default function Login() {
           <div className="login">
             <h5>Login or Signup</h5>
             <form>
-            {/* onChange={(e) => setloginName(e.target.value)} */}
-              <input value={username} type="text" onInput={(e)=>setloginName(e.target.value)} id="phone" name="username" placeholder="Username" required />
-              <input value={password} type="password" onInput={(e)=>setpassword(e.target.value)} id="phone" name="password" placeholder="Password" required />
+              {/* onChange={(e) => setloginName(e.target.value)} */}
+              <input value={username} type="text" onInput={(e) => setloginName(e.target.value)} id="phone" name="username" placeholder="Username" required />
+              <input value={password} type="password" onInput={(e) => setpassword(e.target.value)} id="phone" name="password" placeholder="Password" required />
               <p className='login-terms'>By Continuing, I agree to the terms of use & Privacy Policy.</p>
 
               {/* {!(loginName.length < 10 || loginName.length > 10) ? <Link to={"/OTP"}> */}
-                <button type="button" onClick={login}>Continue</button>
-               {/* <button type="button" onClick={() => alert('please enter valid Mobile No.')}>Continue</button> */}
+              <button type="button" onClick={login}>Continue</button>
+              {message && <div>{message}</div>}
+              {/* <button type="button" onClick={() => alert('please enter valid Mobile No.')}>Continue</button> */}
               <p className='login-terms text-center'>Have trouble logging in? Get help </p>
             </form>
           </div>
