@@ -14,11 +14,13 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import { MdClose } from "react-icons/md"
 import { FiMenu } from "react-icons/fi";
 import { Link } from 'react-router-dom';
+import axios from "axios";
 
 
 
 export default function Login() {
-  const [loginName, setloginName] = useState('')
+  const [username, setloginName] = useState('')
+  const [password, setpassword] = useState('')
   const [navbarOpen, setNavbarOpen] = useState(false)
   const handleToggle = () => {
     setNavbarOpen(!navbarOpen)
@@ -29,6 +31,19 @@ export default function Login() {
   const link = () => {
 
   }
+
+  const login=()=> {
+    axios.post('https://dummyjson.com/auth/login',{
+      username,
+      password
+    }).then(
+      (res)=>{
+        console.log(res)
+      },
+      err=>console.log(err)
+    )
+  }
+
   return (
     <div>
       <div className='main'>
@@ -184,12 +199,14 @@ export default function Login() {
           <div className="login">
             <h5>Login or Signup</h5>
             <form>
-              <input value={loginName} onChange={(e) => setloginName(e.target.value)} type="tel" id="phone" name="phone" placeholder="Mobile No." pattern="[0-9]{3}[0-9]{2}[0-9]{3}[0-9]{2}" required />
+            {/* onChange={(e) => setloginName(e.target.value)} */}
+              <input value={username} type="text" onInput={(e)=>setloginName(e.target.value)} id="phone" name="username" placeholder="Username" required />
+              <input value={password} type="password" onInput={(e)=>setpassword(e.target.value)} id="phone" name="password" placeholder="Password" required />
               <p className='login-terms'>By Continuing, I agree to the terms of use & Privacy Policy.</p>
 
-              {!(loginName.length < 10 || loginName.length > 10) ? <Link to={"/OTP"}>
-                <button type="button">Continue</button>
-              </Link> : <button type="button" onClick={() => alert('please enter valid Mobile No.')}>Continue</button>}
+              {/* {!(loginName.length < 10 || loginName.length > 10) ? <Link to={"/OTP"}> */}
+                <button type="button" onClick={login}>Continue</button>
+               {/* <button type="button" onClick={() => alert('please enter valid Mobile No.')}>Continue</button> */}
               <p className='login-terms text-center'>Have trouble logging in? Get help </p>
             </form>
           </div>
