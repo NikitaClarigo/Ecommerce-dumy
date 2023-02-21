@@ -13,8 +13,9 @@ import { HiOutlineShoppingBag } from "react-icons/hi";
 import { NavLink } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import Dropdown from 'react-bootstrap/Dropdown';
-import { MdClose } from "react-icons/md"
-import { FiMenu } from "react-icons/fi"
+import { MdClose } from "react-icons/md";
+import { FiMenu } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
     const [navbarOpen, setNavbarOpen] = useState(false)
@@ -25,6 +26,10 @@ export default function Header() {
         setNavbarOpen(false)
     }
     const link = () => {
+
+    }
+    const navigate=useNavigate()
+    const logout =() =>{
 
     }
     return (
@@ -83,6 +88,14 @@ export default function Header() {
                             <Dropdown.Item>
                                 <Link to="Login">
                                     <button className='text-centre login-button'>Login / signup</button>
+                                </Link>
+                            </Dropdown.Item>
+                            <Dropdown.Item>
+                                <Link>
+                                    <button onClick={() => {
+                                        localStorage.removeItem('user_data');
+                                        navigate('/Login');
+                                    }} className='text-centre login-button'>Logout</button>
                                 </Link>
                             </Dropdown.Item>
                             <hr />

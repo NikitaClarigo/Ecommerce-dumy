@@ -3,20 +3,20 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Login.css';
 import Logo from '../../Assets/logo.png';
 import { BiSearch } from "react-icons/bi";
 import { AiOutlineHeart } from "react-icons/ai";
 import { HiOutlineShoppingBag } from "react-icons/hi";
-import { NavLink } from "react-router-dom";
+import { json, Navigate, NavLink } from "react-router-dom";
 import Dropdown from 'react-bootstrap/Dropdown';
 import { MdClose, MdDisabledVisible } from "react-icons/md"
 import { FiMenu } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 import axios from "axios";
 import { isDisabled } from '@testing-library/user-event/dist/utils';
-
+import { useNavigate } from "react-router-dom";
 
 
 export default function Login() {
@@ -27,6 +27,14 @@ export default function Login() {
   const handleToggle = () => {
     setNavbarOpen(!navbarOpen)
   }
+
+  const navigate=useNavigate()
+  useEffect(() => {
+    if(!localStorage.getItem('token')){
+      navigate('/Login')
+    }
+  },[])
+
   const closeMenu = () => {
     setNavbarOpen(false)
   }
@@ -40,18 +48,18 @@ export default function Login() {
       password
     }).then(
       (res) => {
+        localStorage.setItem('user_data', JSON.stringify(res.data));
+        navigate('/', {replace:true});
         console.log(res)
         setMessage(res.message);
       },
       (err) => {
         console.log(err)
-        setMessage(err.message);
+        alert(err);
       }
     )
-    // if(err){
-    //     return(true);
-    //     isDisabled("menuNav")
-    // }
+    // username: 'kminchelle',
+    // password: '0lelplR',
   }
 
   return (
